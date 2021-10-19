@@ -25,8 +25,8 @@ Distributed as-is; no warranty is given.
 #define DMXSPEED       250000
 #define DMXFORMAT      SERIAL_8N2
 
-int enablePin = 21;		//dafault on ESP32
-int rxPin = 16;
+int enablePin = 35; //21;		//dafault on ESP32
+int rxPin = 32; //; 16; //Old Pins obstructed on ESP32 causing hardware faults
 int txPin = 33; //17; //Jump 33 (A0) on Maixduino to Pin 3 for Tinker.it Shield
 
 //DMX value array and size. Entry 0 will hold startbyte
