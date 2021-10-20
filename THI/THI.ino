@@ -20,6 +20,7 @@ int HEX2INT(String hexstr)
   int val = 0;
   char c = '\0';
   int idx = 0;
+  hexstr.toUpperCase();
   size_t len2 = hexstr.length();
   for (size_t i = 1; i <= len2; ++i)
   {
