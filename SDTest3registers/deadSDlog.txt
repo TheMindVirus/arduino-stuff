@@ -1,0 +1,153 @@
+__Raw_SDcard_Test__
+Checking R1 Response
+in_idle_state: 1
+erase_reset: 0
+illegal_command: 0
+com_crc_error: 0
+erase_sequence_error: 0
+address_error: 0
+param_error: 0
+reserved: 0
+
+Checking OCR Registers
+switch_1_8_V_accepted: 0
+reserved1: 0
+uhs2_card_status: 0
+card_capacity_status: 1
+card_power_up_status_busy: 1
+_2_8_V_to_2_9_V: 1
+_2_9_V_to_3_0_V: 1
+_3_0_V_to_3_1_V: 1
+_3_1_V_to_3_2_V: 1
+_3_2_V_to_3_3_V: 1
+_3_3_V_to_3_4_V: 1
+_3_4_V_to_3_5_V: 1
+_3_5_V_to_3_6_V: 1
+reserved2: 0
+_2_7_V_to_2_8_V: 1
+reserved3: 0
+reserved_low_voltage: 0
+
+Checking CSD Registers
+reserved1: 0
+csd_structure: 1
+taac: 14
+nsac: 0
+tran_speed: 50
+ccc_high: 91
+read_bl_len: 9
+ccc_low: 5
+reserved2: 0
+dsr_imp: 0
+read_blk_misalign: 0
+c_size_high: 0
+reserved3: 0
+c_size_mid: 59
+c_size_low: 127
+sector_size_high: 63
+erase_blk_en: 1
+reserved4: 0
+wp_grp_size: 0
+sector_size_low: 1
+write_bl_len_high: 2
+r2w_factor: 2
+reserved5: 0
+wp_grp_enable: 0
+reserved6: 0
+write_partial: 0
+write_bl_len_low: 1
+reserved7: 0
+file_format: 0
+tmp_write_protect: 0
+perm_write_protect: 0
+copy: 0
+file_format_grp: 0
+always1: 1
+crc: 4
+
+CapacityRaw: 7798784.00
+Checking CID Registers
+manufacturer_id: 18
+application_id_high: 86
+application_id_low: 120
+product_name[0]: A
+product_name[1]: S
+product_name[2]: T
+product_name[3]: C
+product_name[4]: 
+product_revision: 52
+product_serial_number[0]: 0
+product_serial_number[1]: 1
+product_serial_number[2]: 5
+product_serial_number[3]: 160
+manufacturing_date_high: 1
+reserved1: 0
+manufacturing_date_low: 7
+always1: 1
+crc7: 112
+
+Checking SCR Registers
+sd_spec: 2
+scr_structure: 0
+sd_bus_widths: 5
+sd_security: 3
+data_stat_after_erase: 1
+sd_specx_high: 0
+sd_spec4: 0
+ex_security: 0
+sd_spec3: 1
+cmd_support: 0
+reserved1: 0
+sd_specx_low: 0
+reserved2[0]: 0
+reserved2[1]: 0
+reserved2[2]: 0
+reserved2[3]: 0
+
+INITIALISATION COMPLETE
+Type: 0x3
+Version: 0x4
+Length: 0x200
+Capacity: 0x7
+WARNING: THE FOLLOWING PROCEDURE WILL CAUSE DATA LOSS!
+Enter "Y" to continue
+Send anything to abort countdown
+Commencing Testing in 5 4 3 2 1 
+SOMETHING
+[TEST]: Read
+1
+SD_ERROR_CONDITION
+FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0x0
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0x10
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0x20
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0x30
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0x40
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0x50
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0x60
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0x70
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0x80
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0x90
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0xA0
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0xB0
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0xC0
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0xD0
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0xE0
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0xF0
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0x100
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0x110
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0x120
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0x130
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0x140
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  | 0x150
+00 00 00 00 00 00 00 00 00 00 00 00 01 26 01 26  | 0x160
+01 24 06 8B 08 6C 00 01 00 00 00 0A 01 BC 11 21  | 0x170
+07 0C 03 D2 03 04 08 65 00 04 00 02 63 E3 00 07  | 0x180
+3F 08 9E 08 9E 08 9A 06 8B 08 11 21 07 0C 03 11  | 0x190
+21 07 0C 03 D2 05 06 06 C7 04 3A 06 A4 04 3A 03  | 0x1A0
+D1 2D 2E 08 37 00 01 00 00 23 A3 00 04 69 08 DF  | 0x1B0
+08 DF 08 E3 08 E3 08 E2 03 B9 08 C2 08 E2 00 00  | 0x1C0
+00 01 00 00 05 E7 06 A4 04 3A 03 D1 3E 3F 01 0A  | 0x1D0
+00 02 06 A4 00 C1 00 00 DF 01 56 01 56 01 54 03  | 0x1E0
+B9 00 09 05 14 00 00 00 00 00 00 06 0F 08 ED 11  | 0x1F0
+
+[TEST]: Complete
