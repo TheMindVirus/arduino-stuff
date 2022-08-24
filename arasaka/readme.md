@@ -1,0 +1,1 @@
+![arasaka](/arasaka/arasaka.jpg)
