@@ -57,7 +57,9 @@ The final version would support Audinate's Dante Real-Time Audio/MIDI Networking
 ![DanteController](https://github.com/TheMindVirus/arduino-stuff/blob/main/InfernoModchip/DanteController.png)
 
 A Dante ModChip would allow a Live Sound Engineer to control the tonal characteristics of the Electric Guitar. \
-However, Artists hate that the audio pipeline gets updated and broken underneath them - they need a Custom ModChip.
+However, Artists hate that the audio pipeline gets updated and broken underneath them - They need a Custom ModChip. \
+For these reasons, the main operating systems such as Windows and Linux can't be trusted for Live Sound. \
+Doing so requires a conscious effort to readjust the sound quality on a different audio route. This requires a Custom ModChip.
 
 <i>Guitar runs Linux, fails on stage due to a faulty Jack (not the plug, the Guitarist is called Jack).</i>
 <i>He wiggled the cable too much and the modchip lost power, then he said,</i>
