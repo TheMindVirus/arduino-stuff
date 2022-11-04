@@ -54,7 +54,7 @@ on mass produced PCB's. The end product could then be made interoperable with ce
 The result is something you can use to patch and modulate audio paths which need a bit of character. \
 Update: It not only works for audio, but it also works for graphics! Here is an ST7789 SPI Display using it!
 
-![IMG_6016](https://github.com/TheMindVirus/arduino-stuff/blob/main/InfernoModchip/IMG_6015.jpg)
+![IMG_6016](https://github.com/TheMindVirus/arduino-stuff/blob/main/InfernoModchip/IMG_6016.jpg)
 
 The final version would support Audinate's Dante Real-Time Audio/MIDI Networking Protocol over ESP32 Wi-Fi. \
 It has previously been tricky to get 64x64 channels at pristine quality without jitter on Wireless Networks. \
