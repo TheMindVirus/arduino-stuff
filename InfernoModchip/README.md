@@ -37,7 +37,7 @@ to use for patching on-board Guitar Reinforcement Synthesis powered by Embedded 
 ```
 
 First, I spray painted a piece of Veroboard black and while waiting for the spray paint to cure, \
-I cut 9x red wire to length and also cut 2 sets of standard 9x 2.54" headers to attach to the board.
+I cut 9x red wire to length and also cut 2 sets of standard 9x 2.54mm headers to attach to the board.
 
 ![IMG_6013](https://github.com/TheMindVirus/arduino-stuff/blob/main/InfernoModchip/IMG_6013.jpg)
 
