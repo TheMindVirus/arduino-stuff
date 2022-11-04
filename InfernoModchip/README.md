@@ -39,17 +39,17 @@ to use for patching on-board Guitar Reinforcement Synthesis powered by Embedded 
 First, I spray painted a piece of Veroboard black and while waiting for the spray paint to cure, \
 I cut 9x red wire to length and also cut 2 sets of standard 9x 2.54" headers to attach to the board.
 
-![IMG_6013](https://github.com/TheMindVirus/arduino-stuff/blob/main/InfernoModchip/IMG_6013.png)
+![IMG_6013](https://github.com/TheMindVirus/arduino-stuff/blob/main/InfernoModchip/IMG_6013.jpg)
 
 It is incredibly unsafe to spray paint Veroboard and then solder it straight afterwards, <i><b><u>DO NOT ATTEMPT</u></b></i>. \
 It sizzles as the solder hardens and the aroma is like a Turkish Barbecue. Please do not inhale toxic fumes.
 
-![IMG_6014](https://github.com/TheMindVirus/arduino-stuff/blob/main/InfernoModchip/IMG_6014.png)
+![IMG_6014](https://github.com/TheMindVirus/arduino-stuff/blob/main/InfernoModchip/IMG_6014.jpg)
 
 While this was a difficult training challenge to attempt by hand, it could make a fun soldering game \
 on mass produced PCB's. The end product could then be made interoperable with certain I2C peripherals.
 
-![IMG_6015](https://github.com/TheMindVirus/arduino-stuff/blob/main/InfernoModchip/IMG_6015.png)
+![IMG_6015](https://github.com/TheMindVirus/arduino-stuff/blob/main/InfernoModchip/IMG_6015.jpg)
 
 The result is something you can use to patch and modulate audio paths which need a bit of character. \
 The final version would support Audinate's Dante Real-Time Audio/MIDI Networking Protocol over ESP32 Wi-Fi.
