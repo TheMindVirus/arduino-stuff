@@ -6,7 +6,7 @@ and to train themselves to solder barewire connections exactly to the same speci
 ![screenshot1](https://github.com/TheMindVirus/arduino-stuff/blob/main/InfernoModchip/screenshot1.png)
 
 Currently, there has been a lack of that same Engineering discipline as everything gets outsourced \
-to the factory to mass produce. Microarchitectural Design and Nanotechnology has also evolved.
+to the factory to mass produce. Micro-Architectural Design and Nano-Technology has also evolved.
 
 ![screenshot2](https://github.com/TheMindVirus/arduino-stuff/blob/main/InfernoModchip/screenshot2.png)
 
