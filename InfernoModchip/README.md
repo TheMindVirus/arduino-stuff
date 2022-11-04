@@ -53,7 +53,8 @@ on mass produced PCB's. The end product could then be made interoperable with ce
 
 The result is something you can use to patch and modulate audio paths which need a bit of character. \
 The final version would support Audinate's Dante Real-Time Audio/MIDI Networking Protocol over ESP32 Wi-Fi. \
-A feature which is sorely lacking on professional mixing consoles is line temperature data from instruments for pre-warming.
+A feature which is sorely lacking on professional mixing consoles is line temperature data from instruments for pre-warming. \
+This feature could be extended to consumer Audiophile-grade Sound Cards for pre-warming and reading data from Headphones.
 
 ![DanteController](https://github.com/TheMindVirus/arduino-stuff/blob/main/InfernoModchip/DanteController.png)
 
