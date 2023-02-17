@@ -26,12 +26,13 @@
 #define ST7735_YELLOW    0xFFE0
 #define ST7735_ORANGE    0xFC00
 
-//#define ST7735_FPS   0x01, 0x2C, 0x2D
-#define ST7735_FPS   0x01, 0x01, 0x01
+#define ST7735_FPS   0x01, 0x2C, 0x2D
+//#define ST7735_FPS   0x01, 0x01, 0x01
 
 const uint8_t Rcmd1[] PROGMEM =
 {
     0x0F,
+    0x11, 0x80, 0x96,
     0x11, 0x80, 0xFF,
     0xB1, 0x03, ST7735_FPS,
     0xB2, 0x03, ST7735_FPS,
@@ -120,7 +121,7 @@ void start_display(uint8_t* commands)
 
 void rotate_display(size_t r = 0)
 {
-    send_command(0x36, pgm_read_byte(R + (r % 4)), 1);
+    send_command(0x36, R + (r % 4), 1);
 }
 
 void reset_display(size_t r = 0)
@@ -154,7 +155,6 @@ void write_pixel(uint16_t b = ST7735_RED)
     }
 }
 */
-
 /*
 void write_pixel(uint16_t b = ST7735_RED)
 {
@@ -192,98 +192,98 @@ void write_pixel(uint16_t b = ST7735_RED)
     PORTD |= 0b00000100; PORTD &= 0b11111011;
 }
 */
-
 void write_pixel(uint16_t chroma = ST7735_RED)
 {
+    register uint8_t c1 = (uint8_t)(chroma & 0xFF);
+    register uint8_t c2 = ((uint8_t)((chroma >> 8) & 0xFF));
+    register uint8_t c3 = PORTD;
     asm volatile
     (
-        "in r16, 0x0B" "\n"
-      
-        "sbrs %0, 7" "\n" "ori r16,0b00001000" "\n"
-        "sbrc %0, 7" "\n" "andi r16,0b11110111" "\n"
-        "ori r16,0b00000100" "\n" "out 0x0B,r16" "\n"
-        "andi r16,0b11111011" "\n" "out 0x0B,r16" "\n"
+        "sbrc %1, 7" "\n" "ori %2, 0b00001000" "\n"
+        "sbrs %1, 7" "\n" "andi %2, 0b11110111" "\n" "out 0x0B, %2" "\n"
+        "ori %2, 0b00000100" "\n" "out 0x0B, %2" "\n"
+        "andi %2, 0b11111011" "\n" "out 0x0B, %2" "\n"
 
-        "sbrs %0, 6" "\n" "ori r16,0b00001000" "\n"
-        "sbrc %0, 6" "\n" "andi r16,0b11110111" "\n"
-        "ori r16,0b00000100" "\n" "out 0x0B,r16" "\n"
-        "andi r16,0b11111011" "\n" "out 0x0B,r16" "\n"
+        "sbrc %1, 6" "\n" "ori %2, 0b00001000" "\n"
+        "sbrs %1, 6" "\n" "andi %2, 0b11110111" "\n" "out 0x0B, %2" "\n"
+        "ori %2, 0b00000100" "\n" "out 0x0B, %2" "\n"
+        "andi %2, 0b11111011" "\n" "out 0x0B, %2" "\n"
 
-        "sbrs %0, 5" "\n" "ori r16,0b00001000" "\n"
-        "sbrc %0, 5" "\n" "andi r16,0b11110111" "\n"
-        "ori r16,0b00000100" "\n" "out 0x0B,r16" "\n"
-        "andi r16,0b11111011" "\n" "out 0x0B,r16" "\n"
+        "sbrc %1, 5" "\n" "ori %2, 0b00001000" "\n"
+        "sbrs %1, 5" "\n" "andi %2, 0b11110111" "\n" "out 0x0B, %2" "\n"
+        "ori %2, 0b00000100" "\n" "out 0x0B, %2" "\n"
+        "andi %2, 0b11111011" "\n" "out 0x0B, %2" "\n"
 
-        "sbrs %0, 4" "\n" "ori r16,0b00001000" "\n"
-        "sbrc %0, 4" "\n" "andi r16,0b11110111" "\n"
-        "ori r16,0b00000100" "\n" "out 0x0B,r16" "\n"
-        "andi r16,0b11111011" "\n" "out 0x0B,r16" "\n"
+        "sbrc %1, 4" "\n" "ori %2, 0b00001000" "\n"
+        "sbrs %1, 4" "\n" "andi %2, 0b11110111" "\n" "out 0x0B, %2" "\n"
+        "ori %2, 0b00000100" "\n" "out 0x0B, %2" "\n"
+        "andi %2, 0b11111011" "\n" "out 0x0B, %2" "\n"
 
-        "sbrs %0, 3" "\n" "ori r16,0b00001000" "\n"
-        "sbrc %0, 3" "\n" "andi r16,0b11110111" "\n"
-        "ori r16,0b00000100" "\n" "out 0x0B,r16" "\n"
-        "andi r16,0b11111011" "\n" "out 0x0B,r16" "\n"
+        "sbrc %1, 3" "\n" "ori %2, 0b00001000" "\n"
+        "sbrs %1, 3" "\n" "andi %2, 0b11110111" "\n" "out 0x0B, %2" "\n"
+        "ori %2, 0b00000100" "\n" "out 0x0B, %2" "\n"
+        "andi %2, 0b11111011" "\n" "out 0x0B, %2" "\n"
 
-        "sbrs %0, 2" "\n" "ori r16,0b00001000" "\n"
-        "sbrc %0, 2" "\n" "andi r16,0b11110111" "\n"
-        "ori r16,0b00000100" "\n" "out 0x0B,r16" "\n"
-        "andi r16,0b11111011" "\n" "out 0x0B,r16" "\n"
+        "sbrc %1, 2" "\n" "ori %2, 0b00001000" "\n"
+        "sbrs %1, 2" "\n" "andi %2, 0b11110111" "\n" "out 0x0B, %2" "\n"
+        "ori %2, 0b00000100" "\n" "out 0x0B, %2" "\n"
+        "andi %2, 0b11111011" "\n" "out 0x0B, %2" "\n"
 
-        "sbrs %0, 1" "\n" "ori r16,0b00001000" "\n"
-        "sbrc %0, 1" "\n" "andi r16,0b11110111" "\n"
-        "ori r16,0b00000100" "\n" "out 0x0B,r16" "\n"
-        "andi r16,0b11111011" "\n" "out 0x0B,r16" "\n"
+        "sbrc %1, 1" "\n" "ori %2, 0b00001000" "\n"
+        "sbrs %1, 1" "\n" "andi %2, 0b11110111" "\n" "out 0x0B, %2" "\n"
+        "ori %2, 0b00000100" "\n" "out 0x0B, %2" "\n"
+        "andi %2, 0b11111011" "\n" "out 0x0B, %2" "\n"
 
-        "sbrs %0, 0" "\n" "ori r16,0b00001000" "\n"
-        "sbrc %0, 0" "\n" "andi r16,0b11110111" "\n"
-        "ori r16,0b00000100" "\n" "out 0x0B,r16" "\n"
-        "andi r16,0b11111011" "\n" "out 0x0B,r16" "\n"
+        "sbrc %1, 0" "\n" "ori %2, 0b00001000" "\n"
+        "sbrs %1, 0" "\n" "andi %2, 0b11110111" "\n" "out 0x0B, %2" "\n"
+        "ori %2, 0b00000100" "\n" "out 0x0B, %2" "\n"
+        "andi %2, 0b11111011" "\n" "out 0x0B, %2" "\n"
 
-        "sbrs %1, 7" "\n" "ori r16,0b00001000" "\n"
-        "sbrc %1, 7" "\n" "andi r16,0b11110111" "\n"
-        "ori r16,0b00000100" "\n" "out 0x0B,r16" "\n"
-        "andi r16,0b11111011" "\n" "out 0x0B,r16" "\n"
+        "sbrc %0, 7" "\n" "ori %2, 0b00001000" "\n"
+        "sbrs %0, 7" "\n" "andi %2, 0b11110111" "\n" "out 0x0B, %2" "\n"
+        "ori %2, 0b00000100" "\n" "out 0x0B, %2" "\n"
+        "andi %2, 0b11111011" "\n" "out 0x0B, %2" "\n"
 
-        "sbrs %1, 6" "\n" "ori r16,0b00001000" "\n"
-        "sbrc %1, 6" "\n" "andi r16,0b11110111" "\n"
-        "ori r16,0b00000100" "\n" "out 0x0B,r16" "\n"
-        "andi r16,0b11111011" "\n" "out 0x0B,r16" "\n"
+        "sbrc %0, 6" "\n" "ori %2, 0b00001000" "\n"
+        "sbrs %0, 6" "\n" "andi %2, 0b11110111" "\n" "out 0x0B, %2" "\n"
+        "ori %2, 0b00000100" "\n" "out 0x0B, %2" "\n"
+        "andi %2, 0b11111011" "\n" "out 0x0B, %2" "\n"
 
-        "sbrs %1, 5" "\n" "ori r16,0b00001000" "\n"
-        "sbrc %1, 5" "\n" "andi r16,0b11110111" "\n"
-        "ori r16,0b00000100" "\n" "out 0x0B,r16" "\n"
-        "andi r16,0b11111011" "\n" "out 0x0B,r16" "\n"
+        "sbrc %0, 5" "\n" "ori %2, 0b00001000" "\n"
+        "sbrs %0, 5" "\n" "andi %2, 0b11110111" "\n" "out 0x0B, %2" "\n"
+        "ori %2, 0b00000100" "\n" "out 0x0B, %2" "\n"
+        "andi %2, 0b11111011" "\n" "out 0x0B, %2" "\n"
 
-        "sbrs %1, 4" "\n" "ori r16,0b00001000" "\n"
-        "sbrc %1, 4" "\n" "andi r16,0b11110111" "\n"
-        "ori r16,0b00000100" "\n" "out 0x0B,r16" "\n"
-        "andi r16,0b11111011" "\n" "out 0x0B,r16" "\n"
+        "sbrc %0, 4" "\n" "ori %2, 0b00001000" "\n"
+        "sbrs %0, 4" "\n" "andi %2, 0b11110111" "\n" "out 0x0B, %2" "\n"
+        "ori %2, 0b00000100" "\n" "out 0x0B, %2" "\n"
+        "andi %2, 0b11111011" "\n" "out 0x0B, %2" "\n"
 
-        "sbrs %1, 3" "\n" "ori r16,0b00001000" "\n"
-        "sbrc %1, 3" "\n" "andi r16,0b11110111" "\n"
-        "ori r16,0b00000100" "\n" "out 0x0B,r16" "\n"
-        "andi r16,0b11111011" "\n" "out 0x0B,r16" "\n"
+        "sbrc %0, 3" "\n" "ori %2, 0b00001000" "\n"
+        "sbrs %0, 3" "\n" "andi %2, 0b11110111" "\n" "out 0x0B, %2" "\n"
+        "ori %2, 0b00000100" "\n" "out 0x0B, %2" "\n"
+        "andi %2, 0b11111011" "\n" "out 0x0B, %2" "\n"
 
-        "sbrs %1, 2" "\n" "ori r16,0b00001000" "\n"
-        "sbrc %1, 2" "\n" "andi r16,0b11110111" "\n"
-        "ori r16,0b00000100" "\n" "out 0x0B,r16" "\n"
-        "andi r16,0b11111011" "\n" "out 0x0B,r16" "\n"
+        "sbrc %0, 2" "\n" "ori %2, 0b00001000" "\n"
+        "sbrs %0, 2" "\n" "andi %2, 0b11110111" "\n" "out 0x0B, %2" "\n"
+        "ori %2, 0b00000100" "\n" "out 0x0B, %2" "\n"
+        "andi %2, 0b11111011" "\n" "out 0x0B, %2" "\n"
 
-        "sbrs %1, 1" "\n" "ori r16,0b00001000" "\n"
-        "sbrc %1, 1" "\n" "andi r16,0b11110111" "\n"
-        "ori r16,0b00000100" "\n" "out 0x0B,r16" "\n"
-        "andi r16,0b11111011" "\n" "out 0x0B,r16" "\n"
+        "sbrc %0, 1" "\n" "ori %2, 0b00001000" "\n"
+        "sbrs %0, 1" "\n" "andi %2, 0b11110111" "\n" "out 0x0B, %2" "\n"
+        "ori %2, 0b00000100" "\n" "out 0x0B, %2" "\n"
+        "andi %2, 0b11111011" "\n" "out 0x0B, %2" "\n"
 
-        "sbrs %1, 0" "\n" "ori r16,0b00001000" "\n"
-        "sbrc %1, 0" "\n" "andi r16,0b11110111" "\n"
-        "ori r16,0b00000100" "\n" "out 0x0B,r16" "\n"
-        "andi r16,0b11111011" "\n" "out 0x0B,r16" "\n"
+        "sbrc %0, 0" "\n" "ori %2, 0b00001000" "\n"
+        "sbrs %0, 0" "\n" "andi %2, 0b11110111" "\n" "out 0x0B, %2" "\n"
+        "ori %2, 0b00000100" "\n" "out 0x0B, %2" "\n"
+        "andi %2, 0b11111011" "\n" "out 0x0B, %2" "\n"
         
-        : : "r" ((uint8_t)((chroma >> 8) & 0xFF)), "r" ((uint8_t)(chroma & 0xFF)) :
+        : "+r" (c1), "+r" (c2), "+r" (c3) :
     );
 }
 
-void fill_screen(uint16_t b = ST7735_RED)
+void fill_screen(uint16_t b = ST7735_GREEN)
 {
     cli();
     for (size_t i = 0; i < ST7735_PIXELS; ++i) { write_pixel(b); }
@@ -312,9 +312,9 @@ void setup()
     digitalWrite(ST7735_CS, LOW);
     digitalWrite(ST7735_BL, LOW);
 
-    //digitalWrite(ST7735_VCC, HIGH);
-    //digitalWrite(ST7735_RES, HIGH);
-    //digitalWrite(ST7735_BL, HIGH);
+    digitalWrite(ST7735_VCC, HIGH);
+    digitalWrite(ST7735_RES, HIGH);
+    digitalWrite(ST7735_BL, HIGH);
 
     uint8_t a = 1; //Set Backlight
     uint8_t b = 0; //Clear Backlight (Overrides Set)
@@ -356,7 +356,7 @@ void setup()
     Serial.println();
 
     reset_display(1);
-    fill_screen();
+    fill_screen(ST7735_BLUE);
 }
 
 void loop()
