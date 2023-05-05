@@ -1,3 +1,3 @@
 # iomap_arduino
 
-![iomap_arduino](iomap_arduino/iomap_arduino.png)
+![iomap_arduino](/iomap_arduino/iomap_arduino.png)
