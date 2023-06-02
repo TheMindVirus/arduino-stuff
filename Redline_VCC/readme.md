@@ -9,7 +9,7 @@ Requires a Regulator to clamp 2V to 1V for Power and the excess above 1V is Data
 //A 2-pin Low-Power Half-Duplex Energy+Information Cable for Chipsets
 ```
 
-<!--permalink-->
+https://github.com/TheMindVirus/arduino-stuff/blob/b5da7a98dc6cf69c728fa490a341d2689ec9865b/Redline_VCC/Redline_VCC.ino#L14
 
-![screenshot](https://github.com/themindvirus/arduino-stuff/Redline_VCC/redline_vcc.png)
-![screenshot](https://github.com/themindvirus/arduino-stuff/Redline_VCC/redline_plotter.png)
+![screenshot](https://github.com/themindvirus/arduino-stuff/blob/main/Redline_VCC/redline_plotter.png)
+![screenshot](https://github.com/themindvirus/arduino-stuff/blob/main/Redline_VCC/redline_vcc.png)
