@@ -1,0 +1,139 @@
+/*
+int seed(int n = 100)
+{
+  
+    int s = 0;
+    for (int i = 0; i < n; ++i)
+    {
+        s += millis();
+        delay(1);
+    }
+    Serial.println(s);
+    randomSeed(s);
+    return s;
+}
+
+void shuffle()
+{
+    int tmp = -1;
+    int idx1 = 0;
+    int idx2 = 0;
+
+    //randomSeed(A0); //Incorrect, always GND 0V
+    //randomSeed(randomSeed(randomSeed(millis())));
+    
+    delay(999);
+    randomSeed(millis() * 1000);
+    randomSeed(random(millis() * 1000));
+    randomSeed(random(random(millis() * 1000)));
+    randomSeed(random(random(random(millis() * 1000))));
+    
+    Serial.println(millis() * 1000);
+    Serial.println(millis() * 1000);
+    Serial.println(millis() * 1000);
+    random(); random(); random();
+    
+    seed(seed(seed()));
+    
+    for (int i = 0; i < MAX_COUNT; ++i)
+    {
+        idx1 = random(0, MAX_COUNT);
+        idx2 = random(0, MAX_COUNT);
+    }
+    Serial.println(idx1);
+    Serial.println(idx2);
+    Serial.println();
+}
+
+double seed(double n = 0)
+{
+    //no picos()...they broke millis()
+    double s = micros(); //millis() + micros() + n;
+    Serial.println(s);
+    randomSeed(random(0, s));
+    return s;
+}
+
+double seed()
+{
+    Serial.begin(115200);
+    analogWrite(9, 127);
+    analogWrite(10, 128);
+    analogWrite(11, 129);
+    double a = 0;
+    a += analogRead(9);
+    a += analogRead(10);
+    a += analogRead(11);
+    a /= 3;
+    Serial.println(a);
+    return a;
+}
+
+double seed(double n = 0)
+{
+    analogWrite(9, 127);
+    analogWrite(10, 128);
+    analogWrite(11, 129);
+    double a = n;
+    a += analogRead(9);
+    a += analogRead(10);
+    a += analogRead(11);
+    a /= 3;
+    randomSeed(a);
+    return a;
+}
+
+void shuffle()
+{
+    uint8_t tmp = 0;
+    uint8_t idx1 = 0;
+    uint8_t idx2 = 0;
+    
+    seed(seed(seed()));
+
+    uint8_t j = 0;
+    for (uint8_t i = 0; i < MAX_COUNT; ++i)
+    {
+        if (TYPE(PILE[i]) != CARD_NULL) { pile[j] = PILE[i]; ++j; }
+    }
+    pile_count = j;
+    
+    for (uint8_t i = 0; i < pile_count; ++i)
+    {
+        Serial.print("");
+        idx1 = random(0, pile_count);
+        idx2 = random(0, pile_count);
+        tmp = pile[idx1];
+        pile[idx1] = pile[idx2];
+        pile[idx2] = tmp;
+    }
+}
+
+void show_cards()
+{
+    Serial.print("[PILE]: "); for (uint8_t i = 0; i < pile_count; ++i) { Serial.print(pile[i]); Serial.print(", "); } Serial.println();
+    for (uint8_t j = 0; j < PLAYERS; ++j)
+    {
+        Serial.print("[HAND]: "); for (uint8_t i = 0; i < hand_count[j]; ++i) { Serial.print(hand[j][i]); Serial.print(", "); } Serial.println();
+    }
+}
+
+void next_turn() { ++turn; if (turn >= PLAYERS) { turn = 0; } }
+
+void setup()
+{
+    Serial.begin(115200);
+    Serial.println("<<<UNO>>>");
+////Serial.println(sizeof(CARD)); ////Incorrect, 2 instead of 16
+////Serial.println(sizeof(PILE)); //Correct, 224 - 4 excl. Blank
+////Serial.println();
+    shuffle();
+}
+
+void loop()
+{
+    Serial.println(random());
+    //show_cards();
+    delay(3000); //shuffle();
+}
+*/

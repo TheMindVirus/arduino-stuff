@@ -1,0 +1,165 @@
+#define TYPE(CARD)    (CARD & 0x0F)
+#define CHROMA(CARD)  (CARD & 0xF0)
+
+#define SET_RED(CARD) (CARD + 0x10)
+#define SET_YLW(CARD) (CARD + 0x20)
+#define SET_GRN(CARD) (CARD + 0x40)
+#define SET_BLU(CARD) (CARD + 0x80)
+
+#define IS_RED(CARD) ((CARD & 0x10) != 0)
+#define IS_YLW(CARD) ((CARD & 0x20) != 0)
+#define IS_GRN(CARD) ((CARD & 0x40) != 0)
+#define IS_BLU(CARD) ((CARD & 0x80) != 0)
+#define IS_NUL(CARD)  (CHROMA(CARD) == 0)
+
+enum CARD { CARD_0 = 0, CARD_1, CARD_2, CARD_3, CARD_4, CARD_5, CARD_6, CARD_7, CARD_8, CARD_9, CARD_SKIP, CARD_SWAP, CARD_ADD2, CARD_DRAW, CARD_ADD4, CARD_NULL };
+uint8_t PILE[] =
+{
+    SET_RED(CARD_0), SET_RED(CARD_1), SET_RED(CARD_2), SET_RED(CARD_3), SET_RED(CARD_4), SET_RED(CARD_5), SET_RED(CARD_6), SET_RED(CARD_7), SET_RED(CARD_8), SET_RED(CARD_9), SET_RED(CARD_SKIP), SET_RED(CARD_SWAP), SET_RED(CARD_ADD2), CARD_DRAW,
+    SET_YLW(CARD_0), SET_YLW(CARD_1), SET_YLW(CARD_2), SET_YLW(CARD_3), SET_YLW(CARD_4), SET_YLW(CARD_5), SET_YLW(CARD_6), SET_YLW(CARD_7), SET_YLW(CARD_8), SET_YLW(CARD_9), SET_YLW(CARD_SKIP), SET_YLW(CARD_SWAP), SET_YLW(CARD_ADD2), CARD_DRAW,
+    SET_GRN(CARD_0), SET_GRN(CARD_1), SET_GRN(CARD_2), SET_GRN(CARD_3), SET_GRN(CARD_4), SET_GRN(CARD_5), SET_GRN(CARD_6), SET_GRN(CARD_7), SET_GRN(CARD_8), SET_GRN(CARD_9), SET_GRN(CARD_SKIP), SET_GRN(CARD_SWAP), SET_GRN(CARD_ADD2), CARD_DRAW,
+    SET_BLU(CARD_0), SET_BLU(CARD_1), SET_BLU(CARD_2), SET_BLU(CARD_3), SET_BLU(CARD_4), SET_BLU(CARD_5), SET_BLU(CARD_6), SET_BLU(CARD_7), SET_BLU(CARD_8), SET_BLU(CARD_9), SET_BLU(CARD_SKIP), SET_BLU(CARD_SWAP), SET_BLU(CARD_ADD2), CARD_DRAW,
+    
+    SET_RED(CARD_NULL), SET_RED(CARD_1), SET_RED(CARD_2), SET_RED(CARD_3), SET_RED(CARD_4), SET_RED(CARD_5), SET_RED(CARD_6), SET_RED(CARD_7), SET_RED(CARD_8), SET_RED(CARD_9), SET_RED(CARD_SKIP), SET_RED(CARD_SWAP), SET_RED(CARD_ADD2), CARD_ADD4,
+    SET_YLW(CARD_NULL), SET_YLW(CARD_1), SET_YLW(CARD_2), SET_YLW(CARD_3), SET_YLW(CARD_4), SET_YLW(CARD_5), SET_YLW(CARD_6), SET_YLW(CARD_7), SET_YLW(CARD_8), SET_YLW(CARD_9), SET_YLW(CARD_SKIP), SET_YLW(CARD_SWAP), SET_YLW(CARD_ADD2), CARD_ADD4,
+    SET_GRN(CARD_NULL), SET_GRN(CARD_1), SET_GRN(CARD_2), SET_GRN(CARD_3), SET_GRN(CARD_4), SET_GRN(CARD_5), SET_GRN(CARD_6), SET_GRN(CARD_7), SET_GRN(CARD_8), SET_GRN(CARD_9), SET_GRN(CARD_SKIP), SET_GRN(CARD_SWAP), SET_GRN(CARD_ADD2), CARD_ADD4,
+    SET_BLU(CARD_NULL), SET_BLU(CARD_1), SET_BLU(CARD_2), SET_BLU(CARD_3), SET_BLU(CARD_4), SET_BLU(CARD_5), SET_BLU(CARD_6), SET_BLU(CARD_7), SET_BLU(CARD_8), SET_BLU(CARD_9), SET_BLU(CARD_SKIP), SET_BLU(CARD_SWAP), SET_BLU(CARD_ADD2), CARD_ADD4,
+};
+const uint8_t MAX_COUNT = sizeof(PILE); //sizeof(CARD);
+const uint8_t PLAYERS = 4;
+
+uint8_t pile[MAX_COUNT] = {};
+uint8_t hand[PLAYERS][MAX_COUNT] = {};
+
+uint8_t pile_count = 0;
+uint8_t hand_count[PLAYERS] = {};
+
+uint8_t game = 0;
+uint8_t turn = 0;
+
+double seed(double n = 0);
+double shuffle(double n = 0);
+double load_pile(double n = 0);
+double empty_hands(double n = 0);
+double draw_one(double n = 0);
+double show_cards(double n = 0);
+double next_turn(double n = 0);
+
+double seed(double n = 0)
+{
+    analogWrite(9, 127);
+    analogWrite(10, 128);
+    analogWrite(11, 129);
+    double a = n;
+    a += analogRead(9);
+    a += analogRead(10);
+    a += analogRead(11);
+    a /= 3;
+    randomSeed(a);
+    return a;
+}
+
+double shuffle(double n = 0)
+{
+    uint8_t tmp = 0;
+    uint8_t idx1 = 0;
+    uint8_t idx2 = 0;
+
+    for (uint8_t i = 0; i < pile_count; ++i)
+    {
+        seed(seed(seed()));
+        random(0, pile_count);
+    }
+    
+    for (uint8_t i = 0; i < pile_count; ++i)
+    {
+        Serial.print("");
+        seed(seed(seed()));
+        idx1 = random(0, pile_count);
+        seed(seed(seed()));
+        idx2 = random(0, pile_count);
+        tmp = pile[idx1]; //suspected tampering
+        if (tmp == 10) { Serial.println("[WARN]: "); Serial.print(idx1); Serial.print(" "); Serial.print(idx2); Serial.print(" ");  Serial.print(pile[idx1]); Serial.print(" "); Serial.print(pile[idx2]); Serial.print(" "); Serial.print(i); Serial.print(" "); Serial.print(pile_count); Serial.println(); while(1); }
+        pile[idx1] = pile[idx2];
+
+        pile[idx2] = tmp; //tmp has changed value...to 10...
+    }
+    
+    uint8_t j = 0;
+    uint8_t i = 0;
+    for (uint8_t x = pile_count; x > 0; --x)
+    {
+        i = x - 1; //never unsigned
+        tmp = pile[j];
+        pile[j] = pile[i];
+        pile[i] = tmp;
+        ++j;
+        if (j >= pile_count / 2) { break; }
+    }
+    
+    return tmp;
+}
+
+double load_pile(double n = 0)
+{
+    uint8_t j = 0;
+    for (uint8_t i = 0; i < MAX_COUNT; ++i)
+    {
+        if (TYPE(PILE[i]) != CARD_NULL) { pile[j] = PILE[i]; ++j; }
+    }
+    pile_count = j;
+    return pile_count;
+}
+
+double empty_hands(double n = 0)
+{
+    for (int j = 0; j < PLAYERS; ++j)
+    {
+        for (int i = 0; i < MAX_COUNT; ++i)
+        {
+            hand[j][i] = 0;
+        }
+        hand_count[j] = 0;
+    }
+    return PLAYERS;
+}
+
+double draw_one(double n = 0)
+{
+    if (pile_count == 0) { ++game; setup(); }
+    return 0.0f;
+}
+
+double show_cards(double n = 0)
+{
+    Serial.print("[GAME]: ");
+    Serial.println(game + 1);
+    Serial.print("[TURN]: ");
+    Serial.println(turn + 1);
+    Serial.print("[PILE]: "); for (uint8_t i = 0; i < pile_count; ++i) { Serial.print(pile[i]); Serial.print(", "); } Serial.println();
+    for (uint8_t j = 0; j < PLAYERS; ++j)
+    {
+        Serial.print("[HAND]: "); for (uint8_t i = 0; i < hand_count[j]; ++i) { Serial.print(hand[j][i]); Serial.print(", "); } Serial.println();
+    }
+    return 0.0f;
+}
+
+double next_turn(double n = 0) { ++turn; if (turn >= PLAYERS) { turn = 0; } return turn; }
+
+void setup()
+{
+    Serial.begin(115200);
+    Serial.println("<<<UNO>>>");
+    load_pile();
+    for (int i = 0; i < pile_count; ++i) { shuffle(); }
+    //shuffle(shuffle(shuffle()));
+    empty_hands();
+    turn = 0;
+}
+
+void loop()
+{
+    show_cards();
+    delay(3000); //shuffle();
+    next_turn();
+}
