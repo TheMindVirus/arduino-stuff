@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="background: #113">
+
+<defs>
+  <filter id="blur">
+    <feGaussianBlur stdDeviation="1.5" />
+  </filter>
+</defs>
+
+<!--
+<g id="Seibu" fill="none" stroke="#2DB7AD" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M0,0,l500,500,c0,0,10,10,20,10,l500,0,c0,0,10,0,20,-10,l250,-250,c0,0,10,-10,20,-10,l250,0"/>
+</g>
+<g id="Disney" fill="none" stroke="#2DB7AD" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M0,0,l100,100,s10,10,20,10,l100,0,s10,0,20,-10"/>
+</g>
+<g id="Keio" fill="none" stroke="#2DB7AD" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M0,0,l100,100,s10,10,20,10,l100,0,s10,0,20,-10"/>
+</g>
+<g id="Nippori" fill="none" stroke="#CC4492" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M0,0,l100,100,s10,10,20,10,l100,0,s10,0,20,-10"/>
+</g>
+<g id="Arakawa" fill="none" stroke="#CF7C3C" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M0,0,l100,100,s10,10,20,10,l100,0,s10,0,20,-10"/>
+</g>
+<g id="Japanrail" fill="none" stroke="#B9B9B9" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M0,0,l100,100,s10,10,20,10,l100,0,s10,0,20,-10"/>
+</g>
+
+<g id="Yamanote" fill="none" stroke="#7FB15A" stroke-width="6" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M0,0,l100,100,c0,0,3,3,6,3l100,0,c0,0,3,0,6,-3"/>
+</g>
+-->
+<g id="Asakusa" fill="none" stroke="#ED6C64" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+  <use href="#path-Asakusa" filter="url(#blur)"/>
+  <path id="path-Asakusa" d="M75,825,l620,0,s10,0,20,-10l60,-60,s10,-10,20,-10,l100,0,s10,0,20,-10,l60,-60,s10,-10,10,-20,l0,-450,s0,-10,10,-20,l60,-60"/>
+</g>
+<g id="Mita" fill="none" stroke="#006AB7" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+  <use href="#path-Mita" filter="url(#blur)"/>
+  <path id="path-Mita" d="M75,25,l150,0,s10,0,20,10l50,50,s10,10,20,10,l100,0,s10,0,20,10,l150,150,s10,10,10,20,l0,100,s0,10,10,20,l50,50,s10,10,10,20,l0,50,s0,10,10,20,l70,70,s10,10,10,20,l0,70,s0,10,-10,20,l-80,80,s-10,10,-20,10,l-80,0,s-10,0,-20,-10,l-25,-25,s-10,-10,-20,-10,l-300,0"/>
+</g><!--
+<g id="Shinjuku" fill="none" stroke="#7AB728" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M0,0,l100,100,s10,10,20,10,l100,0,s10,0,20,-10"/>
+</g>
+<g id="Odeo" fill="none" stroke="#DB006E" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M0,0,l100,100,s10,10,20,10,l100,0,s10,0,20,-10"/>
+</g>-->
+<g id="Ginza" fill="none" stroke="#FF9500" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+  <use href="#path-Ginza" filter="url(#blur)"/>
+  <path id="path-Ginza" d="M1010,160,l-170,0,s-20,0,-20,20,l0,190,s0,10,10,20,l70,70,s10,10,10,20,l0,190,s0,10,-10,20,l-30,30,s-10,10,-20,10,l-200,0,s-10,0,-20,-10,l-35,-35,s-10,-10,-10,-20,l0,-53,s0,-10,-10,-20,l-40,-40,s-10,-10,-20,-10,l-50,0,s-10,0,-20,10,l-90,90,s-10,10,-20,10,l-70,0"/>
+</g>
+<g id="Marunouchi" fill="none" stroke="#F72E36" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+  <use href="#path-Marunouchi" filter="url(#blur)"/>
+  <path id="path-Marunouchi" d="M300,180,l160,0,s10,0,20,10l40,40,s10,10,20,10,l100,0,s10,0,20,10,l50,50,s10,10,10,20,l0,160,s0,20,20,20,l50,0,s10,0,20,10,l50,50,s10,10,10,20,l0,45,s0,10,-10,20,l-15,15,s-10,10,-20,10,l-140,0,s-10,0,-20,-10,l-200,-200,s-10,-10,-20,-10,l-80,0,s-10,0,-20,-10,l-20,-20,s-10,-10,-20,-10,l-240,0,m120,0,s-10,0,-20,-10,l-80,-80"/>
+</g><!--
+<g id="Hibiya" fill="none" stroke="#B5B5AD" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M0,0,l100,100,s10,10,20,10,l100,0,s10,0,20,-10"/>
+</g>-->
+<g id="Tozai" fill="none" stroke="#009BC0" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+  <use href="#path-Tozai" filter="url(#blur)"/>
+  <path id="path-Tozai" d="M200,300,l220,0,s10,0,20,10l150,150,s10,10,20,10,l500,0,s10,0,20,-10,l160,-160"/>
+</g>
+<g id="Chiyoda" fill="none" stroke="#00BB85" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+  <use href="#path-Chiyoda" filter="url(#blur)"/>
+  <path id="path-Chiyoda" d="M180,600,l100,0,s10,0,20,10l35,35,s10,10,20,10,l400,0,s20,0,20,-20,l0,-10,s0,-10,-10,-20,l-76,-76,s-10,-10,-10,-20,l0,-400,s0,-10,10,-20,l35,-35,s10,-10,20,-10,l400,0,s10,0,20,-10,l15,-15"/>
+</g><!--
+<g id="Yurakucho" fill="none" stroke="#C1A570" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M0,0,l100,100,s10,10,20,10,l100,0,s10,0,20,-10"/>
+</g>
+<g id="Hanzoman" fill="none" stroke="#8F76D7" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M0,0,l100,100,s10,10,20,10,l100,0,s10,0,20,-10"/>
+</g>-->
+<g id="Namboku" fill="none" stroke="#00AD9B" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+  <use href="#path-Namboku" filter="url(#blur)"/>
+  <path id="path-Namboku" d="M200,745,l340,0,s10,0,20,-10l30,-30,s10,-10,10,-20,l0,-101,s0,-10,-10,-20,l-111,-111,s-20,-20,0,-40,l50,-50,s10,-10,10,-20,l0,-250,s0,-10,-10,-20,l-25,-25,s-10,-10,-20,-10,l-80,0"/>
+</g>
+<g id="Fukutoshin" fill="none" stroke="#9D5E30" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+  <use href="#path-Fukutoshin" filter="url(#blur)"/>
+  <path id="path-Fukutoshin" d="M50,100,l155,0,s10,0,20,10,l70,70,s10,10,10,20,l0,150,s0,10,10,20,l30,30,s10,10,10,20,l0,30,s0,10,-10,20,l-50,50,s-10,10,-10,20,l0,70,s0,10,-10,20,l-10,10"/>
+</g>
+
+</svg>
