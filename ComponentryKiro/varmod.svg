@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="background: black;">
+<g stroke="#F03" stroke-width="6" font-size="20pt">
+  <g id="var">
+    <path d="m 100 100, l 0 100 m 0 -75 l -25 0 l 0 50 l 25 0, m -60 -25 l 25 0 l -10 -10 l 10 10 l -10 10 l 10 -10"></path>
+    <text x="67" y="230" stroke-width="1">[VAR_]</text>
+  </g>
+  <g id="fet">
+    <path d="m 300 100, l 0 100 m -10 -15 l 0 -10 l -20 0 m 20 0 l 0 -10 m 0 -5 l 0 -10 l -20 0 m 20 0 l 0 -10 m 0 -5 l 0 -10 l -20 0 m 20 0 l 0 -10"></path>
+    <text x="260" y="230" stroke-width="1">[_FET]</text>
+  </g>
+  <g id="mod">
+    <path d="m 500 100, l 0 25 l 25 25 l -25 25 l 0 25 m 0 -25 l -25 -25 l 25 -25 m -50 25 l 30 0 m 70 0 l -25 0 m -25 0, l -8 -8 l 16 16 m -16 0 l 16 -16"></path>
+    <text x="456" y="230" stroke-width="1">[-MOD]</text>
+  </g>
+  <g id="reg">
+    <path d="m 700 100, l 0 100 m -20 -20 l 10 -10 l 0 -40 l -10 -10 m 40 0 l -10 10 l 0 40 l 10 10"></path>
+    <text x="657" y="230" stroke-width="1">[_REG]</text>
+  </g>
+  <g id="hbr">
+    <path d="m 900 100, l 0 100 m -10 -25 l 0 -50 m 20 0 l 0 50 m 0 -25 l -20 0"></path>
+    <text x="868" y="230" stroke-width="1">[H-BR]</text>
+  </g>
+  <g id="ant">
+    <path d="m 1100 100, l 0 100 m -10 -25 s -25 -25 0 -50 m 20 0 s 25 25 0 50, m -10 -20 s -10 -5 0 -10 m 0 0 s 10 5 0 10"></path>
+    <text x="1069" y="230" stroke-width="1">[_ANT]</text>
+  </g>
+</g>
+</svg>

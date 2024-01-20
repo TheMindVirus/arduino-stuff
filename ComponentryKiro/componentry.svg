@@ -1,0 +1,41 @@
+<!-- Componentry -->
+<svg xmlns="http://www.w3.org/2000/svg" style="background: black;">
+<g stroke="#F03" stroke-width="6" font-size="20pt">
+  <g id="VIM">
+    <!-- Voltage Inductor Module -->
+    <path d="m 50 150 l 10 0 s 20 20 30 0 m 0 0 s -10 -20 -15 0 m 0 0 s 20 20 40 0 m 0 0 s -10 -20 -15 0 m 0 0 s 20 20 40 0 m 0 0 s -10 -20 -15 0 m 0 0 s 20 20 40 0 m 0 0 s 0 -1 0 0 l 10 0"></path>
+    <text x="65" y="220" stroke-width="1">[_VIM]</text>
+    <!-- Ferrite Coiled Solenoid -->
+  </g>
+  <g id="VRM">
+    <!-- Voltage Regulator Module -->
+    <path d="m 175 150 l 100 0 m -25 -20 l -10 10 l -40 0 l -10 -10 m 0 40 l 10 -10 l 40 0 l 10 10"></path>
+    <text x="165" y="220" stroke-width="1">[_VRM]</text>
+    <!-- Solid State Transformer -->
+  </g>
+  <g id="VCM">
+    <!-- Voltage Capacitor Module -->
+    <path d="m 275 150 l 40 0 l 0 15 l 0 -30 m 10 15 l 0 15 l 0 -30 m 0 15 l 40 0 l 10 0"></path>
+    <text x="265" y="220" stroke-width="1">[_VCM]</text>
+    <!-- Dielectric Charge Bucket -->
+  </g>
+  <g id="VTM">
+    <!-- Voltage Transistor Module -->
+    <path d="m 375 150 l 100 0 m -30 10 l -10 0 l 0 20 m 0 -20 l -10 0 m -5 0 l -10 0 l 0 20 m 0 -20 l -10 0 m -5 0 l -10 0 l 0 20 m 0 -20 l -10 0"></path>
+    <text x="365" y="220" stroke-width="1">[_VTM]</text>
+    <!-- Field Effect Metal-Oxides -->
+  </g>
+  <g id="VMM">
+    <!-- Voltage Modulator Module -->
+    <path d="m 475 150 l 20 0 l 20 -20 l 20 20 l 40 0 m -40 0 l -20 20 l -20 -20"></path>
+    <text x="465" y="220" stroke-width="1">[_VMM]</text>
+    <!-- Programmable Shader Pipe -->
+  </g>
+  <g id="VDM">
+    <!-- Voltage Distributor Module -->
+    <path d="m 575 150 l 100 0 m -65 0 s 5 10 10 0 m 0 0 s -5 -10 -10 0 m 65 0 m -30 10 s -30 20 -60 0 m 0 -20 s 30 -20 60 0"></path>
+    <text x="565" y="220" stroke-width="1">[_VDM]</text>
+    <!-- Wireless Antenna Circuitry -->
+  </g>
+</g>
+</svg>
