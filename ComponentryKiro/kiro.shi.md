@@ -1,3 +1,4 @@
+```
 キロ = Omen, Signage, Video, Perfection-Seeking
 
 Componentry = Electronics + Optics + Chemistry + Art + ???
@@ -25,3 +26,4 @@ GPIO, JTAG, UTP, IDE, PS2, DA15, ARGB, I2C, I3C, I2S, SPI, QSPI, SDIO, SCART, VG
 DC, TRS, RCA, Composite, Component, S-Video, LANC, SMPTE, COAX, WC, SPDIF, ADAT, XLR, DI, FW
 BTH, WIFI, LORA, ZB, NB, GPRS, E, XG
 ...
+```
