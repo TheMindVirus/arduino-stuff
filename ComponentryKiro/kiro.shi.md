@@ -17,7 +17,7 @@ Design->Fusion->Componentry->Assembly->Kitting->Shipping
 60x100mm PCB Size
 ((60*100)/(55*85))*100=128.3422459893048...a 28% increase in board surface area
 
-laser cut, truss structure, car dashboard, i/o shield, heavy-duty, edge server, analog ladder filter
+laser cut, cnc milled, truss structure, car dashboard, i/o shield, heavy-duty, edge server, analog ladder filter
 socketable micro-architecture upgrade, cyberpunk residential buildings, telecoms wire catenary
 3x4 widget display macropad chipset, 5x11 katakana tacpad translator clipboard
 
