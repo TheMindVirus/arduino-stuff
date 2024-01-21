@@ -28,6 +28,7 @@ IR, BTH, WIFI, LORA, ZB, NB, NRG, UFL, GPRS, E, XG
 PMOD, DWC, OTG, CDC, HTTP, SPDY, QUIC
 
 Resistor, Capacitor, Diode, Transistor, Regulator, Inductor, Solenoid, Transformer, Thermistor, Thyristor, Memristor, Latch, Flip-Flop, Comparator, Operational Amplifier, Crystal Oscillator
+Light Dependent Resistor, Ceramic Capacitor, Light Emitting Diode, Metal Oxide Semiconductor Field Effect Transistor, Potential Divider, Ferrite Bead, Motor, Transducer, Humiditor, Barometer, Phase Locked Loop, Volatile Register, Shift Register, Modulator, Graphic Equaliser, 555 Timer
 Foundry, Fabrication Silo, Laboratory, Warehouse, Depot, Makerspace, Homelab
 ...
 ```
