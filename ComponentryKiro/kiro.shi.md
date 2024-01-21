@@ -29,13 +29,15 @@ GPIO, JTAG, SWD, ICSP, UPDI, UTP, IDE, PS2, DA15, ARGB, SD, MG, VGA, DVI, DP, HD
 DIP, MSD, UF2, CAN, I2C, I3C, I2S, SPI, QSPI, SDIO, BSC, OWI, TWI, JST, HAT, Banana, Grove, Qwiic, StemmaQT, DIN, MIDI
 IEC, DC, LIPO, TRS, RCA, Composite, Component, S-Video, SCART, LANC, SMPTE, COAX, BNC, WC, XLR, DI, FW
 IR, NFC, RFID, BTH, WIFI, LORA, ZB, XB, NB, SIM, DR, NRG, UFL, LTE, GPRS, E, XG
-PMOD, DWC, OTG, CDC, HTTP, SPDY, QUIC, SMBUS, SYSCALL, IOCTL, VT, NN, SSH, RDP, VNC, GIT
-BIOS, ARB, DMA, DMI, PCH, IP, IGMP, TCP, UDP, DNS, WINS, BGP, NETBIOS, W3BIOS, VM, IPMI, CDN, ICE
+PMOD, DWC, OTG, CDC, HTTP, SPDY, QUIC, SMBUS, SYSCALL, IOCTL, VT, NN, NPN, PNP, SSH, RDP, VNC, GIT
+BIOS, ARB, DMA, DMI, PCH, IP, IGMP, TCP, UDP, DNS, WINS, BGP, NETBIOS, W3BIOS, VM, IPMI, ADSL, PoE, PPPoE, PTP, P2P, CDN, DSN, ICE
 Powercon, Speakon, Ethercon, Telnet, HDBaseT, SFP, QSFP, Artnet, SACN, NDI, AVB, TOSLINK, SPDIF, ADAT, Dante, RTP, RTMP, RTSP
-Amphenol++, ATX12V(LP/HP), Molex++, Berg, FPIOA, AAFP, Lightning, Oculink, Proprietary
+Amphenol++, ATX12V(LP/HP), Molex++, Berg, FPIOA, AAFP, Lightning, Oculink, Proprietary, Safety Critical, Mission Critical, Enterprise, Metropolitan, Space
 
-Switch, Relay, Resistor, Capacitor, Diode, Transistor, Regulator, Inductor, Solenoid, Heatsink, Transformer, Thermistor, Thyristor, Memristor, Latch, Flip-Flop, Comparator, Operational Amplifier, Crystal Oscillator
-Push To Break Switch, Reed Relay, Light Dependent Resistor, Ceramic Capacitor, Light Emitting Diode, Metal Oxide Semiconductor Field Effect Transistor, Potential Divider, Ferrite Bead, Motor, Pump, Transducer, Humiditor, Barometer, Phase Locked Loop, Volatile Register, Shift Register, Modulator, Graphic Equaliser, 555 Timer
+Switch, Relay, Resistor, Capacitor, Diode, Transistor, Regulator, Inductor, Solenoid, Heatsink, Transformer, Thermistor, Thyristor, Memristor, Latch, Flip-Flop, Comparator, Operational Amplifier, Crystal Oscillator, Binary Counter
+Push To Break Switch, Reed Relay, Light Dependent Resistor, Ceramic Capacitor, Light Emitting Diode, Metal Oxide Semiconductor Field Effect Transistor, Potential Divider, Ferrite Bead, Motor, Pump, Transducer, Humiditor, Barometer, Phase Locked Loop, Volatile Register, Shift Register, Modulator, Graphic Equaliser, 555 Timer, Logical Abacus
 Foundry, Fabrication Silo, Laboratory, Warehouse, Depot, Makerspace, Homelab
+
+Self-Assembly ___________, IKEA Furniture ___________, Pick-n-Place ___________, Pick-a-Brick ___________, Pick-n-Mix ___________...wait...not ideal for edibles...
 ...
 ```
