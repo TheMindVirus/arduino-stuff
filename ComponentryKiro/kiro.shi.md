@@ -2,7 +2,7 @@
 キロ = Omen, Signage, Video, Perfection-Seeking
 
 Componentry = Electronics + Optics + Chemistry + Design + Technology + Fine Art + ???
-Kiro = Design, Layout, Anatomy, Topology, Parts List, Affinity List, Block Diagram, Brainstorm, Elements, Synthesis, Report, Grid, Plan, Elevation, Top-Down, Perspective, Schematic, Board, Bill of Materials, Favourites, Wishlist, Group, Signature, Collection, Palette, Template, Blueprint, Structure, Composition, Guild Standard, Artisan Crafting, Showcase, Stencil, Cutout, Mosaic, Matisse, Picasso, Pictogram, Codex, Rolex, Swatch, Swathe, Skew/SKU, Slew, Subset Envelope, Embedded Systems, Edge Computing, Ridge Storage, Cellular Specialisation, Bio Profile, Workstation Desk, Regional Development, ASMR Logistics, Film Packet, Salvage, Reduction, Reusage, Recycling, Restoration, Recovery, Simplification, Minimalism, Distribution, Communication, Connectivity, Annotation, Bounding Box, Protective Casing, Display Framing, Scientific Research, Technological Observation, Geometric Expression, Applied Mathematics, Design Language, Skeletal Framework, Cerulean Logic, Functional Workflow, Fixed Orientation, Aesthetic Fluency, Ground Truth, Pinpoint Accuracy
+Kiro = Design, Layout, Anatomy, Topology, Parts List, Affinity List, Block Diagram, Brainstorm, Elements, Synthesis, Report, Grid, Plan, Elevation, Top-Down, Perspective, Schematic, Board, Bill of Materials, Favourites, Wishlist, Group, Signature, Collection, Palette, Template, Blueprint, Structure, Composition, Guild Standard, Artisan Crafting, Showcase, Stencil, Cutout, Mosaic, Matisse, Picasso, Pictogram, Codex, Rolex, Swatch, Swathe, Skew/SKU, Slew, Subset Envelope, Embedded Systems, Edge Computing, Ridge Storage, Cellular Specialisation, Industrial Automation, Operational Intelligence, Bio Profile, Workstation Desk, Regional Development, ASMR Logistics, Film Packet, Salvage, Reduction, Reusage, Recycling, Restoration, Recovery, Simplification, Minimalism, Distribution, Communication, Connectivity, Annotation, Bounding Box, Protective Casing, Display Framing, Scientific Research, Technological Observation, Geometric Expression, Applied Mathematics, Design Language, Skeletal Framework, Cerulean Logic, Functional Workflow, Fixed Orientation, Aesthetic Fluency, Ground Truth, Pinpoint Accuracy
 Componentes = Mexican / South American / Spanish for Components -> Analysis, Breakdown, Disassembly, Diagnostics, Autopsy, Teardown, iFixit, Auxiliaries, Spare Parts, Special Limited Editions, Low Volume Mass Production Batch Samples, Xilinx Kria VHDL, Customisation Compatibility, Licensed Modification, Precision Editing, Preference Finding, Lexicographical Focus, Enrichment Yukon, Thermoplastic Moulding, Resin Casting
 
 VIM - Voltage Inductor Module [FIT-106]
@@ -39,6 +39,11 @@ Switch, Relay, Resistor, Capacitor, Diode, Transistor, Regulator, Inductor, Sole
 Push To Break Switch, Reed Relay, Light Dependent Resistor, Ceramic Capacitor, Light Emitting Diode, Metal Oxide Semiconductor Field Effect Transistor, Potential Divider, Ferrite Bead, Motor, Pump, Transducer, Humiditor, Barometer, Phase Locked Loop, Volatile Register, Shift Register, Modulator, Graphic Equaliser, 555 Timer, Logical Abacus
 Invention, Stockpile, Resource Exchange, Foundry, Fabrication Silo, Laboratory, Factory, Warehouse, Depot, Makerspace, Homelab, Platform, Studio, Store, Stage, Convention, [Innovation]
 
-Self-Assembly ___________, IKEA Furniture ___________, Pick-n-Place ___________, Pick-a-Brick ___________, Pick-n-Mix ___________...wait...not ideal for edibles...
-...
+Self-Assembly ___________, [check]
+IKEA Furniture ___________, [check]
+Pick-n-Place ___________, [check]
+Pick-a-Brick ___________, [check]
+Pick-n-Mix ___________...wait...not ideal for edibles...
+Prescription/Subscription ___________...wait...not ideal for medicinal tablets... 
+... :|
 ```
