@@ -22,7 +22,7 @@ socketable micro-architecture upgrade, cyberpunk residential buildings, telecoms
 3x4 widget display macropad chipset, 5x11 katakana tacpad translator clipboard
 
 RS-232, RS-485, RS-422 (USART, DMX, PTZ)
-GPIO, JTAG, SWD, ICSP, UPDI, UTP, IDE, PS2, DA15, ARGB, SD, MG, VGA, DVI, DP, HDMI, MHL, COM, LPT, USB, MDM, ETH, IB, TB4, SATA, PATA, SAS, PCI, PCIE, PCIX, PCMCIA, NVL, M.2, U.3, MSHD, MDP
+GPIO, JTAG, SWD, ICSP, UPDI, UTP, IDE, PS2, DA15, ARGB, SD, MG, VGA, DVI, DP, HDMI, MHL, COM, LPT, USB, USBC, MDM, ETH, IB, TB4, SATA, PATA, SAS, PCI, PCIE, PCIX, PCMCIA, NVL, M.2, U.3, MSHD, MDP
 DIP, MSD, UF2, CAN, I2C, I3C, I2S, SPI, QSPI, SDIO, BSC, OWI, TWI, JST, Grove, Qwiic, StemmaQT, DIN, MIDI
 IEC, DC, LIPO, TRS, RCA, Composite, Component, S-Video, SCART, LANC, SMPTE, COAX, BNC, WC, XLR, DI, FW
 IR, NFC, RFID, BTH, WIFI, LORA, ZB, XB, NB, SIM, DR, NRG, UFL, LTE, GPRS, E, XG
