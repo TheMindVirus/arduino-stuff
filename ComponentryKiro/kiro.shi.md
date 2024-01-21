@@ -22,12 +22,12 @@ socketable micro-architecture upgrade, cyberpunk residential buildings, telecoms
 3x4 widget display macropad chipset, 5x11 katakana tacpad translator clipboard
 
 RS-232, RS-485, RS-422 (USART, DMX, PTZ)
-GPIO, JTAG, UTP, IDE, PS2, DA15, ARGB, SD, MG, VGA, DVI, HDMI, MHL, COM, LPT, USB, MDM, ETH, IB, TB4, SATA, PATA, SAS, PCI, PCIE, PCIX, PCMCIA, NVL, M.2, U.3, MSHD
+GPIO, JTAG, SWD, ICSP, UPDI, UTP, IDE, PS2, DA15, ARGB, SD, MG, VGA, DVI, HDMI, MHL, COM, LPT, USB, MDM, ETH, IB, TB4, SATA, PATA, SAS, PCI, PCIE, PCIX, PCMCIA, NVL, M.2, U.3, MSHD
 DIP, MSD, UF2, CAN, I2C, I3C, I2S, SPI, QSPI, SDIO, BSC, OWI, TWI, JST, Grove, Qwiic, StemmaQT, DIN, MIDI
 IEC, DC, LIPO, TRS, RCA, Composite, Component, S-Video, SCART, LANC, SMPTE, COAX, BNC, WC, XLR, DI, FW
 IR, NFC, RFID, BTH, WIFI, LORA, ZB, XB, NB, SIM, DR, NRG, UFL, LTE, GPRS, E, XG
 PMOD, DWC, OTG, CDC, HTTP, SPDY, QUIC, SMBUS, SYSCALL, IOCTL, VT, NN, SSH, RDP, VNC, GIT
-BIOS, ARB, DMA, DMI, PCH, IP, IGMP, TCP, UDP, DNS, WINS, BGP, NETBIOS, W3BIOS, VM, IPMI, CDN
+BIOS, ARB, DMA, DMI, PCH, IP, IGMP, TCP, UDP, DNS, WINS, BGP, NETBIOS, W3BIOS, VM, IPMI, CDN, ICE
 Powercon, Speakon, Ethercon, Telnet, HDBaseT, SFP, QSFP, Artnet, SACN, NDI, AVB, TOSLINK, SPDIF, ADAT, Dante, RTP, RTMP, RTSP
 
 Switch, Resistor, Capacitor, Diode, Transistor, Regulator, Inductor, Solenoid, Transformer, Thermistor, Thyristor, Memristor, Latch, Flip-Flop, Comparator, Operational Amplifier, Crystal Oscillator
