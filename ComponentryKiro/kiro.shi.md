@@ -14,7 +14,7 @@ VDM - Voltage Distributor Module [SMA-132]
 
 Computer Aided Design / Computer Assisted Manufacture / Product Realisation Pipeline
 Design->Fusion->Shipping
-Design->Fusion->Componentry->Assembly->Kitting->Shipping
+Design->Fusion->Componentry->Assembly->Kitting->Shipping->Usage->Disposal->Return
 Seeed Studio ODM Service + Intel Foundry Service (Process->Packaging, Foveros/EMIB)
 
 60x100mm PCB Size
