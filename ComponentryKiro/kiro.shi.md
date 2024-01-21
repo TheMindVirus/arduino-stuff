@@ -24,10 +24,11 @@ socketable micro-architecture upgrade, cyberpunk residential buildings, telecoms
 RS-232, RS-485, RS-422 (USART, DMX, PTZ)
 GPIO, JTAG, UTP, IDE, PS2, DA15, ARGB, SD, MG, VGA, DVI, HDMI, MHL, COM, LPT, USB, MDM, ETH, IB, TB4, SATA, PATA, SAS, PCI, PCIE, PCIX, PCMCIA, NVL, M.2, U.3, MSHD
 I2C, I3C, I2S, SPI, QSPI, SDIO, BSC, OWI, TWI, JST, Grove, Qwiic, StemmaQT
-IEC, DC, LIPO, TRS, RCA, Composite, Component, S-Video, SCART, LANC, SMPTE, COAX, BNC, WC, SPDIF, ADAT, XLR, DI, FW
+IEC, DC, LIPO, TRS, RCA, Composite, Component, S-Video, SCART, LANC, SMPTE, COAX, BNC, WC, XLR, DI, FW
 IR, NFC, RFID, BTH, WIFI, LORA, ZB, XB, NB, SIM, DR, NRG, UFL, LTE, GPRS, E, XG
 PMOD, DWC, OTG, CDC, HTTP, SPDY, QUIC, SMBUS, SYSCALL, IOCTL, VT, NN, SSH, RDP, VNC, GIT
 BIOS, ARB, DMA, DMI, PCH, IP, IGMP, TCP, UDP, DNS, WINS, BGP, NETBIOS, W3BIOS, VM, IPMI, CDN
+Powercon, Speakon, Ethercon, HDBaseT, SFP, QSFP, Artnet, SACN, NDI, AVB, TOSLINK, SPDIF, ADAT, Dante
 
 Switch, Resistor, Capacitor, Diode, Transistor, Regulator, Inductor, Solenoid, Transformer, Thermistor, Thyristor, Memristor, Latch, Flip-Flop, Comparator, Operational Amplifier, Crystal Oscillator
 Push To Break Switch, Light Dependent Resistor, Ceramic Capacitor, Light Emitting Diode, Metal Oxide Semiconductor Field Effect Transistor, Potential Divider, Ferrite Bead, Motor, Transducer, Humiditor, Barometer, Phase Locked Loop, Volatile Register, Shift Register, Modulator, Graphic Equaliser, 555 Timer
