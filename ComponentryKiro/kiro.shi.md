@@ -23,7 +23,7 @@ socketable micro-architecture upgrade, cyberpunk residential buildings, telecoms
 
 RS-232, RS-485, RS-422 (USART, DMX, PTZ)
 GPIO, JTAG, UTP, IDE, PS2, DA15, ARGB, SD, MG, VGA, DVI, HDMI, MHL, COM, LPT, USB, MDM, ETH, IB, TB4, SATA, PATA, SAS, PCI, PCIE, PCIX, PCMCIA, NVL, M.2, U.3, MSHD
-I2C, I3C, I2S, SPI, QSPI, SDIO, BSC, OWI, TWI, JST, Grove, Qwiic, StemmaQT
+I2C, I3C, I2S, SPI, QSPI, SDIO, BSC, OWI, TWI, JST, Grove, Qwiic, StemmaQT, DIN, MIDI
 IEC, DC, LIPO, TRS, RCA, Composite, Component, S-Video, SCART, LANC, SMPTE, COAX, BNC, WC, XLR, DI, FW
 IR, NFC, RFID, BTH, WIFI, LORA, ZB, XB, NB, SIM, DR, NRG, UFL, LTE, GPRS, E, XG
 PMOD, DWC, OTG, CDC, HTTP, SPDY, QUIC, SMBUS, SYSCALL, IOCTL, VT, NN, SSH, RDP, VNC, GIT
