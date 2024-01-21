@@ -3,7 +3,7 @@
 
 Componentry = Electronics + Optics + Chemistry + Design + Technology + Art + ???
 Kiro = Design, Layout, Elements, Grid, Plan, Elevation, Top-Down, Perspective, Schematic, Board, Group, Signature, Collection, Palette, Structure, Composition
-Componentes = Spanish for Components -> Analysis, Breakdown, Teardown, iFixit, Auxiliaries, Spare Parts, Special Limited Editions, Low Volume Mass Production Batch Samples
+Componentes = Mexican / South American / Spanish for Components -> Analysis, Breakdown, Teardown, iFixit, Auxiliaries, Spare Parts, Special Limited Editions, Low Volume Mass Production Batch Samples
 
 VIM - Voltage Inductor Module [FIT-106]
 VRM - Voltage Regulator Module [SOD-123]
@@ -17,6 +17,7 @@ Design->Fusion->Componentry->Assembly->Kitting->Shipping
 Seeed Studio ODM Service + Intel Foundry Service (Process->Packaging, Foveros/EMIB)
 
 60x100mm PCB Size
+Compute Module / Compute Element / Compute Card
 ((60*100)/(55*85))*100=128.3422459893048...a 28% increase in board surface area
 
 laser cut, cnc milled, truss structure, car dashboard, i/o shield, heavy-duty, edge server, analog ladder filter
