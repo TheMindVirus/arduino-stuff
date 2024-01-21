@@ -2,7 +2,7 @@
 キロ = Omen, Signage, Video, Perfection-Seeking
 
 Componentry = Electronics + Optics + Chemistry + Design + Technology + Fine Art + ???
-Kiro = Design, Layout, Anatomy, Topology, Parts List, Affinity List, Block Diagram, Brainstorm, Elements, Synthesis, Report, Grid, Plan, Elevation, Top-Down, Overview, Perspective, Schematic, Board, Bill of Materials, Favourites, Wishlist, Group, Signature, Collection, Palette, Template, Blueprint, Structure, Composition, Guild Standard, Artisan Crafting, Showcase, Stencil, Cutout, Mosaic, Matisse, Picasso, Pictogram, Codex, Rolex, Swatch, Swathe, Skew/SKU, Slew, Subset Envelope, Embedded Systems, Edge Computing, Construction Regulation, Database Management, Default Procedure, Quality Assurance, Ridge Storage, Cellular Specialisation, Industrial Automation, Operational Intelligence, Bio Profile, Workstation Desk, Regional Development, ASMR Logistics, Film Packet, Salvage, Reduction, Reusage, Recycling, Restoration, Recovery, Simplification, Minimalism, Distribution, Communication, Connectivity, Annotation, Bounding Box, Protective Casing, Display Framing, Scientific Research, Technological Observation, Geometric Expression, Applied Mathematics, Design Language, Skeletal Framework, Cerulean Logic, Functional Workflow, Fixed Orientation, Aesthetic Fluency, Ground Truth, Pinpoint Accuracy
+Kiro = Design, Layout, Anatomy, Topology, Parts List, Affinity List, Block Diagram, Brainstorm, Elements, Synthesis, Report, Grid, Plan, Elevation, Top-Down, Overview, Perspective, Schematic, Board, Bill of Materials, Favourites, Wishlist, Group, Signature, Collection, Palette, Template, Blueprint, Structure, Composition, Guild Standard, Artisan Crafting, Showcase, Stencil, Cutout, Mosaic, Matisse, Picasso, Pictogram, Codex, Rolex, Swatch, Swathe, Skew/SKU, Slew, Subset Envelope, Embedded Systems, Edge Computing, Construction Regulation, Database Management, Default Procedure, Quality Assurance, Ridge Storage, Cellular Specialisation, Industrial Automation, Operational Intelligence, Bio Profile, Workstation Desk, Regional Development, Culinary Expedite, Showrunner Prefetch, ASMR Logistics, Film Packet, Salvage, Reduction, Reusage, Recycling, Restoration, Recovery, Simplification, Minimalism, Distribution, Communication, Connectivity, Annotation, Bounding Box, Protective Casing, Display Framing, Scientific Research, Technological Observation, Geometric Expression, Applied Mathematics, Design Language, Skeletal Framework, Cerulean Logic, Functional Workflow, Fixed Orientation, Aesthetic Fluency, Ground Truth, Pinpoint Accuracy
 Componentes = Mexican / South American / Spanish for Components -> Analysis, Breakdown, Disassembly, Diagnostics, Autopsy, Teardown, iFixit, Auxiliaries, Spare Parts, Special Limited Editions, Low Volume Mass Production Batch Samples, Xilinx Kria VHDL, Customisation Compatibility, Licensed Modification, Precision Editing, Preference Finding, Lexicographical Focus, Enrichment Yukon, Thermoplastic Moulding, Resin Casting
 
 VIM - Voltage Inductor Module [FIT-106]
@@ -44,6 +44,8 @@ IKEA Furniture ___________, [check]
 Pick-n-Place ___________, [check]
 Pick-a-Brick ___________, [check]
 Pick-n-Mix ___________...wait...not ideal for edibles...
+Toolbox Tubkits ___________...wait...not ideal for power tools...
+Chemical Solutions ___________...wait...not ideal for toxic substances...
 Prescription/Subscription ___________...wait...not ideal for medicinal tablets... 
 ... :|
 ```
