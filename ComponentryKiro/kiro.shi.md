@@ -2,7 +2,7 @@
 キロ = Omen, Signage, Video, Perfection-Seeking
 
 Componentry = Electronics + Optics + Chemistry + Design + Technology + Fine Art + ???
-Kiro = Design, Layout, Anatomy, Topology, Parts List, Affinity List, Block Diagram, Brainstorm, Elements, Synthesis, Report, Grid, Plan, Elevation, Top-Down, Perspective, Schematic, Board, Bill of Materials, Favourites, Wishlist, Group, Signature, Collection, Palette, Template, Blueprint, Structure, Composition, Guild Standard, Showcase, Mosaic, Matisse, Picasso, Pictogram
+Kiro = Design, Layout, Anatomy, Topology, Parts List, Affinity List, Block Diagram, Brainstorm, Elements, Synthesis, Report, Grid, Plan, Elevation, Top-Down, Perspective, Schematic, Board, Bill of Materials, Favourites, Wishlist, Group, Signature, Collection, Palette, Template, Blueprint, Structure, Composition, Guild Standard, Showcase, Mosaic, Matisse, Picasso, Pictogram, Codex, Rolex, Swatch, Swathe, Skew/SKU, Slew, Subset Envelope, Profile, Film Packet
 Componentes = Mexican / South American / Spanish for Components -> Analysis, Breakdown, Disassembly, Diagnostics, Autopsy, Teardown, iFixit, Auxiliaries, Spare Parts, Special Limited Editions, Low Volume Mass Production Batch Samples, Xilinx Kria VHDL, Customisation Compatibility, Licensed Modification, Precision Editing, Preference Finding, Lexicographical Focus, Enrichment Yukon, Thermoplastic Moulding, Resin Casting
 
 VIM - Voltage Inductor Module [FIT-106]
