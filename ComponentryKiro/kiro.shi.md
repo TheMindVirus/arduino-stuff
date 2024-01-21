@@ -36,7 +36,7 @@ Amphenol++, ATX12V(LP/HP), Molex++, Berg, FPIOA, AAFP, Lightning, Oculink, Propr
 
 Switch, Relay, Resistor, Capacitor, Diode, Transistor, Regulator, Inductor, Solenoid, Heatsink, Transformer, Thermistor, Thyristor, Memristor, Latch, Flip-Flop, Comparator, Operational Amplifier, Crystal Oscillator, Binary Counter
 Push To Break Switch, Reed Relay, Light Dependent Resistor, Ceramic Capacitor, Light Emitting Diode, Metal Oxide Semiconductor Field Effect Transistor, Potential Divider, Ferrite Bead, Motor, Pump, Transducer, Humiditor, Barometer, Phase Locked Loop, Volatile Register, Shift Register, Modulator, Graphic Equaliser, 555 Timer, Logical Abacus
-Foundry, Fabrication Silo, Laboratory, Warehouse, Depot, Makerspace, Homelab
+Stockpile, Resource Exchange, Foundry, Fabrication Silo, Laboratory, Factory, Warehouse, Depot, Makerspace, Homelab, Platform, Studio, Store, Stage, Convention
 
 Self-Assembly ___________, IKEA Furniture ___________, Pick-n-Place ___________, Pick-a-Brick ___________, Pick-n-Mix ___________...wait...not ideal for edibles...
 ...
