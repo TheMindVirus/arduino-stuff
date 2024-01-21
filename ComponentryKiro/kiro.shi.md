@@ -29,6 +29,7 @@ IR, NFC, RFID, BTH, WIFI, LORA, ZB, XB, NB, SIM, DR, NRG, UFL, LTE, GPRS, E, XG
 PMOD, DWC, OTG, CDC, HTTP, SPDY, QUIC, SMBUS, SYSCALL, IOCTL, VT, NN, SSH, RDP, VNC, GIT
 BIOS, ARB, DMA, DMI, PCH, IP, IGMP, TCP, UDP, DNS, WINS, BGP, NETBIOS, W3BIOS, VM, IPMI, CDN, ICE
 Powercon, Speakon, Ethercon, Telnet, HDBaseT, SFP, QSFP, Artnet, SACN, NDI, AVB, TOSLINK, SPDIF, ADAT, Dante, RTP, RTMP, RTSP
+Amphenol++, ATX12V(LP/HP), Molex++, Berg, FPIOA, AAFP
 
 Switch, Resistor, Capacitor, Diode, Transistor, Regulator, Inductor, Solenoid, Transformer, Thermistor, Thyristor, Memristor, Latch, Flip-Flop, Comparator, Operational Amplifier, Crystal Oscillator
 Push To Break Switch, Light Dependent Resistor, Ceramic Capacitor, Light Emitting Diode, Metal Oxide Semiconductor Field Effect Transistor, Potential Divider, Ferrite Bead, Motor, Transducer, Humiditor, Barometer, Phase Locked Loop, Volatile Register, Shift Register, Modulator, Graphic Equaliser, 555 Timer
