@@ -2,8 +2,8 @@
 キロ = Omen, Signage, Video, Perfection-Seeking
 
 Componentry = Electronics + Optics + Chemistry + Design + Technology + Art + ???
-Kiro = Design, Layout, Elements, Grid, Plan, Elevation, Top-Down, Perspective, Schematic, Board, Group, Signature, Collection, Palette, Structure, Composition, Showcase, Mosaic, Matisse, Picasso, Pictogram
-Componentes = Mexican / South American / Spanish for Components -> Analysis, Breakdown, Disassembly, Teardown, iFixit, Auxiliaries, Spare Parts, Special Limited Editions, Low Volume Mass Production Batch Samples
+Kiro = Design, Layout, Elements, Report, Grid, Plan, Elevation, Top-Down, Perspective, Schematic, Board, Group, Signature, Collection, Palette, Structure, Composition, Showcase, Mosaic, Matisse, Picasso, Pictogram
+Componentes = Mexican / South American / Spanish for Components -> Analysis, Breakdown, Disassembly, Diagnostics, Teardown, iFixit, Auxiliaries, Spare Parts, Special Limited Editions, Low Volume Mass Production Batch Samples
 
 VIM - Voltage Inductor Module [FIT-106]
 VRM - Voltage Regulator Module [SOD-123]
