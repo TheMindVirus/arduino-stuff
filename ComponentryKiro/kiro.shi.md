@@ -22,9 +22,9 @@ socketable micro-architecture upgrade, cyberpunk residential buildings, telecoms
 3x4 widget display macropad chipset, 5x11 katakana tacpad translator clipboard
 
 RS-232, RS-485, RS-422 (USART, DMX, PTZ)
-GPIO, JTAG, UTP, IDE, PS2, DA15, ARGB, I2C, I3C, I2S, SPI, QSPI, SDIO, SCART, VGA, DVI, HDMI, BSC, COM, LPT, OWI, TWI, USB, MDM, ETH, TB4, PCI, PCMCIA, NVL
-DC, TRS, RCA, Composite, Component, S-Video, LANC, SMPTE, COAX, WC, SPDIF, ADAT, XLR, DI, FW
-BTH, WIFI, LORA, ZB, NB, GPRS, E, XG
+GPIO, JTAG, UTP, IDE, PS2, DA15, ARGB, I2C, I3C, I2S, SPI, QSPI, SDIO, SD, MG, VGA, DVI, HDMI, BSC, COM, LPT, OWI, TWI, USB, MDM, ETH, TB4, PCI, PCMCIA, NVL, JST, Grove
+DC, LIPO, TRS, RCA, Composite, Component, S-Video, SCART, LANC, SMPTE, COAX, WC, SPDIF, ADAT, XLR, DI, FW
+IR, BTH, WIFI, LORA, ZB, NB, UFL, GPRS, E, XG
 
 Resistor, Capacitor, Diode, Transistor, Regulator, Inductor, Solenoid, Transformer, Thermistor, Thyristor, Memristor, Latch, Flip-Flop, Comparator, Operational Amplifier, Crystal Oscillator
 Foundry, Fabrication Silo, Laboratory, Warehouse, Depot, Makerspace, Homelab
