@@ -12,6 +12,7 @@ VTM - Voltage Transistor Module [TO-220]
 VMM - Voltage Modulator Module [CFR-25]
 VDM - Voltage Distributor Module [SMA-132]
 
+Computer Aided Design / Computer Assisted Manufacture / Product Realisation Pipeline
 Design->Fusion->Shipping
 Design->Fusion->Componentry->Assembly->Kitting->Shipping
 Seeed Studio ODM Service + Intel Foundry Service (Process->Packaging, Foveros/EMIB)
