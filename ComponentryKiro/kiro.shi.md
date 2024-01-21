@@ -31,8 +31,8 @@ BIOS, ARB, DMA, DMI, PCH, IP, IGMP, TCP, UDP, DNS, WINS, BGP, NETBIOS, W3BIOS, V
 Powercon, Speakon, Ethercon, Telnet, HDBaseT, SFP, QSFP, Artnet, SACN, NDI, AVB, TOSLINK, SPDIF, ADAT, Dante, RTP, RTMP, RTSP
 Amphenol++, ATX12V(LP/HP), Molex++, Berg, FPIOA, AAFP, Lightning, Oculink, Proprietary
 
-Switch, Relay, Resistor, Capacitor, Diode, Transistor, Regulator, Inductor, Solenoid, Transformer, Thermistor, Thyristor, Memristor, Latch, Flip-Flop, Comparator, Operational Amplifier, Crystal Oscillator
-Push To Break Switch, Reed Relay, Light Dependent Resistor, Ceramic Capacitor, Light Emitting Diode, Metal Oxide Semiconductor Field Effect Transistor, Potential Divider, Ferrite Bead, Motor, Transducer, Humiditor, Barometer, Phase Locked Loop, Volatile Register, Shift Register, Modulator, Graphic Equaliser, 555 Timer
+Switch, Relay, Resistor, Capacitor, Diode, Transistor, Regulator, Inductor, Solenoid, Heatsink, Transformer, Thermistor, Thyristor, Memristor, Latch, Flip-Flop, Comparator, Operational Amplifier, Crystal Oscillator
+Push To Break Switch, Reed Relay, Light Dependent Resistor, Ceramic Capacitor, Light Emitting Diode, Metal Oxide Semiconductor Field Effect Transistor, Potential Divider, Ferrite Bead, Motor, Pump, Transducer, Humiditor, Barometer, Phase Locked Loop, Volatile Register, Shift Register, Modulator, Graphic Equaliser, 555 Timer
 Foundry, Fabrication Silo, Laboratory, Warehouse, Depot, Makerspace, Homelab
 ...
 ```
