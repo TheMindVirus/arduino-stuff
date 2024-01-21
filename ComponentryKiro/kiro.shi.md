@@ -1,8 +1,8 @@
 ```
 キロ = Omen, Signage, Video, Perfection-Seeking
 
-Componentry = Electronics + Optics + Chemistry + Art + ???
-Kiro = Design, Layout, Elements, Grid, Plan, Elevation, Top-Down, Perspective, Schematic, Board, Structure, Composition
+Componentry = Electronics + Optics + Chemistry + Design + Technology + Art + ???
+Kiro = Design, Layout, Elements, Grid, Plan, Elevation, Top-Down, Perspective, Schematic, Board, Group, Collection, Palette, Structure, Composition
 
 VIM - Voltage Inductor Module [FIT-106]
 VRM - Voltage Regulator Module [SOD-123]
