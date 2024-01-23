@@ -1,0 +1,17 @@
+[Componentry]
+The Practice of Neat Alignment and Arrangement
+of Individual Parts of a Machine
+or Development Platform
+Ready for Self-Assembly
+
+[Socketry]
+A subspecialty of componentry
+with specific focus on modular interconnects
+between individial parts of a machine
+to make it easier to service
+
+[Gadgetry]
+Rating + decision-making + selection
+of pre-assembled equipment for usage
+in a particular context and scenario
+looking to optimise specific critera
