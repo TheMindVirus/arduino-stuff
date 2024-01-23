@@ -1,0 +1,15 @@
+[Componentry Instructions]
+
+For this procedure you will need the following:
+ - A desk, piece of paper or canvas to use as a background
+ - Suitable lighting conditions to illuminate the backdrop
+ - High-resolution top-down overview digital stills camera
+ - DIY Self-Assembly Componentry Kit of your choosing to photograph
+
+1. Start with an empty background and pick a bounding box of a given voluminous shape.
+2. Place the primary component PCB or workpiece in a location central to the bounding box.
+3. Adjust the placement and orientation of the workpiece and the lighting for desired effect.
+4. Place each remaining component inside the bounding box allowing for adequate spacing in between.
+5. Finish by adding final touches to the alignment and save a photograph at each step of the build process.
+
+_||___|| _||_|||| _||_||_| _|||____ _||_|||| _||_|||_ _||__|_| _||_|||_ _|||_|__ _|||__|_ _||||__|
