@@ -1,11 +1,11 @@
 [Componentry]
-The Practice of Neat Alignment and Arrangement
-of Individual Parts of a Machine
-or Development Platform
-Ready for Self-Assembly
+The Practice of Neatly and Precisely Aligning and Arranging
+Individual Component Parts of a Development Platform
+given a certain shaped area or bounding box
+to make it Ready for Self-Assembly
 
 [Socketry]
-A subspecialty of componentry
+A subspecialty of componentry and gadgetry classes
 with specific focus on modular interconnects
 between individial parts of a machine
 to make it easier to service
