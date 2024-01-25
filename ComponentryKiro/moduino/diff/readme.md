@@ -1,0 +1,1 @@
+![diff_tot](/ComponentryKiro/moduino/diff/diff_tot.png)
