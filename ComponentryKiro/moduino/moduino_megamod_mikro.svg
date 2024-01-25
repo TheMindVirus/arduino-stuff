@@ -1,0 +1,179 @@
+<!-- moduino megamod mikro -->
+<svg xmlns="http://www.w3.org/2000/svg" style="background: #111; width: 100%; height: 100%;">
+<defs>
+  <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+    <rect width="10" height="10" fill="#111"></rect>
+    <rect width="1" height="1" fill="#FFF"></rect>
+  </pattern>
+</defs>
+<rect width="100%" height="100%" fill="#000"></rect>
+<g fill="none" stroke="#0FF" stroke-linejoin="round" font-size="20pt" font-family="Consolas">
+  <g id="VIM">
+    <!-- Voltage Inductor Module -->
+    <path d="m 50 160 l 10 0 s 20 25 35 0 m 0 0 c 0 -20 -25 -10 -15 0 m 0 0 s 25 25 40 0 m 0 0 c 0 -20 -25 -10 -15 0 m 0 0 s 25 25 40 0 m 0 0 c 0 -20 -25 -10 -15 0 m 0 0 s 25 25 40 0 m 0 0 s 0 -1 0 0 l 10 0" stroke-width="3" stroke-linecap="round"></path>
+    <path d="m 50 160 m 10 0 s 20 25 35 0 m 0 0 c 0 -20 -25 -10 -15 0 m 0 0 s 25 25 40 0 m 0 0 c 0 -20 -25 -10 -15 0 m 0 0 s 25 25 40 0 m 0 0 c 0 -20 -25 -10 -15 0 m 0 0 s 25 25 40 0 m 0 0 s 0 -1 0 0 m 10 0" stroke-width="7" stroke-linecap="round"></path>
+    <text x="65" y="110" fill="#0FF">[_VIM]</text>
+    <!-- Ferrite Coiled Solenoid -->
+  </g>
+  <g id="VRM">
+    <!-- Voltage Regulator Module -->
+    <path d="m 175 160 l 100 0 m -25 -20 m -10 10 m -40 0 m -10 -10 m 0 40 m 10 -10 m 40 0 m 10 10" stroke-width="3" stroke-linecap="round"></path>
+    <path d="m 175 160 m 100 0 m -25 -20 l -10 10 l -40 0 l -10 -10 m 0 40 l 10 -10 l 40 0 l 10 10" stroke-width="7" stroke-linecap="square"></path>
+    <text x="175" y="110" fill="#0FF">[_VRM]</text>
+    <!-- Solid State Transformer -->
+  </g>
+  <g id="VCM">
+    <!-- Voltage Capacitor Module -->
+    <path d="m 275 160 l 40 0 l 0 15 m 0 -30 m 10 15 m 0 15 m 0 -30 m 0 15 l 40 0 l 10 0" stroke-width="3" stroke-linecap="round"></path>
+    <path d="m 275 160 m 40 0 m 0 15 l 0 -30 m 10 15 m 0 15 l 0 -30 m 0 15 m 40 0 m 10 0" stroke-width="7" stroke-linecap="square"></path>
+    <text x="275" y="110" fill="#0FF">[_VCM]</text>
+    <!-- Dielectric Charge Bucket -->
+  </g>
+  <g id="VTM">
+    <!-- Voltage Transistor Module -->
+    <path d="m 375 160 l 100 0 m -25 10 m -10 0 l 0 20 m 0 -20 m -10 0 m -10 0 m -10 0 l 0 20 m 0 -20 m -10 0 m -10 0 m -10 0 l 0 20 m 0 -20 m -10 0" stroke-width="3" stroke-linecap="round"></path>
+    <path d="m 375 160 m 100 0 m -25 10 l -10 0 m 0 20 m 0 -20 l -10 0 m -10 0 l -10 0 m 0 20 m 0 -20 l -10 0 m -10 0 l -10 0 m 0 20 m 0 -20 l -10 0" stroke-width="7" stroke-linecap="square"></path>
+    <text x="365" y="110" fill="#0FF">[_VTM]</text>
+    <!-- Field Effect Metal-Oxides -->
+  </g>
+  <g id="VMM">
+    <!-- Voltage Modulator Module -->
+    <path d="m 475 160 l 20 0 m 20 -20 m 20 20 l 40 0 m -40 0 m -20 20 m -20 -20" stroke-width="3" stroke-linecap="round"></path>
+    <path d="m 475 160 m 20 0 l 20 -20 l 20 20 m 40 0 m -40 0 l -20 20 l -20 -20" stroke-width="7" stroke-linecap="square"></path>
+    <text x="470" y="110" fill="#0FF">[_VMM]</text>
+    <!-- Programmable Shader Pipe -->
+  </g>
+  <g id="VDM">
+    <!-- Voltage Distributor Module -->
+    <path d="m 575 160 l 100 0 m -65 0 s 5 10 10 0 m 0 0 s -5 -10 -10 0 m 65 0 m -30 10 s -30 20 -60 0 m 0 -20 s 30 -20 60 0" stroke-width="3" stroke-linecap="round"></path>
+    <path d="m 575 160 m 100 0 m -65 0 s 5 10 10 0 m 0 0 s -5 -10 -10 0 m 65 0 m -30 10 s -30 20 -60 0 m 0 -20 s 30 -20 60 0" stroke-width="7" stroke-linecap="round"></path>
+    <text x="570" y="110" fill="#0FF">[_VDM]</text>
+    <!-- Wireless Antenna Circuitry -->
+  </g>
+</g>
+<g id="moduino" fill="none" font-size="20pt" font-family="Consolas">
+  <g id="EDGE" fill="url(#grid)" stroke="#F06">
+    <path d="m 100 280 l 0 180 l 0 10 l 10 0 l 500 0 l 10 -10 l 0 -10 l 10 -10 l 0 -130 l -10 -10 l 0 -10 l -10 -10 l -500 0 z"></path>
+  </g>
+  <g id="WIRE" fill="#777" stroke="#333" stroke-width="4">
+    <path d="m 185 295 l 0 127"></path><path d="m 185 380 l 0 70"></path>
+    <path d="m 195 295 l 0 127"></path><path d="m 195 380 l 0 70"></path>
+    <path d="m 205 295 l 0 127"></path><path d="m 205 380 l 0 70"></path>
+    <path d="m 215 295 l 0 127"></path><path d="m 215 380 l 0 70"></path>
+    <path d="m 225 295 l 0 127"></path><path d="m 225 380 l 0 70"></path>
+    <path d="m 235 295 l 0 127"></path><path d="m 235 380 l 0 70"></path>
+    <path d="m 245 295 l 0 127"></path><path d="m 245 380 l 0 70"></path>
+
+    <path d="m 275 295 l 0 127"></path><path d="m 275 380 l 0 70"></path>
+    <path d="m 285 295 l 0 127"></path><path d="m 285 380 l 0 70"></path>
+    <path d="m 295 295 l 0 127"></path><path d="m 295 380 l 0 70"></path>
+    <path d="m 305 295 l 0 127"></path><path d="m 305 380 l 0 70"></path>
+    <path d="m 315 295 l 0 127"></path><path d="m 315 380 l 0 70"></path>
+    <path d="m 325 295 l 0 127"></path><path d="m 325 380 l 0 70"></path>
+    <path d="m 335 295 l 0 127"></path><path d="m 335 380 l 0 70"></path>
+    <path d="m 345 295 l 0 127"></path><path d="m 345 380 l 0 70"></path>
+    <path d="m 355 295 l 0 127"></path><path d="m 355 380 l 0 70"></path>
+    <path d="m 365 295 l 0 127"></path><path d="m 365 380 l 0 70"></path>
+    <path d="m 375 295 l 0 127"></path><path d="m 375 380 l 0 70"></path>
+    <path d="m 385 295 l 0 127"></path><path d="m 385 380 l 0 70"></path>
+    <path d="m 395 295 l 0 127"></path><path d="m 395 380 l 0 70"></path>
+    <path d="m 405 295 l 0 127"></path><path d="m 405 380 l 0 70"></path>
+
+    <path d="m 435 295 l 0 127"></path><path d="m 435 380 l 0 70"></path>
+    <path d="m 445 295 l 0 127"></path><path d="m 445 380 l 0 70"></path>
+    <path d="m 455 295 l 0 127"></path><path d="m 455 380 l 0 70"></path>
+    <path d="m 465 295 l 0 127"></path><path d="m 465 380 l 0 70"></path>
+    <path d="m 475 295 l 0 127"></path><path d="m 475 380 l 0 70"></path>
+    <path d="m 485 295 l 0 127"></path><path d="m 485 380 l 0 70"></path>
+    <path d="m 495 295 l 0 127"></path><path d="m 495 380 l 0 70"></path>
+    <path d="m 505 295 l 0 127"></path><path d="m 505 380 l 0 70"></path>
+
+    <path d="m 535 295 l 0 127"></path><path d="m 535 380 l 0 70"></path>
+    <path d="m 545 295 l 0 127"></path><path d="m 545 380 l 0 70"></path>
+    <path d="m 555 295 l 0 127"></path><path d="m 555 380 l 0 70"></path>
+    <path d="m 565 295 l 0 127"></path><path d="m 565 380 l 0 70"></path>
+    <path d="m 575 295 l 0 127"></path><path d="m 575 380 l 0 70"></path>
+    <path d="m 585 295 l 0 127"></path><path d="m 585 380 l 0 70"></path>
+    <path d="m 595 295 l 0 127"></path><path d="m 595 380 l 0 70"></path>
+    <path d="m 605 295 l 0 127"></path><path d="m 605 380 l 0 70"></path>
+  </g>
+  <g id="HEADER" fill="#FFF" stroke="#FFF">
+    <rect x="110" y="294" width="50" height="6" fill="#113"></rect>
+    <rect x="110" y="450" width="50" height="6" fill="#113"></rect>
+
+    <rect x="180" y="294" width="70" height="6"></rect><rect x="180" y="450" width="70" height="6"></rect>
+    <rect x="270" y="294" width="140" height="6"></rect><rect x="270" y="450" width="140" height="6"></rect>
+    <rect x="430" y="294" width="80" height="6"></rect><rect x="430" y="450" width="80" height="6"></rect>
+    <rect x="530" y="294" width="80" height="6"></rect><rect x="530" y="450" width="80" height="6"></rect>   
+  </g>
+  <g id="SPACER" fill="#FFF" stroke="#FFF">
+    <rect x="620" y="314" width="1" height="123"></rect>
+
+    <rect x="520" y="294" width="1" height="163"></rect>
+    <rect x="420" y="294" width="1" height="163"></rect>
+    <rect x="260" y="294" width="1" height="163"></rect>
+    <rect x="170" y="294" width="1" height="163"></rect>
+  </g>
+  <g id="SOCKET" fill="#212" stroke="#FFF" stroke-width="4" stroke-linejoin="round">
+    <rect x="180" y="360" width="70" height="30"></rect>
+    <rect x="270" y="360" width="140" height="30"></rect>
+    <rect x="430" y="360" width="80" height="30"></rect>
+    <rect x="530" y="360" width="80" height="30"></rect>
+  </g>
+  <g id="LED" fill="#07F" stroke="#777">
+    <rect x="110" y="320" width="3" height="20"></rect><rect x="110" y="410" width="3" height="20"></rect>
+    <rect x="116" y="320" width="3" height="20"></rect><rect x="116" y="410" width="3" height="20"></rect>
+    <rect x="122" y="320" width="3" height="20"></rect><rect x="122" y="410" width="3" height="20"></rect>
+    <rect x="128" y="320" width="3" height="20"></rect><rect x="128" y="410" width="3" height="20"></rect>
+    <rect x="134" y="320" width="3" height="20"></rect><rect x="134" y="410" width="3" height="20"></rect>
+    <rect x="140" y="320" width="3" height="20"></rect><rect x="140" y="410" width="3" height="20"></rect>
+    <rect x="146" y="320" width="3" height="20"></rect><rect x="146" y="410" width="3" height="20"></rect>
+    <rect x="152" y="320" width="3" height="20"></rect><rect x="152" y="410" width="3" height="20"></rect>
+  </g>
+  <g id="RES" fill="#F04" stroke="#F04">
+    <rect x="182" y="321" width="6" height="20"></rect><rect x="182" y="411" width="6" height="20"></rect>
+    <rect x="192" y="321" width="6" height="20"></rect><rect x="192" y="411" width="6" height="20"></rect>
+    <rect x="202" y="321" width="6" height="20"></rect><rect x="202" y="411" width="6" height="20"></rect>
+    <rect x="212" y="321" width="6" height="20"></rect><rect x="212" y="411" width="6" height="20"></rect>
+    <rect x="222" y="321" width="6" height="20"></rect><rect x="222" y="411" width="6" height="20"></rect>
+    <rect x="232" y="321" width="6" height="20"></rect><rect x="232" y="411" width="6" height="20"></rect>
+    <rect x="242" y="321" width="6" height="20"></rect><rect x="242" y="411" width="6" height="20"></rect>
+
+    <rect x="272" y="321" width="6" height="20"></rect><rect x="272" y="411" width="6" height="20"></rect>
+    <rect x="282" y="321" width="6" height="20"></rect><rect x="282" y="411" width="6" height="20"></rect>
+    <rect x="292" y="321" width="6" height="20"></rect><rect x="292" y="411" width="6" height="20"></rect>
+    <rect x="302" y="321" width="6" height="20"></rect><rect x="302" y="411" width="6" height="20"></rect>
+    <rect x="312" y="321" width="6" height="20"></rect><rect x="312" y="411" width="6" height="20"></rect>
+    <rect x="322" y="321" width="6" height="20"></rect><rect x="322" y="411" width="6" height="20"></rect>
+    <rect x="332" y="321" width="6" height="20"></rect><rect x="332" y="411" width="6" height="20"></rect>
+    <rect x="342" y="321" width="6" height="20"></rect><rect x="342" y="411" width="6" height="20"></rect>
+    <rect x="352" y="321" width="6" height="20"></rect><rect x="352" y="411" width="6" height="20"></rect>
+    <rect x="362" y="321" width="6" height="20"></rect><rect x="362" y="411" width="6" height="20"></rect>
+    <rect x="372" y="321" width="6" height="20"></rect><rect x="372" y="411" width="6" height="20"></rect>
+    <rect x="382" y="321" width="6" height="20"></rect><rect x="382" y="411" width="6" height="20"></rect>
+    <rect x="392" y="321" width="6" height="20"></rect><rect x="392" y="411" width="6" height="20"></rect>
+    <rect x="402" y="321" width="6" height="20"></rect><rect x="402" y="411" width="6" height="20"></rect>
+
+    <rect x="432" y="321" width="6" height="20"></rect><rect x="432" y="411" width="6" height="20"></rect>
+    <rect x="442" y="321" width="6" height="20"></rect><rect x="442" y="411" width="6" height="20"></rect>
+    <rect x="452" y="321" width="6" height="20"></rect><rect x="452" y="411" width="6" height="20"></rect>
+    <rect x="462" y="321" width="6" height="20"></rect><rect x="462" y="411" width="6" height="20"></rect>
+    <rect x="472" y="321" width="6" height="20"></rect><rect x="472" y="411" width="6" height="20"></rect>
+    <rect x="482" y="321" width="6" height="20"></rect><rect x="482" y="411" width="6" height="20"></rect>
+    <rect x="492" y="321" width="6" height="20"></rect><rect x="492" y="411" width="6" height="20"></rect>
+    <rect x="502" y="321" width="6" height="20"></rect><rect x="502" y="411" width="6" height="20"></rect>
+
+    <rect x="532" y="321" width="6" height="20"></rect><rect x="532" y="411" width="6" height="20"></rect>
+    <rect x="542" y="321" width="6" height="20"></rect><rect x="542" y="411" width="6" height="20"></rect>
+    <rect x="552" y="321" width="6" height="20"></rect><rect x="552" y="411" width="6" height="20"></rect>
+    <rect x="562" y="321" width="6" height="20"></rect><rect x="562" y="411" width="6" height="20"></rect>
+    <rect x="572" y="321" width="6" height="20"></rect><rect x="572" y="411" width="6" height="20"></rect>
+    <rect x="582" y="321" width="6" height="20"></rect><rect x="582" y="411" width="6" height="20"></rect>
+    <rect x="592" y="321" width="6" height="20"></rect><rect x="592" y="411" width="6" height="20"></rect>
+    <rect x="602" y="321" width="6" height="20"></rect><rect x="602" y="411" width="6" height="20"></rect>
+  </g>
+  <g id="PORT" fill="#234" stroke="#FFF">
+    <rect x="92" y="350" width="70" height="50"></rect>
+  </g>
+</g>
+</svg>
