@@ -4,3 +4,4 @@
 ![legion](/ComponentryKiro/moduino/moduino_legion_acee'd.png)
 ![science](/ComponentryKiro/moduino/moduino_mega_science_kit.png)
 ![template](/ComponentryKiro/moduino/moduino_megamod_pcb_punch_templating.png)
+![stencil](/ComponentryKiro/moduino/moduino_megamod_pcb_punch_templating_mod_stencil_mod_.png)
