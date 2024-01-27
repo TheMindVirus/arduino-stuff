@@ -2,3 +2,4 @@
 ![megamod](/ComponentryKiro/moduino/moduino_megamod.png)
 ![mikro](/ComponentryKiro/moduino/moduino_megamod_mikro.png)
 ![legion](/ComponentryKiro/moduino/moduino_legion_acee'd.png)
+![science](/ComponentryKiro/moduino/moduino_mega_science_kit.png)

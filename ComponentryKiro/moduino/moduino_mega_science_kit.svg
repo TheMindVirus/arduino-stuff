@@ -1,0 +1,149 @@
+<!-- moduino mega science kit -->
+<svg xmlns="http://www.w3.org/2000/svg" style="background: #111; width: 100%; height: 100%;">
+<defs>
+  <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+    <rect width="10" height="10" fill="#111"></rect>
+    <rect width="1" height="1" fill="#FFF"></rect>
+  </pattern>
+  <pattern id="vent" width="50" height="50" patternUnits="userSpaceOnUse">
+    <rect width="50" height="50" fill="#000"></rect>
+    <path d="m 0 0 l 0 25 l 25 -25 z m 50 0 l 0 25 l -25 25 l -25 0 z" fill="#333"></path>
+  </pattern>
+  <pattern id="hole" width="6" height="6" patternUnits="userSpaceOnUse">
+    <rect width="6" height="6" fill="#000"></rect>
+    <rect width="3" height="3" fill="#333" x="1.5" y="1.5"></rect>
+  </pattern>
+  <pattern id="kiro" width="2" height="2" patternUnits="userSpaceOnUse">
+    <path d="m 0 0 l 0 1 l 1 -1 z m 2 0 l 0 1 l -1 1 l -1 0 z" fill="#F05"></path>
+  </pattern>
+</defs>
+<rect width="100%" height="100%" fill="url(#grid)"></rect>
+<g id="moduino" fill="none" font-size="20pt" font-family="Consolas">
+  <g id="EDGE" fill="url(#vent)" stroke="#F05" stroke-width="6">
+    <path d="m 100 280 l 0 180 l 0 10 l 10 0 l 500 0 l 10 -10 l 0 -10 l 10 -10 l 0 -130 l -10 -10 l 0 -10 l -10 -10 l -500 0 z"></path>
+    <path d="m 652 258 l -50 0 l 50 50 z" stroke="#fff" fill="#FFF" stroke-width="15" stroke-linejoin="round"></path>
+    <path d="m 652 492 l -50 0 l 50 -50 z" stroke="#fff" fill="#FFF" stroke-width="15" stroke-linejoin="round"></path>
+    <path d="m 80 260 l 0 220 l 0 10 l 10 0 l 525 0 l 25 -25 l 0 -10 l 10 -10 l 0 -140 l -10 -10 l 0 -10 l -25 -25 l -500 0 z" fill="none" stroke-width="20" stroke-linejoin="round"></path>
+  </g>
+  <g id="WIRE" fill="#777" stroke="#555" stroke-width="4">
+    <path d="m 185 300 l 0 127"></path><path d="m 185 380 l 0 70"></path>
+    <path d="m 195 300 l 0 127"></path><path d="m 195 380 l 0 70"></path>
+    <path d="m 205 300 l 0 127"></path><path d="m 205 380 l 0 70"></path>
+    <path d="m 215 300 l 0 127"></path><path d="m 215 380 l 0 70"></path>
+    <path d="m 225 300 l 0 127"></path><path d="m 225 380 l 0 70"></path>
+    <path d="m 235 300 l 0 127"></path><path d="m 235 380 l 0 70"></path>
+    <path d="m 245 300 l 0 127"></path><path d="m 245 380 l 0 70"></path>
+
+    <path d="m 275 300 l 0 127"></path><path d="m 275 380 l 0 70"></path>
+    <path d="m 285 300 l 0 127"></path><path d="m 285 380 l 0 70"></path>
+    <path d="m 295 300 l 0 127"></path><path d="m 295 380 l 0 70"></path>
+    <path d="m 305 300 l 0 127"></path><path d="m 305 380 l 0 70"></path>
+    <path d="m 315 300 l 0 127"></path><path d="m 315 380 l 0 70"></path>
+    <path d="m 325 300 l 0 127"></path><path d="m 325 380 l 0 70"></path>
+    <path d="m 335 300 l 0 127"></path><path d="m 335 380 l 0 70"></path>
+    <path d="m 345 300 l 0 127"></path><path d="m 345 380 l 0 70"></path>
+    <path d="m 355 300 l 0 127"></path><path d="m 355 380 l 0 70"></path>
+    <path d="m 365 300 l 0 127"></path><path d="m 365 380 l 0 70"></path>
+    <path d="m 375 300 l 0 127"></path><path d="m 375 380 l 0 70"></path>
+    <path d="m 385 300 l 0 127"></path><path d="m 385 380 l 0 70"></path>
+    <path d="m 395 300 l 0 127"></path><path d="m 395 380 l 0 70"></path>
+    <path d="m 405 300 l 0 127"></path><path d="m 405 380 l 0 70"></path>
+
+    <path d="m 435 300 l 0 127"></path><path d="m 435 380 l 0 70"></path>
+    <path d="m 445 300 l 0 127"></path><path d="m 445 380 l 0 70"></path>
+    <path d="m 455 300 l 0 127"></path><path d="m 455 380 l 0 70"></path>
+    <path d="m 465 300 l 0 127"></path><path d="m 465 380 l 0 70"></path>
+    <path d="m 475 300 l 0 127"></path><path d="m 475 380 l 0 70"></path>
+    <path d="m 485 300 l 0 127"></path><path d="m 485 380 l 0 70"></path>
+    <path d="m 495 300 l 0 127"></path><path d="m 495 380 l 0 70"></path>
+    <path d="m 505 300 l 0 127"></path><path d="m 505 380 l 0 70"></path>
+
+    <path d="m 535 300 l 0 127"></path><path d="m 535 380 l 0 70"></path>
+    <path d="m 545 300 l 0 127"></path><path d="m 545 380 l 0 70"></path>
+    <path d="m 555 300 l 0 127"></path><path d="m 555 380 l 0 70"></path>
+    <path d="m 565 300 l 0 127"></path><path d="m 565 380 l 0 70"></path>
+    <path d="m 575 300 l 0 127"></path><path d="m 575 380 l 0 70"></path>
+    <path d="m 585 300 l 0 127"></path><path d="m 585 380 l 0 70"></path>
+    <path d="m 595 300 l 0 127"></path><path d="m 595 380 l 0 70"></path>
+    <path d="m 605 300 l 0 127"></path><path d="m 605 380 l 0 70"></path>
+  </g>
+  <g id="HEADER" fill="url(#hole)" stroke="#FFF">
+    <rect x="110" y="294" width="50" height="6"></rect>
+    <rect x="110" y="450" width="50" height="6"></rect>
+
+    <rect x="180" y="294" width="70" height="6"></rect><rect x="180" y="450" width="70" height="6"></rect>
+    <rect x="270" y="294" width="140" height="6"></rect><rect x="270" y="450" width="140" height="6"></rect>
+    <rect x="430" y="294" width="80" height="6"></rect><rect x="430" y="450" width="80" height="6"></rect>
+    <rect x="530" y="294" width="80" height="6"></rect><rect x="530" y="450" width="80" height="6"></rect>   
+  </g>
+  <g id="SPACER" fill="#FFF" stroke="#FFF">
+    <rect x="620" y="314" width="1" height="123"></rect>
+
+    <rect x="520" y="294" width="1" height="163"></rect>
+    <rect x="420" y="294" width="1" height="163"></rect>
+    <rect x="260" y="294" width="1" height="163"></rect>
+    <rect x="170" y="294" width="1" height="163"></rect>
+  </g>
+  <g id="SOCKET" fill="#212A" stroke="#FFF" stroke-width="4" stroke-linejoin="round">
+    <rect x="180" y="360" width="70" height="30"></rect>
+    <rect x="270" y="360" width="140" height="30"></rect>
+    <rect x="430" y="360" width="80" height="30"></rect>
+    <rect x="530" y="360" width="80" height="30"></rect>
+  </g>
+  <g id="LED" fill="#F05" stroke="#FFF">
+    <rect x="110" y="320" width="3" height="20"></rect><rect x="110" y="410" width="3" height="20"></rect>
+    <rect x="116" y="320" width="3" height="20"></rect><rect x="116" y="410" width="3" height="20"></rect>
+    <rect x="122" y="320" width="3" height="20"></rect><rect x="122" y="410" width="3" height="20"></rect>
+    <rect x="128" y="320" width="3" height="20"></rect><rect x="128" y="410" width="3" height="20"></rect>
+    <rect x="134" y="320" width="3" height="20"></rect><rect x="134" y="410" width="3" height="20"></rect>
+    <rect x="140" y="320" width="3" height="20"></rect><rect x="140" y="410" width="3" height="20"></rect>
+    <rect x="146" y="320" width="3" height="20"></rect><rect x="146" y="410" width="3" height="20"></rect>
+    <rect x="152" y="320" width="3" height="20"></rect><rect x="152" y="410" width="3" height="20"></rect>
+  </g>
+  <g id="RES" fill="url(#kiro)" stroke="none">
+    <rect x="182" y="321" width="6" height="20"></rect><rect x="182" y="411" width="6" height="20"></rect>
+    <rect x="192" y="321" width="6" height="20"></rect><rect x="192" y="411" width="6" height="20"></rect>
+    <rect x="202" y="321" width="6" height="20"></rect><rect x="202" y="411" width="6" height="20"></rect>
+    <rect x="212" y="321" width="6" height="20"></rect><rect x="212" y="411" width="6" height="20"></rect>
+    <rect x="222" y="321" width="6" height="20"></rect><rect x="222" y="411" width="6" height="20"></rect>
+    <rect x="232" y="321" width="6" height="20"></rect><rect x="232" y="411" width="6" height="20"></rect>
+    <rect x="242" y="321" width="6" height="20"></rect><rect x="242" y="411" width="6" height="20"></rect>
+
+    <rect x="272" y="321" width="6" height="20" fill="none" stroke="#F05"></rect><rect x="272" y="411" width="6" height="20" fill="none" stroke="#F05"></rect>
+    <rect x="282" y="321" width="6" height="20" fill="none" stroke="#F05"></rect><rect x="282" y="411" width="6" height="20" fill="none" stroke="#F05"></rect>
+    <rect x="292" y="321" width="6" height="20" fill="none" stroke="#F05"></rect><rect x="292" y="411" width="6" height="20" fill="none" stroke="#F05"></rect>
+    <rect x="302" y="321" width="6" height="20" fill="none" stroke="#F05"></rect><rect x="302" y="411" width="6" height="20" fill="none" stroke="#F05"></rect>
+    <rect x="312" y="321" width="6" height="20" fill="none" stroke="#F05"></rect><rect x="312" y="411" width="6" height="20" fill="none" stroke="#F05"></rect>
+    <rect x="322" y="321" width="6" height="20" fill="none" stroke="#F05"></rect><rect x="322" y="411" width="6" height="20" fill="none" stroke="#F05"></rect>
+    <rect x="332" y="321" width="6" height="20" fill="none" stroke="#F05"></rect><rect x="332" y="411" width="6" height="20" fill="none" stroke="#F05"></rect>
+    <rect x="342" y="321" width="6" height="20" fill="none" stroke="#F05"></rect><rect x="342" y="411" width="6" height="20" fill="none" stroke="#F05"></rect>
+    <rect x="352" y="321" width="6" height="20" fill="none" stroke="#F05"></rect><rect x="352" y="411" width="6" height="20" fill="none" stroke="#F05"></rect>
+    <rect x="362" y="321" width="6" height="20" fill="none" stroke="#F05"></rect><rect x="362" y="411" width="6" height="20" fill="none" stroke="#F05"></rect>
+    <rect x="372" y="321" width="6" height="20" fill="none" stroke="#F05"></rect><rect x="372" y="411" width="6" height="20" fill="none" stroke="#F05"></rect>
+    <rect x="382" y="321" width="6" height="20" fill="none" stroke="#F05"></rect><rect x="382" y="411" width="6" height="20" fill="none" stroke="#F05"></rect>
+    <rect x="392" y="321" width="6" height="20" fill="none" stroke="#F05"></rect><rect x="392" y="411" width="6" height="20" fill="none" stroke="#F05"></rect>
+    <rect x="402" y="321" width="6" height="20" fill="none" stroke="#F05"></rect><rect x="402" y="411" width="6" height="20" fill="none" stroke="#F05"></rect>
+
+    <rect x="432" y="321" width="6" height="20"></rect><rect x="432" y="411" width="6" height="20"></rect>
+    <rect x="442" y="321" width="6" height="20"></rect><rect x="442" y="411" width="6" height="20"></rect>
+    <rect x="452" y="321" width="6" height="20"></rect><rect x="452" y="411" width="6" height="20"></rect>
+    <rect x="462" y="321" width="6" height="20"></rect><rect x="462" y="411" width="6" height="20"></rect>
+    <rect x="472" y="321" width="6" height="20"></rect><rect x="472" y="411" width="6" height="20"></rect>
+    <rect x="482" y="321" width="6" height="20"></rect><rect x="482" y="411" width="6" height="20"></rect>
+    <rect x="492" y="321" width="6" height="20"></rect><rect x="492" y="411" width="6" height="20"></rect>
+    <rect x="502" y="321" width="6" height="20"></rect><rect x="502" y="411" width="6" height="20"></rect>
+
+    <rect x="532" y="321" width="6" height="20"></rect><rect x="532" y="411" width="6" height="20"></rect>
+    <rect x="542" y="321" width="6" height="20"></rect><rect x="542" y="411" width="6" height="20"></rect>
+    <rect x="552" y="321" width="6" height="20"></rect><rect x="552" y="411" width="6" height="20"></rect>
+    <rect x="562" y="321" width="6" height="20"></rect><rect x="562" y="411" width="6" height="20"></rect>
+    <rect x="572" y="321" width="6" height="20"></rect><rect x="572" y="411" width="6" height="20"></rect>
+    <rect x="582" y="321" width="6" height="20"></rect><rect x="582" y="411" width="6" height="20"></rect>
+    <rect x="592" y="321" width="6" height="20"></rect><rect x="592" y="411" width="6" height="20"></rect>
+    <rect x="602" y="321" width="6" height="20"></rect><rect x="602" y="411" width="6" height="20"></rect>
+  </g>
+  <g id="PORT" fill="#777" stroke="#FFF">
+    <rect x="92" y="350" width="70" height="50"></rect>
+  </g>
+</g>
+</svg>
