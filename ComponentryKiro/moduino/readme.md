@@ -3,3 +3,4 @@
 ![mikro](/ComponentryKiro/moduino/moduino_megamod_mikro.png)
 ![legion](/ComponentryKiro/moduino/moduino_legion_acee'd.png)
 ![science](/ComponentryKiro/moduino/moduino_mega_science_kit.png)
+![template](/ComponentryKiro/moduino/moduino_mega_pcb_punch_templating.png)
