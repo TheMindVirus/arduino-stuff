@@ -14,3 +14,4 @@
 ![region](/ComponentryKiro/moduino/moduino_fluid_fill_region.png)
 ![void](/ComponentryKiro/moduino/fluid_fill_region_void.png)
 ![abyss](/ComponentryKiro/moduino/moduino_fluid_fill_region_abyss.png)
+![sphere](/ComponentryKiro/moduino/void_sphere.png)
