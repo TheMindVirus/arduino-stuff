@@ -10,3 +10,4 @@
 ![glow](/ComponentryKiro/moduino/chips_glow.png)
 ![bump](/ComponentryKiro/moduino/moduino_displacement_map.png)
 ![displacement](/ComponentryKiro/moduino/displacement_map.png)
+![liquid](/ComponentryKiro/moduino/fluid_fill_region.png)
