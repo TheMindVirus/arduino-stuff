@@ -9,3 +9,4 @@
 ![trace](/ComponentryKiro/moduino/moduino_architectural_trace.png)
 ![glow](/ComponentryKiro/moduino/chips_glow.png)
 ![bump](/ComponentryKiro/moduino/moduino_displacement_map.png)
+![displacement](/ComponentryKiro/moduino/displacement_map.png)
