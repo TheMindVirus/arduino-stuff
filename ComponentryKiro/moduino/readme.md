@@ -15,4 +15,4 @@
 ![void](/ComponentryKiro/moduino/fluid_fill_region_void.png)
 ![abyss](/ComponentryKiro/moduino/moduino_fluid_fill_region_abyss.png)
 ![specular](/ComponentryKiro/moduino/moduino_architectural_trace_mod_void.png)
-![sphere](/ComponentryKiro/moduino/void_sphere.png)
+<img src="https://github.com/TheMindVirus/arduino-stuff/blob/main/ComponentryKiro/moduino/void_sphere.png" alt="" width="100%"></img>
