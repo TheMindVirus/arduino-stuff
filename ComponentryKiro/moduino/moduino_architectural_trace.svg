@@ -1,0 +1,63 @@
+<!-- moduino architectural trace -->
+<svg xmlns="http://www.w3.org/2000/svg" style="background: #111; width: 100%; height: 100%;">
+<defs>
+  <pattern id="grid" width="10" height="10" patternUnits="userSpaceOnUse">
+    <rect width="10" height="10" fill="#111"></rect>
+    <rect width="1" height="1" fill="#FFF"></rect>
+  </pattern>
+</defs>
+<rect width="100%" height="100%" fill="url(#grid)"></rect>
+<g id="moduino" fill="none" font-size="20pt" font-family="Consolas">
+  <g id="TRACE" fill="none" stroke="#0ff" stroke-linejoin="round">
+    <path d="m 300 500 l 0 -256 l -20 -20 l -30 0"></path>
+    <path d="m 303 500 l 0 -256 l -25 -25 l -30 0"></path>
+    <path d="m 306 500 l 0 -256 l -27 -27 l -30 0"></path>
+
+    <path d="m 309 500 l 0 -180 l 27 -27 l 15 0"></path>
+    <path d="m 312 500 l 0 -180 l 25 -25 l 15 0"></path>
+    <path d="m 315 500 l 0 -180 l 23 -23 l 15 0"></path>
+
+    <path d="m 297 500 l 0 -100 l -23 -23 l -50 0"></path>
+    <path d="m 294 500 l 0 -100 l -21 -21 l -50 0"></path>
+    <path d="m 291 500 l 0 -100 l -18 -18 l -50 0"></path>
+
+    <path d="m 318 500 l 0 -155 l 16 -16 l 64 0 l 10 -10 l 0 -90 l -20 -20 l 0 -10"></path>
+    <path d="m 321 500 l 0 -155 l 12 -12 l 71 0 l 10 -10 l 0 -95 l -10 -10 l 0 -20"></path>
+    <path d="m 324 500 l 0 -155 l 10 -10 l 74 0 l 10 -10 l 0 -99 l -10 -10 l 0 -25"></path>
+
+    <path d="m 288 500 l 0 -50 l -30 -30 l -83 0 l -10 -10 l 0 -240 l -10 -10 l -5 0"></path>
+    <path d="m 285 500 l 0 -50 l -25 -25 l -83 0 l -15 -15 l 0 -240 l -5 -5 l -8 0"></path>
+    <path d="m 282 500 l 0 -50 l -20 -20 l -83 0 l -20 -20 l 0 -240 l -2 -2 l -9 0"></path>
+
+    <path d="m 327 500 l 0 -120 l 20 -20 l 35 0"></path>
+    <path d="m 330 500 l 0 -110 l 20 -20 l 35 0"></path>
+    <path d="m 333 500 l 0 -100 l 20 -20 l 35 0"></path>
+
+    <path d="m 180 370 l 0 -123 l 12 -12 l 10 0"></path>
+    <path d="m 182 370 l 0 -122 l 11 -11 l 10 0"></path>
+    <path d="m 187 370 l 0 -121 l 10 -10 l 10 0"></path>
+
+    <path d="m 279 500 l 0 -50 l -9 -9 l -50 0"></path><path d="m 279 500 m 0 -50 m -9 -9 m -50 0 l -70 0 l -10 -10 l 0 -80"></path><path d="m 279 500 m 0 -50 m -9 -9 m -50 0 m -70 0 m -10 -10 m 0 -80 l 0 -200"></path>
+    <path d="m 276 500 l 0 -50 l -6 -6 l -50 0"></path><path d="m 276 500 m 0 -50 m -6 -6 m -50 0 l -70 0 l -15 -15 l 0 -70"></path><path d="m 276 500 m 0 -50 m -6 -6 m -50 0 m -70 0 m -15 -15 m 0 -70 l 0 -200"></path>
+    <path d="m 273 500 l 0 -50 l -3 -3 l -50 0"></path><path d="m 273 500 m 0 -50 m -3 -3 m -50 0 l -70 0 l -17 -17 l 0 -60"></path><path d="m 273 500 m 0 -50 m -3 -3 m -50 0 m -70 0 m -17 -17 m 0 -60 l 0 -200"></path>
+
+    <path d="m 336 500 l 0 -50 l 20 -20 l 70 0"></path><path d="m 336 500 m 0 -50 m 20 -20 m 70 0 m 10 0 l 0 -35 l -11 -11"></path><path d="m 336 500 m 0 -50 m 20 -20 m 70 0 l 40 0 l 10 -10 l 0 -222 l -20 -20 l -35 0"></path><path d="m 336 500 m 0 -50 m 20 -20 m 70 0 m 40 0 m 10 -10 m 0 -222 m -20 -20 m -35 0 l -200 0 l -20 20"></path>
+    <path d="m 339 500 l 0 -50 l 18 -18 l 70 0"></path><path d="m 336 500 m 0 -50 m 20 -20 m 70 0 m 12 0 l 0 -35 l -13 -13"></path><path d="m 339 500 m 0 -50 m 18 -18 m 70 0 l 40 0 l 12 -12 l 0 -222 l -22 -22 l -35 0"></path><path d="m 339 500 m 0 -50 m 18 -18 m 70 0 m 40 0 m 12 -12 m 0 -222 m -22 -22 m -35 0 l -190 0 l -20 20"></path>
+    <path d="m 342 500 l 0 -50 l 16 -16 l 70 0"></path><path d="m 336 500 m 0 -50 m 20 -20 m 70 0 m 14 0 l 0 -35 l -15 -15"></path><path d="m 342 500 m 0 -50 m 16 -16 m 70 0 l 40 0 l 15 -15 l 0 -222 l -24 -24 l -35 0"></path><path d="m 342 500 m 0 -50 m 16 -16 m 70 0 m 40 0 m 15 -15 m 0 -222 m -24 -24 m -35 0 l -180 0 l -20 20"></path>
+  </g>
+  <g id="EDGE" fill="url(#vent)" stroke="#F05" stroke-width="6">
+    <rect width="400" height="400" x="100" y="100"></rect>
+  </g>
+  <g id="CHIP" fill="#000" stroke="#333">
+    <rect width="50" height="50" x="200" y="200"></rect>
+    <rect width="50" height="50" x="350" y="270"></rect>
+    <rect width="50" height="50" x="175" y="360"></rect>
+    <rect width="50" height="50" x="375" y="150"></rect>
+    <rect width="25" height="25" x="125" y="150"></rect>
+    <rect width="50" height="50" x="375" y="350"></rect>
+    <rect width="25" height="25" x="125" y="350"></rect>
+    <rect width="25" height="25" x="425" y="425"></rect>
+    <rect width="25" height="25" x="195" y="435"></rect>
+  </g>
+</g>
+</svg>
