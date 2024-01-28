@@ -7,3 +7,5 @@
 ![stencil](/ComponentryKiro/moduino/moduino_megamod_pcb_punch_templating_mod_stencil_mod_.png)
 ![blend](/ComponentryKiro/moduino/moduino_blackboard_mod_blend.png)
 ![trace](/ComponentryKiro/moduino/moduino_architectural_trace.png)
+![glow](/ComponentryKiro/moduino/chips_glow.png)
+![bump](/ComponentryKiro/moduino/moduino_displacement_map.png)
