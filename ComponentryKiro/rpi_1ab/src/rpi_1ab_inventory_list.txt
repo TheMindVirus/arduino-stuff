@@ -1,0 +1,42 @@
+[front]
+1x micro usb port
+1x power electrolytic
+1x power regulator
+1x power ceramic
+1x power transistor
+
+3x ceramic inlet
+5x power led
+3x electrolytic
+2x resistor
+1x transistor
+2x jtag header
+
+1x gpio header
+1x ethernet port
+1x usb port
+1x composite port
+1x audio jack
+1x hdmi port
+2x ribbon connector
+
+1x bcm2835 chip
+1x lan9512 chip
+6x hdmi passives
+5x lan passives
+6x ethernet passives
+6x audio passives
+6x cpu passives
+8x power passives
+12x header passives (???)
+
+[back]
+1x sdcard slot
+3x power passives
+2x crystal oscillators
+4x audio passives
+8x hdmi passives
+8x sdcard passives
+23x lan passives
+5x corner passives
+45x cpu passives
