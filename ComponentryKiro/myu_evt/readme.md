@@ -1,0 +1,3 @@
+<img src="https://github.com/TheMindVirus/arduino-stuff/blob/main/ComponentryKiro/myu_evt/frame1.png" alt="frame1" width="100%"></img>
+<img src="https://github.com/TheMindVirus/arduino-stuff/blob/main/ComponentryKiro/myu_evt/frame2.png" alt="frame2" width="100%"></img>
+<img src="https://github.com/TheMindVirus/arduino-stuff/blob/main/ComponentryKiro/myu_evt/frame3.png" alt="frame3" width="100%"></img>
