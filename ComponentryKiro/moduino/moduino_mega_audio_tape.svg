@@ -9,9 +9,21 @@
     <rect width="50" height="50" fill="#0F1F2F"></rect>
     <path d="m 0 0 l 0 25 l 25 -25 z m 50 0 l 0 25 l -25 25 l -25 0 z" fill="#1F2F3F"></path>
   </pattern>
-  <pattern id="pins" width="8" height="6" patternUnits="userSpaceOnUse">
+  <pattern id="hdr1" width="8" height="6" patternUnits="userSpaceOnUse">
+    <rect width="8" height="6" fill="#000"></rect>
+    <rect width="3" height="3" fill="#333" x="2.5" y="2.5"></rect>
+  </pattern>
+  <pattern id="hdr2" width="8" height="6" patternUnits="userSpaceOnUse">
     <rect width="8" height="6" fill="#000"></rect>
     <rect width="3" height="3" fill="#333" x="2.5" y="1.5"></rect>
+  </pattern>
+  <pattern id="hdr3" width="8" height="6" patternUnits="userSpaceOnUse">
+    <rect width="8" height="6" fill="#000"></rect>
+    <rect width="3" height="3" fill="#333" x="5.5" y="2.5"></rect>
+  </pattern>
+  <pattern id="hdr4" width="8" height="6" patternUnits="userSpaceOnUse">
+    <rect width="8" height="6" fill="#000"></rect>
+    <rect width="3" height="3" fill="#333" x="5.5" y="1.5"></rect>
   </pattern>
   <clipPath id="hole">
     <path d="m 189 97 l 336 0 l 0 196 l -336 0 z m 20 20 l 100 0 z
@@ -149,11 +161,11 @@
     <rect x="143" y="219" width="7" height="4"></rect>
     <rect x="154" y="219" width="7" height="4"></rect>
   </g>
-  <g id="HEADER" fill="url(#hole)" stroke="#FFF">
-    <rect x="110" y="115" width="50" height="6"></rect>
-    <rect x="110" y="270" width="50" height="6"></rect>
-    <rect x="570" y="270" width="50" height="6"></rect>
-    <rect x="570" y="115" width="50" height="6"></rect>
+  <g id="HEADER" stroke="#FFF">
+    <rect x="110" y="115" width="50" height="6" fill="url(#hdr1)"></rect>
+    <rect x="110" y="270" width="50" height="6" fill="url(#hdr2)"></rect>
+    <rect x="570" y="115" width="50" height="6" fill="url(#hdr3)"></rect>
+    <rect x="570" y="270" width="50" height="6" fill="url(#hdr4)"></rect>
     <path d="m 257 260 l 200 0 l 0 30 l -200 0 z" fill="#000"></path>
   </g>
   <g id="PAD" fill="#FED" stroke="#FFF">
