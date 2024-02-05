@@ -18,7 +18,7 @@ Save the screenshot and compare the data for different experiments.
 ### Benzene Second Boot
 ![EBoot2N](/BenzeneRectifier/BenzeneRectifierSecondBoot.png)
 
-### Benzene Third Boot
+### Benzene Third Boot Annotations
 ![EBoot3N](/BenzeneRectifier/BenzeneRectifierThirdBoot.png)
 
 ### Benzene Fourth Boot
