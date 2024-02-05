@@ -1,7 +1,12 @@
 # Reed Relay
 
+### Internals
 ![ReedRelay](/ReedRelay/ReedRelay.png)
+
+### Pulse Diagram
 ![ReedPulse](/ReedRelay/ReedPulse.gif)
+
+### COTO 9007-05-00
 ![COTO_9007](/ReedRelay/COTO_9007.png)
 
 ### Ceramic Inductive Resistor
@@ -18,6 +23,9 @@
 
 ### Network Bridge Isolation Orientation
 ![Isolation](/ReedRelay/Isolation.png)
+
+### Biological Floating Gate Memristor
+![Bioristor](/ReedRelay/Bioristor.png)
 
 ### Neurone Axon Myelin Sheath
 ![Myelinate](/ReedRelay/Myelinate.png)
