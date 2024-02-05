@@ -33,6 +33,6 @@ Save the screenshot and compare the data for different experiments.
 ### Benzener First Boot Annotations
 ![RBoot1D](/BenzeneRectifier/BenzenerRectifierFirstBoot_Labelled.png)
 
-***+15x Bistable Non-Volatile Magnetic Plate Through-Hole Reed Relay***
-***+30x Directional Diode Charge Swing Sign Detector Gate***
+***+15x Bistable Non-Volatile Magnetic Plate Through-Hole Reed Relay*** \
+***+30x Directional Diode Charge Swing Sign Detector Gate*** \
 ***=15x Memristor Mod Matrix for Benzene Hexagon***
