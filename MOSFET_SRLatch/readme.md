@@ -1,6 +1,6 @@
 # MOSFET SR-Latch (using 2x IRF-123-4G)
 
-![MOSFET_SR-Latch](/MOSFET_SRLatch/screenshot.png)
+![MOSFET_SR-Latch](/MOSFET_SRLatch/MOSFET_SRLatch.png)
 
 ```c++
 //IRF-123 MOSFET x2 in back-to-back configuration (not push-pull)
