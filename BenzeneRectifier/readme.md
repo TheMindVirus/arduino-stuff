@@ -5,7 +5,7 @@ on a piece of breadboard, protoboard or circuit board. \
 Connect the 6 sets of legs each to Analog Pins A0-A5.
 
 Connect the Arduino to the PC and open/install Arduino IDE. \
-Open the BenzeneRectifier.ino sketch and select board/port. \ 
+Open the BenzeneRectifier.ino sketch and select board/port. \
 Upload the sketch, then open and screenshot the Serial Plotter.
 
 Annotate the screenshot with continuity lines and arrows \
