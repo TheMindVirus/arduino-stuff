@@ -103,6 +103,9 @@ Joseph Fourier (Fourier-Factor) Thermal Frequency Precognition Distribution
 Pierre De Fermat (Fermat-Factor) Propagation of Photons
 Adolf Fick (Ficks) Particle Diffusion
 Rolf Maximillian Sievert (Sieverts) Transfer Energy
+Otto Renner (Renner-Factor) Cohesion Surfactant Tension
+Jean-Antoine Nollet (Nollet-Factor) Osmotic Turgor Water Potential Gypsum Tensiometer Moisture
+John Philip (Philip-Factor) Sorbtivity Capillary Action
 Carl Gustav Jacob Jacobi (Jacobian-Factor) Scalar/Vector/Matrix/Tensor Calculus
 Ludwig Otto Hesse (Hessian-Factor) Second/Third/etc... Order Difference / Inverse Kinematics
 Dennis Gabor (Morlet-Factor) Wavelets
