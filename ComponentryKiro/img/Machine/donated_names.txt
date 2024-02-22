@@ -79,7 +79,7 @@ Albert Einstein (Einstein-Factor) Vacuum Relativity
 Edward Wight Washburn (Washburn-Factor) Void Porosity "Porous" Density Volumetrics
 Thomas Bayes (Bayes-Factor) Probability
 Nicholas Steno (Steno-Factor) Geological Stratigraphy "Strata" Layers
-Erwin Schrodinger (Schrotinger-Factor) Metastability
+Erwin Schrodinger (Schrodinger-Factor) Metastability
 Philip Hartman (Hartman-Factor) Hyperbolic Equilibrium
 Josiah Willard Gibbs (Gibbs) Thermodynamic Free Energy Equilibrium
 Amadeo Avogadro (Moles) Fluid Concentration / Atomic Mass / Radio-Isotopes
