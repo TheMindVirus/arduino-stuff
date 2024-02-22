@@ -14,6 +14,14 @@ Jules Violle (Candelas) Light Intensity
 Charlton Lewis (Lux) Light Intensity
 Charles Short (Lumens) Luminous Flux
 Arnaldus De Villa Nova (Litmus-Factor) Acidity "pH"
+Stephen Hales (Hales-Factor) Systolic/Diastolic Blood Pressure "mmHg"
+Vilhelm Bjerknes (Bjerknes-Factor) Barometric Pressure "bar"
+Dino Di Garbo (Garbo-Factor) Pounds Per Square Inch "PSI"/"lb"
+Thomas Young (Young-Factor) Elasticity / Flexibility / Tension / Stiffness / Stress / Strain / Shear / Young's Modulus / Axial Compression
+Evangelista Torricelli (Torricelli-Factor) Mercurial Pressure "Torr"
+Pierre Varignon (Varignon-Factor) Pounds-Foot of Torque "Moment" / Lever / Fulcrum
+Leonardo Of Pisa Fibonacci (Pisa-Factor) Emissive Plasma Spectra / Flame Tests / Golden Ratio
+Johann Nepomuk Maelzel (Maelzel-Factor) Tempo Tap Metronome / Time Signature / Pulse Articulation / Beats Per Minute
 Robert Mulliken (Orbitals) Atomic Orbital Structure / Pi Cloud Bonding
 Richard Buckminster Fuller (Fuller-Factor) Buckminster Fullerene / Graphene Tube Structure
 Claude Shannon (Shannon-Factor) Signal to Noise Ratio
@@ -118,7 +126,7 @@ Hypocrates of Chios (Chios-Factor) Circle Theorems
 Archimedes Von Sicily (Screw-Factor) Screws / Nuts / Bolts / Washers / Hooks / Catapults / Buoyancy
 Pythagoras Von Samos (Sinew-Factor) Cosine Trigonometry
 Euclid Von Alexandria (Euclidian-Factor) Spatial Axioms / Right-Angle Parallels / Perpendicular Incidence
-Thomas Young (Moire-Factor) Geometric Interference
+Giordano Ricatti (Moire-Factor) Geometric Interference
 Pierre Vernier (Vernier-Factor) Positional Precision
 Georgy Voronoi (Voronoi-Factor) Cellular Topology
 John Horton Conway (Conway-Factor) Cellular Automata
