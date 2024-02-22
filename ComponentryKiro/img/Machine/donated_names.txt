@@ -1,0 +1,136 @@
+Alessandro Volta (Volts) Voltage
+Andre-Marie Ampere (Amps) Current
+Georg Ohm (Ohms) Resistance / Continuity
+Georg Ohm (Ohm-Meters) Resistivity
+Ernst Werner Von Siemens (Siemens) Conductance / Impedance
+Charles-Augustin De Coulomb (Coulombs) Electric Charge
+Joseph Henry (Henries) Electromagnetic Inductance
+Michael Faraday (Farads) Capacitance / Ionic Charge
+James Watt (Watts) Mechanical Power
+James Prescott Joule (Joules) Potential Kinetic Energy
+Heinrich Rudolf Hertz (Hertz) Frequency
+Hermann Von Helmholtz (Helmholtz-Factor) Environmental Sonic Vibration
+Jules Violle (Candelas) Light Intensity
+Charlton Lewis (Lux) Light Intensity
+Charles Short (Lumens) Luminous Flux
+Arnaldus De Villa Nova (Litmus-Factor) Acidity "pH"
+Robert Mulliken (Orbitals) Atomic Orbital Structure / Pi Cloud Bonding
+Richard Buckminster Fuller (Fuller-Factor) Buckminster Fullerene / Graphene Tube Structure
+Claude Shannon (Shannon-Factor) Signal to Noise Ratio
+Ralph Hartley (Hartley-Factor) Data Signalling Rate
+Harry Nyquist (Nyquist-Factor) Sample Rate Requirement for Harmonics
+Robert Moog (Moog-Factor) Equalisation / Formant Filtering
+Henrik Wade Bode (Bode-Factor) Resonance / Feedback Filtering
+Emile Baudot (Baud) Serial Communication Character Symbol Signalling Baud Rate
+Julius Von Hann (Hanns) Hanning Window / Pulse Length Modulation
+Edward Kellogg (Kelloggs) Piezoelectric Volume
+Alexander Graham Bell (Decibels) Sonic Power Attenuation
+Anders Celsius (Degrees-Celcius) Temperature / Average Heat Energy
+Daniel Gabriel Fahrenheit (Degrees-Fahrenheit) Temperature / Average Heat Energy
+William Thomson (Degrees-Kelvin) Temperature / Average Heat Energy
+Leonard Euler (Degrees) Euler Rotation / Affine Shear / Coefficients / Eigenvectors / Tensors
+Friedrich Schur (Versors) Quaternion Rotation
+Blaise Pascal (Pascals) Atmospheric Pressure
+John Dalton (Daltons) Molecular Mass
+Wilhem Eduard Weber (Webers) Magnetic Flux
+James Clerk Maxwell (Maxwells) Magnetic Flux
+Nikola Tesla (Teslas) Magnetic Flux Density
+Isaac Newton (Newtons) Force and Gravitational Field Strength / Acceleration
+Carl Friedrich Gauss (Centimeter-Gram-Seconds) Electrostatic Charge Mass
+George Johnstone Stoney (Stoneys) Electron Charge
+Max Planck (Plancks) Astronomical Velocity
+Herbert Hall Turner (Parsecs) Astronomical Distance
+Hendrik Lorentz (Lorentz-Factor) Time Dilation
+Johannes Janne Robert Rydberg (Rydberg-Factor) Wavelength
+Joseph John Thomson (Thomson-Factor) Electrons
+Hugo Martin Tetrode (Tetrode-Factor) Ideal Gas Tube Entropy
+Brian David Josephson (Josephson-Factor) Quantum Tunnelling
+Klaus Von Klitzing (Klitzing-Factor) Quantised version of Hall Effect
+Marcel Emile Verdet (Verdet-Factor) Conservation of Energy
+Augustin-Jean Fresnel (Fresnel-Factor) Lighthouse Lenses and Theatre Optics
+Josef Stefan (Stefan-Factor) Temperature of the Surface Layers of the Sun
+Roger Apery (RiemannZeta-Factor) Irrational / Imaginary / Complex Numbers "Domain Dimensions"
+Arnold Johannes Wilhelm Sommerfield (Sommerfield-Factor) Quantum Azimuth
+Wilhelm Carl Werner Otto Fritz Franz Wien (Wien-Factor) Blackbody Emission / Absorption
+William Henry Bragg (Braggite-Factor) Crystalline Structure
+Owen Willans Richardson (Richardson-Factor) Thermionic Emission
+Edward Victor Appleton (Appleton-Factor) Layers of Earth Atmosphere "Ionosphere"
+Christian Doppler (Dopper-Factor) Echo Acupressure / Compression-Rarefaction / Concertina
+William Rowan Hamilton (Hamilton-Factor) Optical Phase
+Oswald Veblens (Veblens-Factor) Finite Response Filtering
+Ludwig Boltzmann (Boltzmann-Factor) Particle Thermodynamics
+Louis Charles Antoine (Antoine-Factor) Water Vapour Humidity / Melting/Boiling/Triple Point
+Henry Darcy (Darcy-Factor) Hydraulic Conductivity
+Daniel Bernoulli (Gamma-Factor) Theoretical Imbalance
+Pierre Simon de Laplace (Laplacian-Factor) Smoothing
+Emil Lenz (Eddy-Factor) Repulsive Parasitic Eddy Currents
+Niels Bohr (Bohr-Factor) Ideal Gas Volume Equivalence
+Robert Boyle (Mariotte-Factor) Empirical Gas Pressure Units
+Johann Josef Loschmidt (Loschmidt-Factor) Ideal Gas Density
+Albert Einstein (Einstein-Factor) Vacuum Relativity
+Edward Wight Washburn (Washburn-Factor) Void Porosity "Porous" Density Volumetrics
+Thomas Bayes (Bayes-Factor) Probability
+Nicholas Steno (Steno-Factor) Geological Stratigraphy "Strata" Layers
+Erwin Schrodinger (Schrotinger-Factor) Metastability
+Philip Hartman (Hartman-Factor) Hyperbolic Equilibrium
+Josiah Willard Gibbs (Gibbs) Thermodynamic Free Energy Equilibrium
+Amadeo Avogadro (Moles) Fluid Concentration / Atomic Mass / Radio-Isotopes
+Walter Schottky (Barrier-Effect) Threshold-based Triggering
+Louis Harold Gray (Grays) Ionising Radiation
+Wilhelm Roentgen (Roentgens) X-Ray Exposure
+Rudolf Mossbauer (Mossbauer-Factor) Gamma Absorption
+Marie Curie (Curies) Airborne Radiation
+Antoine Henri Becquerel (Becquerels) Fluid Radiation
+Ernest Rutherford (Rutherfords) Radioactive Decay / Valency
+Ernst Abbe (Abbe-Factor) Chromatic Dispersion
+Edwin Hall (Hall-Factor) Electromagnetic Effect
+Edwin Hubble (Hubble-Factor) Cosmological Redshift
+Svante Arrhenius (Hoff-Factor) Activation Energy
+William Rankine (Rankine-Factor) Entropy
+Jacques Charles (Charles-Factor) Pressure-Temperature Proportion
+Enrico Fermi (Fermi-Factor) Subatomic Particle Chain Reactions
+George Stokes (Reynolds-Factor) Friction / Viscosity / Flow
+Jacopo Ricatti (Ricatti-Factor) Terminal Velocity / Max-Q
+Mikhail Dolivo-Dobrovolsky (N-Phase-Factor) Three Phase Power / Polyphase
+Edwin Catmull (Catmull-Clark-Factor) Geometric Smoothing
+Bernhard Riemann (Riemann-Factor) Geometric Surfaces
+Oliver Heaviside (Heaviside-Factor) Geometric Displacement
+Friedrich Bessel (Bessel-Factor) Bessel Space Heliometer
+Johannes Kepler (Kepler-Factor) Kepler Space Heliometer
+James Kaiser (Q-Factor) Band Pass Comb Filtering
+Joseph Ritter Von Fraunhoffer (Fraunhoffer-Factor) Dark Absorption
+Joseph Fourier (Fourier-Factor) Thermal Frequency Precognition Distribution
+Pierre De Fermat (Fermat-Factor) Propagation of Photons
+Adolf Fick (Ficks) Particle Diffusion
+Rolf Maximillian Sievert (Sieverts) Transfer Energy
+Carl Gustav Jacob Jacobi (Jacobian-Factor) Scalar/Vector/Matrix/Tensor Calculus
+Ludwig Otto Hesse (Hessian-Factor) Second/Third/etc... Order Difference / Inverse Kinematics
+Dennis Gabor (Morlet-Factor) Wavelets
+Francis Crick (Watson-Factor) Biological Storage
+Fritz Haber (Haber-Factor) Enthalpy Change
+Alexander Friedmann (Friedmann-Factor) Universal Expansion Isotropy
+Robert Brown (Brownian-Factor) Brownian Random Motion
+Benoit Mandelbrot (Mandelbrot-Factor) Fractals
+Hypocrates of Chios (Chios-Factor) Circle Theorems
+Archimedes Von Sicily (Screw-Factor) Screws / Nuts / Bolts / Washers / Hooks / Catapults / Buoyancy
+Pythagoras Von Samos (Sinew-Factor) Cosine Trigonometry
+Euclid Von Alexandria (Euclidian-Factor) Spatial Axioms / Right-Angle Parallels / Perpendicular Incidence
+Thomas Young (Moire-Factor) Geometric Interference
+Pierre Vernier (Vernier-Factor) Positional Precision
+Georgy Voronoi (Voronoi-Factor) Cellular Topology
+John Horton Conway (Conway-Factor) Cellular Automata
+Joseph-Louis Lagrange (Lagrange-Factor) Maxima and Minima
+Brook Taylor (Taylor-Factor) Cosine Modularity
+Michael Rolle (Rolle-Factor) Intermediate Points
+Ronald Rosensweig (Rosensweig-Factor) Ferrofluid Dynamics
+Ingrid Daubechies (Daubechies) Wavelets
+Walther Nernst (Nernst-Factor) Electrochemical Reduction "Redox"
+Simeon Denis Poisson (Poisson-Factor) Gravitational Electrostatic Distribution
+James Joseph Sylvester (Momentum-Factor) Inertia
+Charles Darwin (Darwin-Factor) Natural Selection
+Jean-Baptiste Lamarck (Lamarck-Factor) Environmental Selection
+Leonardo Da Vinci (Vitruvian-Factor) Humanity
+Galileo Galilei (Galileo-Factor) Pendulum Periodicity
+Rene Descartes (Cartesian-Factor) Dimensional Co-ordinates
+
+(There is definitely something missing...these ones are just commonly used)
