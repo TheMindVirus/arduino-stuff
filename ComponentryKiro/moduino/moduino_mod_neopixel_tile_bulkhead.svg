@@ -1,0 +1,154 @@
+<!-- moduino mod neopixel tile bulkhead -->
+<svg xmlns="http://www.w3.org/2000/svg" style="background: #111; width: 100%; height: 100%;">
+<defs>
+  <filter id="blur">
+    <feGaussianBlur stdDeviation="0.5"></feGaussianBlur>
+  </filter>
+  <pattern id="grid" x="0.0" y="0.0" width="10" height="10" patternUnits="userSpaceOnUse">
+    <rect width="10" height="10" fill="#111"></rect>
+    <rect width="1" height="1" fill="#FFF"></rect>
+  </pattern>
+  <pattern id="vent" width="50" height="50" patternUnits="userSpaceOnUse">
+    <rect width="50" height="50" fill="#000"></rect>
+    <path d="m 0 0 l 0 25 l 25 -25 z m 50 0 l 0 25 l -25 25 l -25 0 z" fill="#111"></path>
+  </pattern>
+  <pattern id="hdr1" x="0.0" y="2.5" width="3.0" height="3.0" patternUnits="userSpaceOnUse">
+    <rect width="3.0" height="3.0" fill="#000"></rect>
+    <rect width="1.5" height="1.5" fill="#333"></rect>
+  </pattern>
+  <pattern id="hdr2" x="2.0" y="-0.5" width="3.0" height="3.0" patternUnits="userSpaceOnUse">
+    <rect width="3.0" height="3.0" fill="#000"></rect>
+    <rect width="1.5" height="1.5" fill="#333"></rect>
+  </pattern>
+</defs>
+<rect width="100%" height="100%" fill="url(#grid)"></rect>
+<g id="moduino" fill="none" font-size="20pt" font-family="Consolas" transform="scale(2.5)">
+  <g id="EDGE" fill="url(#vent)" stroke="#333" stroke-width="6">
+    <path d="m 100 100 l 0 200 l 200 0 l 0 -200 z"></path>
+    <path d="m 80 80 l 0 240 l 240 0 l 0 -240 z" fill="none" stroke="#056" stroke-width="20" stroke-linejoin="round"></path>
+  </g>
+  <g id="TABS" fill="#FFF">
+    <path d="m 190  90 l 20 0 l 0 2 l -7 0 s -1.5 0 -1.5 1.5 l 0 0 s 0 1.5 1.5 1.5 l 0 0 l 7 0 l 0 2 l -20 0 l 0 -2 l 7 0 s 1.5 0 1.5 -1.5 l 0 0 s 0 -1.5 -1.5 -1.5 l 0 0 l -7 0 l 0 -2 z"></path>
+    <path d="m 190 303 l 20 0 l 0 2 l -7 0 s -1.5 0 -1.5 1.5 l 0 0 s 0 1.5 1.5 1.5 l 0 0 l 7 0 l 0 2 l -20 0 l 0 -2 l 7 0 s 1.5 0 1.5 -1.5 l 0 0 s 0 -1.5 -1.5 -1.5 l 0 0 l -7 0 l 0 -2 z"></path>
+    <path d="m  90 190 l 0 20 l 2 0 l 0 -7 s 0 -1.5 1.5 -1.5 l 0 0 s 1.5 0 1.5 1.5 l 0 0 l 0 7 l 2 0 l 0 -20 l -2 0 l 0 7 s 0 1.5 -1.5 1.5 l 0 0 s -1.5 0 -1.5 -1.5 l 0 0 l 0 -7 l -2 0 z"></path>
+    <path d="m 303 190 l 0 20 l 2 0 l 0 -7 s 0 -1.5 1.5 -1.5 l 0 0 s 1.5 0 1.5 1.5 l 0 0 l 0 7 l 2 0 l 0 -20 l -2 0 l 0 7 s 0 1.5 -1.5 1.5 l 0 0 s -1.5 0 -1.5 -1.5 l 0 0 l 0 -7 l -2 0 z"></path>
+  </g>
+  <g id="FRAME" fill="none" stroke="#477" stroke-width="1" stroke-linejoin="round" stroke-linecap="round">
+    <path d="m  50  50 l  15 0 m -15 0 l 0  15"></path>
+    <path d="m 350  50 l -15 0 m  15 0 l 0  15"></path>
+    <path d="m  50 350 l  15 0 m -15 0 l 0 -15"></path>
+    <path d="m 350 350 l -15 0 m  15 0 l 0 -15"></path>
+  </g>
+  <g id="FEINT" fill="none" stroke="#4777" stroke-width="1" stroke-linejoin="round" stroke-linecap="round">
+    
+    <path d="m 137.5 297 l -22.5 -194"></path><path d="m 141.5 297 l -22.5 -194"></path><path d="m 145.5 297 l -22.5 -194"></path><path d="m 149.5 297 l -22.5 -194"></path>
+    <path d="m 160.0 297 l -22.5 -194"></path><path d="m 164.0 297 l -22.5 -194"></path><path d="m 168.0 297 l -22.5 -194"></path><path d="m 172.0 297 l -22.5 -194"></path>
+    <path d="m 182.5 297 l -22.5 -194"></path><path d="m 186.5 297 l -22.5 -194"></path><path d="m 190.5 297 l -22.5 -194"></path><path d="m 194.5 297 l -22.5 -194"></path>
+    <path d="m 205.0 297 l -22.5 -194"></path><path d="m 209.0 297 l -22.5 -194"></path><path d="m 213.0 297 l -22.5 -194"></path><path d="m 217.0 297 l -22.5 -194"></path>
+    <path d="m 227.5 297 l -22.5 -194"></path><path d="m 231.5 297 l -22.5 -194"></path><path d="m 235.5 297 l -22.5 -194"></path><path d="m 239.5 297 l -22.5 -194"></path>
+    <path d="m 250.0 297 l -22.5 -194"></path><path d="m 254.0 297 l -22.5 -194"></path><path d="m 258.0 297 l -22.5 -194"></path><path d="m 262.0 297 l -22.5 -194"></path>
+    <path d="m 272.5 297 l -22.5 -194"></path><path d="m 276.5 297 l -22.5 -194"></path><path d="m 280.5 297 l -22.5 -194"></path><path d="m 284.5 297 l -22.5 -194"></path>
+  </g>
+  <g id="WIRE" fill="none" stroke="#477" stroke-width="1" stroke-linejoin="round" stroke-linecap="round">
+    <path d="m 115.0 297 l 0 -194"></path><path d="m 119.0 297 l 0 -194"></path><path d="m 123.0 297 l 0 -194"></path><path d="m 127.0 297 l 0 -194"></path>
+    <path d="m 137.5 297 l 0 -194"></path><path d="m 141.5 297 l 0 -194"></path><path d="m 145.5 297 l 0 -194"></path><path d="m 149.5 297 l 0 -194"></path>
+    <path d="m 160.0 297 l 0 -194"></path><path d="m 164.0 297 l 0 -194"></path><path d="m 168.0 297 l 0 -194"></path><path d="m 172.0 297 l 0 -194"></path>
+    <path d="m 182.5 297 l 0 -194"></path><path d="m 186.5 297 l 0 -194"></path><path d="m 190.5 297 l 0 -194"></path><path d="m 194.5 297 l 0 -194"></path>
+    <path d="m 205.0 297 l 0 -194"></path><path d="m 209.0 297 l 0 -194"></path><path d="m 213.0 297 l 0 -194"></path><path d="m 217.0 297 l 0 -194"></path>
+    <path d="m 227.5 297 l 0 -194"></path><path d="m 231.5 297 l 0 -194"></path><path d="m 235.5 297 l 0 -194"></path><path d="m 239.5 297 l 0 -194"></path>
+    <path d="m 250.0 297 l 0 -194"></path><path d="m 254.0 297 l 0 -194"></path><path d="m 258.0 297 l 0 -194"></path><path d="m 262.0 297 l 0 -194"></path>
+    <path d="m 272.5 297 l 0 -194"></path><path d="m 276.5 297 l 0 -194"></path><path d="m 280.5 297 l 0 -194"></path><path d="m 284.5 297 l 0 -194"></path>
+  </g>
+  <g id="LED_PATH" transform="translate(10, 0)">
+    <circle r="9" cx="0" cy="10"></circle>
+    <circle r="1" cx="-6" cy="10"></circle>
+    <circle r="1" cx="-2" cy="10"></circle>
+    <circle r="1" cx="2" cy="10"></circle>
+    <circle r="1" cx="6" cy="10"></circle>
+    <line x1="7" y1="5" x2="7" y2="15"></line>
+  </g>
+  <g id="LED"><!--5mm with 1.5mm spacing and 8mm stride-->
+    <use href="#LED_PATH" transform="translate(111.0, 111.0)"></use>
+    <use href="#LED_PATH" transform="translate(133.5, 111.0)"></use>
+    <use href="#LED_PATH" transform="translate(156.0, 111.0)"></use>
+    <use href="#LED_PATH" transform="translate(178.5, 111.0)"></use>
+    <use href="#LED_PATH" transform="translate(201.0, 111.0)"></use>
+    <use href="#LED_PATH" transform="translate(223.5, 111.0)"></use>
+    <use href="#LED_PATH" transform="translate(246.0, 111.0)"></use>
+    <use href="#LED_PATH" transform="translate(268.5, 111.0)"></use>
+
+    <use href="#LED_PATH" transform="translate(111.0, 133.5)"></use>
+    <use href="#LED_PATH" transform="translate(133.5, 133.5)"></use>
+    <use href="#LED_PATH" transform="translate(156.0, 133.5)"></use>
+    <use href="#LED_PATH" transform="translate(178.5, 133.5)"></use>
+    <use href="#LED_PATH" transform="translate(201.0, 133.5)"></use>
+    <use href="#LED_PATH" transform="translate(223.5, 133.5)"></use>
+    <use href="#LED_PATH" transform="translate(246.0, 133.5)"></use>
+    <use href="#LED_PATH" transform="translate(268.5, 133.5)"></use>
+
+    <use href="#LED_PATH" transform="translate(111.0, 156.0)"></use>
+    <use href="#LED_PATH" transform="translate(133.5, 156.0)"></use>
+    <use href="#LED_PATH" transform="translate(156.0, 156.0)"></use>
+    <use href="#LED_PATH" transform="translate(178.5, 156.0)"></use>
+    <use href="#LED_PATH" transform="translate(201.0, 156.0)"></use>
+    <use href="#LED_PATH" transform="translate(223.5, 156.0)"></use>
+    <use href="#LED_PATH" transform="translate(246.0, 156.0)"></use>
+    <use href="#LED_PATH" transform="translate(268.5, 156.0)"></use>
+
+    <use href="#LED_PATH" transform="translate(111.0, 178.5)"></use>
+    <use href="#LED_PATH" transform="translate(133.5, 178.5)"></use>
+    <use href="#LED_PATH" transform="translate(156.0, 178.5)"></use>
+    <use href="#LED_PATH" transform="translate(178.5, 178.5)"></use>
+    <use href="#LED_PATH" transform="translate(201.0, 178.5)"></use>
+    <use href="#LED_PATH" transform="translate(223.5, 178.5)"></use>
+    <use href="#LED_PATH" transform="translate(246.0, 178.5)"></use>
+    <use href="#LED_PATH" transform="translate(268.5, 178.5)"></use>
+
+    <use href="#LED_PATH" transform="translate(111.0, 201.0)"></use>
+    <use href="#LED_PATH" transform="translate(133.5, 201.0)"></use>
+    <use href="#LED_PATH" transform="translate(156.0, 201.0)"></use>
+    <use href="#LED_PATH" transform="translate(178.5, 201.0)"></use>
+    <use href="#LED_PATH" transform="translate(201.0, 201.0)"></use>
+    <use href="#LED_PATH" transform="translate(223.5, 201.0)"></use>
+    <use href="#LED_PATH" transform="translate(246.0, 201.0)"></use>
+    <use href="#LED_PATH" transform="translate(268.5, 201.0)"></use>
+
+    <use href="#LED_PATH" transform="translate(111.0, 223.5)"></use>
+    <use href="#LED_PATH" transform="translate(133.5, 223.5)"></use>
+    <use href="#LED_PATH" transform="translate(156.0, 223.5)"></use>
+    <use href="#LED_PATH" transform="translate(178.5, 223.5)"></use>
+    <use href="#LED_PATH" transform="translate(201.0, 223.5)"></use>
+    <use href="#LED_PATH" transform="translate(223.5, 223.5)"></use>
+    <use href="#LED_PATH" transform="translate(246.0, 223.5)"></use>
+    <use href="#LED_PATH" transform="translate(268.5, 223.5)"></use>
+
+    <use href="#LED_PATH" transform="translate(111.0, 246.0)"></use>
+    <use href="#LED_PATH" transform="translate(133.5, 246.0)"></use>
+    <use href="#LED_PATH" transform="translate(156.0, 246.0)"></use>
+    <use href="#LED_PATH" transform="translate(178.5, 246.0)"></use>
+    <use href="#LED_PATH" transform="translate(201.0, 246.0)"></use>
+    <use href="#LED_PATH" transform="translate(223.5, 246.0)"></use>
+    <use href="#LED_PATH" transform="translate(246.0, 246.0)"></use>
+    <use href="#LED_PATH" transform="translate(268.5, 246.0)"></use>
+
+    <use href="#LED_PATH" transform="translate(111.0, 268.5)"></use>
+    <use href="#LED_PATH" transform="translate(133.5, 268.5)"></use>
+    <use href="#LED_PATH" transform="translate(156.0, 268.5)"></use>
+    <use href="#LED_PATH" transform="translate(178.5, 268.5)"></use>
+    <use href="#LED_PATH" transform="translate(201.0, 268.5)"></use>
+    <use href="#LED_PATH" transform="translate(223.5, 268.5)"></use>
+    <use href="#LED_PATH" transform="translate(246.0, 268.5)"></use>
+    <use href="#LED_PATH" transform="translate(268.5, 268.5)"></use>
+  </g>
+  <use href="#LED" filter="url(#blur)" stroke="#FFF"></use>
+  <use href="#LED" fill="#F055" stroke="#FFF" stroke-width="0.1"></use>
+  <g id="HEADER">
+    <rect x="271.5" y="100" width="14" height="4" fill="url(#hdr1)" stroke="#FFF"></rect>
+    <rect x="114.0" y="295" width="14" height="4" fill="url(#hdr2)" stroke="#FFF"></rect>
+  </g>
+  <g id="TEXT" font-size="5pt" font-weight="bold" font-family="sans-serif">
+    <text transform="translate(291, 104) rotate( 90, 0, 0)" fill="#FFF">|| MODUINO || MOD || NEOPIXEL || TILE || BULKHEAD || \/\/\/ ||</text>
+    <text transform="translate(109, 296) rotate(-90, 0, 0)" fill="#FFF">|| MODUINO || MOD || NEOPIXEL || TILE || BULKHEAD || \/\/\/ ||</text>
+  </g>
+</g>
+</svg>
