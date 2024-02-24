@@ -60,5 +60,10 @@ void loop()
 ```
 
 ![screenshot](/LED_BUILTIN_DIMMER/screenshot.png)
-
-![video](/LED_BUILTIN_DIMMER/IMG_6768.MOV)
+<!--![video](/LED_BUILTIN_DIMMER/IMG_6768.MOV)-->
+<!--
+<video width="100" height="100">
+  <src href="./LED_BUILTIN_DIMMER/IMG_6768.MOV"></src>
+</video>
+-->
+<a href="/LED_BUILTIN_DIMMER/IMG_6768.MOV"><img src="/LED_BUILTIN_DIMMER/screenshot.png"></img></a>
