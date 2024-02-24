@@ -66,4 +66,4 @@ void loop()
   <src href="./LED_BUILTIN_DIMMER/IMG_6768.MOV"></src>
 </video>
 -->
-<a href="/LED_BUILTIN_DIMMER/IMG_6768.MOV"><img src="/LED_BUILTIN_DIMMER/screenshot.png"></img></a>
+<a href="/LED_BUILTIN_DIMMER/IMG_6768.MOV"><img src="/LED_BUILTIN_DIMMER/IMG_6768.PNG"></img></a>
