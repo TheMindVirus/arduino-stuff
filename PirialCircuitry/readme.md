@@ -45,22 +45,22 @@ in between the serially splayed line.
 
 <img src="image_allial_distribution.png" alt="image_allial_distribution" width="100%"></img>
 
-The three terms that describe circuits of this type are: \
-* Serial Splay, \
-* Allial Striation and \
+### The three terms that describe circuits of this type are:
+* Serial Splay,
+* Allial Striation and
 * Pirial Dispersion.
 
 <img src="image_splay_striation_dispersion.png" alt="image_splay_striation_dispersion" width="100%"></img>
 
-The three types of capacitor shape are: \
-* (Cubic) Linear, \
-* (Convex) Mylar and \
+### The three types of capacitor shape are:
+* (Cubic) Linear,
+* (Convex) Mylar and
 * (Concave) Mica.
 
 <img src="image_linear_mylar_mica.png" alt="image_linear_mylar_mica" width="100%"></img>
 
-The full comprehensive list is as follows:
+### The full comprehensive list is as follows:
 
 <img src="image_pirial_circuitry.png" alt="image_pirial_circuitry" width="100%"></img>
 
-Additional Circuits may be found at a later stage...
+### Additional Circuits may be found at a later stage...
