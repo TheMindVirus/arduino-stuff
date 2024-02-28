@@ -38,5 +38,38 @@
       <path d="m 120 250 l   0 -10 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 l   0  10"></path>
     </g>
   </g>
+  <g id="tile-mosfet-floating-gate" transform="translate(50, 450)">
+    <rect fill="#111" stroke="#333" width="300" height="300"></rect>
+    <text id="label-mosfet-floating-gate" fill="#FFF" x="150" y="30" text-anchor="middle">MOSFET Floating Gate</text>
+    <text id="emoji-mosfet-floating-gate" fill="#FFF" x="296" y="285" text-anchor="end">⚠️</text>
+    <g id="wires-mosfet-floating-gate" stroke="#0FF" stroke-width="1">
+      <path d="m  35 230 l 50 0 l 0 -50 m 10 0 l 0 80 m 10 0 l 0 -80"></path>
+      <path d="m 155 230 l 50 0 l 0 -50 m 10 0 l 0 80 m 10 0 l 0 -80"></path>
+    </g>
+    <g id="parts-mosfet-floating-gate" stroke="#FED" stroke-width="3">
+      <path d="m  85 130 l 0 50 m 10 0 l 0 -50 m 10 0 l 0 50"></path>
+      <path d="m 205 130 l 0 50 m 10 0 l 0 -50 m 10 0 l 0 50"></path>
+    </g>
+    <g id="scrub-mosfet-floating-gate" stroke="#60C" stroke-width="5">
+      <path d="m  77.5 80 l 0 50 l 35 0 l 0 -50 l -35 0 m 0 20 l 35 0 m -12 -10 a 5 5 0 1 0 0 0.001"></path>
+      <path d="m 197.5 80 l 0 50 l 35 0 l 0 -50 l -35 0 m 0 20 l 35 0 m -12 -10 a 5 5 0 1 0 0 0.001"></path>
+    </g>
+  </g>
+  <g id="tile-thyristor-switched-capacitor" transform="translate(400, 450)">
+    <rect fill="#111" stroke="#333" width="300" height="300"></rect>
+    <text id="label-thyristor-switched-capacitor" fill="#FFF" x="150" y="30" text-anchor="middle" font-size="15pt">Thyristor Switched Capacitor</text>
+    <text id="emoji-thyristor-switched-capacitor" fill="#FFF" x="296" y="285" text-anchor="end">⚠️</text>
+    <g id="wires-thyristor-switched-capacitor" stroke="#0FF" stroke-width="1">
+      <path d="m 150 250 l 0 -50 l -50 0 l 0 -100 l 100 0 l 0 100 l -50 0 m 0 -100 l 0 -50"></path>
+    </g>
+    <g id="parts-thyristor-switched-capacitor" stroke="#FED" stroke-width="3">
+      <path d="m 140  75 l 20 0 m 0 -5 l -20 0"></path>
+      <path d="m 140 225 l 20 0 m 0 -5 l -20 0"></path>
+    </g>
+    <g id="scrub-thyristor-switched-capacitor" stroke="#60C" stroke-width="5">
+      <path d="m  95 155 l 10 0 l -5 -5 l -5  5 m 0 -12 l 10 0 l 5 -5 m -15  5 l -5  5"></path>
+      <path d="m 195 145 l 10 0 l -5  5 l -5 -5 m 0  12 l 10 0 l 5  5 m -15 -5 l -5 -5"></path>
+    </g>
+  </g>
 </g>
 </svg>
