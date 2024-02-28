@@ -64,3 +64,5 @@ in between the serially splayed line.
 <img src="image_pirial_circuitry.png" alt="image_pirial_circuitry" width="100%"></img>
 
 ### Additional Circuits may be found at a later stage...
+
+<img src="image_pirial_circuitry_addenda.png" alt="image_pirial_circuitry_addenda" width="100%"></img>

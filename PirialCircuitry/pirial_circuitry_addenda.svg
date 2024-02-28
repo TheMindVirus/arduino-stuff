@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color-scheme: dark; background: black; width: 10000px; height: 10000px; overflow: scroll; user-select: none;">
+<title>Pirial Circuitry Addenda</title>
+<g mod="pirial" id="circuitry" addendum="addenda" font-size="18pt" fill="none" stroke="none" stroke-linejoin="round" stroke-linecap="round" font-family="Permanent Marker" font-weight="bold">
+  <text id="title" x="360" y="60" text-anchor="middle" font-size="40pt" fill="#FFF">Pirial Circuitry Addenda</text>
+  <g id="tile-pirial-cell" transform="translate(50, 100)">
+    <rect fill="#111" stroke="#333" width="300" height="300"></rect>
+    <text id="label-pirial-cell" fill="#FFF" x="150" y="30" text-anchor="middle">Pirial Cell</text>
+    <text id="emoji-pirial-cell" fill="#FFF" x="296" y="285" text-anchor="end">⚠️</text>
+    <g id="wires-pirial-cell" stroke="#0FF" stroke-width="1">
+      <path d="m 50 150 l 50 0 l 0 50 l 50 0 l 0 -20 m 0 -10 l 0 -20 l -50 0 m 50 0 l 0 -20 m 0 -10 l 0 -20 l -50 0 l 0 50 m 50 50 l 50 0 l 0 -100 l -50 0 m 0 50 l 50 0 l 50 0, l 0 100 l -77.5 0 m -45 0 l -77.5 0 l 0 -100"></path>
+    </g>
+    <g id="parts-pirial-cell" stroke="#FED" stroke-width="3">
+      <path d="m 140 130 l 20 0 m  10 -10 l -40 0"></path>
+      <path d="m 130 180 l 40 0 m -10 -10 l -20 0"></path>
+      <path d="m 170 250 m -30 -10 l 20 20 m -20 0 l 20 -20"></path>
+    </g>
+    <g id="scrub-pirial-cell" stroke="#60C" stroke-width="5">
+      <path d="m 120 105 l 0 -10 l 5 5 l -5 5 m 12 0 l 0 -10 m -12 60 l 0 -10 l 5 5 l -5 5 m 12 0 l 0 -10 m -12 60 l 0 -10 l 5 5 l -5 5 m 12 0 l 0 -10 m 37 10 l 0 -10 l 5 5 l -5 5 m 12 0 l 0 -10 m -12 -40 l 0 -10 l 5 5 l -5 5 m 12 0 l 0 -10 m -12 -40 l 0 -10 l 5 5 l -5 5 m 12 0 l 0 -10 m 0 10"></path>
+      <path d="m 170 250 a 20 20 0 1 0 0 0.0001"></path>
+    </g>
+    <text id="label-pirial-cell" fill="#FFF" x="150" y="30" text-anchor="middle">Pirial Cell</text>
+  </g>
+  <g id="tile-ground-loop-isolator" transform="translate(400, 100)">
+    <rect fill="#111" stroke="#333" width="300" height="300"></rect>
+    <text id="label-ground-loop-isolator" fill="#FFF" x="150" y="30" text-anchor="middle">Ground Loop Isolator</text>
+    <text id="emoji-ground-loop-isolator" fill="#FFF" x="296" y="285" text-anchor="end">⚠️</text>
+    <g id="wires-ground-loop-isolator" stroke="#0FF" stroke-width="1">
+      <path d="m 50 100 l 70 0 m 60 0 l 70 0 m 0 60 l -70 0 m -60 0 l -70 0 m 0 30 l 70 0 m 60 0 l 70 0 m 0 60 l -70 0 m -60 0 l -70 0"></path>
+    </g>
+    <g id="scrub-ground-loop-isolator" stroke="#60C" stroke-width="5">
+      <path d="m 132.5  95.0 l 0 70 l 35 0 l 0 -70 l -35 0"></path>
+      <path d="m 115.0 202.5 l 0 35 l 70 0 l 0 -35 l -70 0"></path>
+    </g>
+    <g id="parts-ground-loop-isolator" stroke="#FED" stroke-width="3">
+      <path d="m 120 100 l  10   0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 l -10   0"></path>
+      <path d="m 180 100 l -10   0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 l  10   0"></path>
+      <path d="m 120 190 l   0  10 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 l   0 -10"></path>
+      <path d="m 120 250 l   0 -10 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 l   0  10"></path>
+    </g>
+  </g>
+</g>
+</svg>
