@@ -66,3 +66,7 @@ in between the serially splayed line.
 ### Additional Circuits may be found at a later stage...
 
 <img src="image_pirial_circuitry_addenda.png" alt="image_pirial_circuitry_addenda" width="100%"></img>
+
+### PT2399 Granular Audio Processor
+
+<img src="image_pirial_circuitry_audio_echo.png" alt="image_pirial_circuitry_audio_echo" width="100%"></img>
