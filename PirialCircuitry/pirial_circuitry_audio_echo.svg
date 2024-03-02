@@ -46,5 +46,48 @@
       <circle cx="605" cy="235" r="10"></circle><line x1="0" y1="0" x2="0" y2="10" transform="translate(605, 235) rotate(235, 0, 0)"></line>
     </g>
   </g>
+  <g id="tile-residual-current-device" transform="translate(50, 450)">
+    <rect fill="#111" stroke="#333" width="300" height="300"></rect>
+    <text id="label-residual-current-device" fill="#FFF" x="150" y="30" text-anchor="middle">Residual Current Device</text>
+    <text id="emoji-residual-current-device" fill="#FFF" x="296" y="285" text-anchor="end">⚠️</text>
+    <g id="wires-residual-current-device" stroke="#0FF" stroke-width="1">
+      <path d="m 70 120 l 30 0 m 100 0 l 30 0 m 0 60 l -30 0 m -100 0 l -30 0 m -25 -95 l 0 30 m 0 70 l 0 30 m 210 0 l 0 -30 m 0 -70 l 0 -30"></path>
+      <path d="m 20 70 l 20 0 l 0 10 m 10 0 l 0 -10 l 70 0 l 0 30 m 60 0 l 0 -30 l 70 0 l 0 10 m 10 0 l 0 -10 l 20 0 m 0 160 l -20 0 l 0 -10 m -10 0 l 0 10 l -70 0 l 0 -30 m -60 0 l 0 30 l -70 0 l 0 -10 m -10 0 l 0 10 l -15 0"></path>
+    </g>
+    <g id="scrub-residual-current-device" stroke="#60C" stroke-width="5">
+      <path d="m 175 150 a 25 25 0 1 0 0 0.001"></path>
+      <path d="m 195 150 a 45 45 0 1 0 0 0.001"></path>
+      <rect x="20" y="115" width="50" height="70"></rect>
+      <rect x="230" y="115" width="50" height="70"></rect>
+    </g>
+    <g id="parts-residual-current-device" stroke="#FED" stroke-width="1">
+      <path d="m 100 120 l  10   0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 l -10   0"></path>
+      <path d="m 200 120 l -10   0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 l  10   0"></path>
+      <path d="m 120 100 l   0  10 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 s  0 -5 -5 -5 m 0 0 s -5  0 -5  5 m 0 0 s   0  10  10  10 m 0 0 s 5 0   5 -10 m 0 0 l   0 -10"></path>
+      <path d="m 120 200 l   0 -10 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 s  0  5 -5  5 m 0 0 s -5  0 -5 -5 m 0 0 s   0 -10  10 -10 m 0 0 s 5 0   5  10 m 0 0 l   0  10"></path>
+      <rect x="35" y="85" width="20" height="2"></rect>
+      <rect x="35" y="215" width="20" height="2"></rect>
+      <rect x="245" y="215" width="20" height="2"></rect>
+      <rect x="245" y="85" width="20" height="2"></rect>
+    </g>
+  </g>
+  <g id="tile-solenoid-flux-throttle" transform="translate(400, 450)">
+    <rect fill="#111" stroke="#333" width="300" height="300"></rect>
+    <text id="label-solenoid-flux-throttle" fill="#FFF" x="150" y="30" text-anchor="middle">Solenoid Flux Throttle</text>
+    <text id="emoji-solenoid-flux-throttle" fill="#FFF" x="296" y="285" text-anchor="end">⚠️</text>
+    <g id="wires-solenoid-flux-throttle" stroke="#0FF" stroke-width="1">
+      <path d="m  20 250 l 0 -73  l   5 0"></path>
+      <path d="m  15 250 l 0 -133 l  10 0"></path>
+      <path d="m 280 250 l 0 -73  l  -5 0"></path>
+      <path d="m 285 250 l 0 -133 l -10 0"></path>
+    </g>
+    <g id="scrub-solenoid-flux-throttle" stroke="#60C" stroke-width="5">
+      <path d="m 40 100 l 35 0 l 50 35 l 50 0 l 50 -35 l 35 0 l 0 100 l -35 0 l -50 -35 l -50 0 l -50 35 l -35 0 l 0 -100"></path>
+    </g>
+    <g id="parts-solenoid-flux-throttle" stroke="#FED" stroke-width="3">
+      <path d="m 25  117 l  10   0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 s -5  0 -5 -5 m 0 0 s  0 -5  5 -5 m 0 0 s  10   0  10  10 m 0 0 s 0 5 -10   5 m 0 0 l -10   0"></path>
+      <path d="m 275 117 l -10   0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 s  5  0  5 -5 m 0 0 s  0 -5 -5 -5 m 0 0 s -10   0 -10  10 m 0 0 s 0 5  10   5 m 0 0 l  10   0"></path>
+    </g>
+  </g>
 </g>
 </svg>

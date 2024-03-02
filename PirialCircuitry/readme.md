@@ -67,6 +67,6 @@ in between the serially splayed line.
 
 <img src="image_pirial_circuitry_addenda.png" alt="image_pirial_circuitry_addenda" width="100%"></img>
 
-### PT2399 Granular Audio Processor
+### PT2399 Granular Audio Processor & Residual Current Devices
 
 <img src="image_pirial_circuitry_audio_echo.png" alt="image_pirial_circuitry_audio_echo" width="100%"></img>
