@@ -1,0 +1,219 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color-scheme: dark; background: black; width: 10000px; height: 10000px; overflow: scroll; user-select: none;">
+<title>Pirial Circuitry Turret Board</title>
+<g mod="pirial" id="circuitry" addendum="turretboard" font-size="18pt" fill="none" stroke="none" stroke-linejoin="round" stroke-linecap="round" font-family="Permanent Marker" font-weight="bold">
+  <text id="title" x="550" y="70" text-anchor="middle" font-size="50pt" fill="#FFF">Pirial Circuitry Turret Board</text>
+  <g id="tile-fender-princeton-reverb" transform="translate(50, 100)">
+    <rect fill="#111" stroke="#333" width="1000" height="300"></rect>
+    <text id="label-fender-princeton-reverb" fill="#FFF" x="500" y="30" text-anchor="middle">Fender Princeton Reverb</text>
+    <text id="emoji-fender-princeton-reverb" fill="#FFF" x="996" y="285" text-anchor="end">⚠️</text>
+    <g id="scrub-fender-princeton-reverb" stroke="#77C" stroke-width="5">
+      <circle cx="50" cy="70" r="6"></circle><circle cx="50" cy="170" r="6"></circle><circle cx="50" cy="270" r="6"></circle><circle cx="70" cy="100" r="6"></circle>
+      <circle cx="110" cy="70" r="6"></circle><circle cx="110" cy="270" r="6"></circle>
+      <circle cx="140" cy="140" r="6"></circle><circle cx="140" cy="200" r="6"></circle>
+      <circle cx="170" cy="70" r="6"></circle><circle cx="170" cy="270" r="6"></circle>
+      <circle cx="230" cy="70" r="6"></circle><circle cx="230" cy="190" r="6"></circle><circle cx="230" cy="270" r="6"></circle>
+      <circle cx="270" cy="170" r="6"></circle>
+      <circle cx="310" cy="70" r="6"></circle><circle cx="310" cy="170" r="6"></circle><circle cx="310" cy="270" r="6"></circle>
+      <circle cx="350" cy="70" r="6"></circle><circle cx="350" cy="137" r="6"></circle><circle cx="350" cy="203" r="6"></circle><circle cx="350" cy="270" r="6"></circle>
+      <circle cx="390" cy="270" r="6"></circle><circle cx="410" cy="70" r="6"></circle><circle cx="430" cy="270" r="6"></circle><circle cx="450" cy="150" r="6"></circle>
+      <circle cx="480" cy="70" r="6"></circle><circle cx="480" cy="270" r="6"></circle>
+      <circle cx="530" cy="120" r="6"></circle><circle cx="530" cy="180" r="6"></circle><circle cx="530" cy="270" r="6"></circle>
+      <circle cx="570" cy="80" r="6"></circle><circle cx="570" cy="190" r="6"></circle><circle cx="570" cy="270" r="6"></circle>
+      <circle cx="610" cy="120" r="6"></circle><circle cx="610" cy="270" r="6"></circle><circle cx="640" cy="80" r="6"></circle>
+      <circle cx="660" cy="270" r="6"></circle><circle cx="680" cy="70" r="6"></circle><circle cx="700" cy="270" r="6"></circle>
+      <circle cx="740" cy="140" r="6"></circle><circle cx="740" cy="180" r="6"></circle><circle cx="740" cy="270" r="6"></circle>
+      <circle cx="777" cy="190" r="6"></circle>
+      <circle cx="810" cy="200" r="6"></circle><circle cx="810" cy="270" r="6"></circle>
+      <circle cx="840" cy="70" r="6"></circle>
+      <circle cx="880" cy="70" r="6"></circle><circle cx="880" cy="270" r="6"></circle>
+      <circle cx="940" cy="70" r="6"></circle><circle cx="940" cy="270" r="6"></circle>
+    </g>
+    <g id="wires-fender-princeton-reverb" stroke="#0FF" stroke-width="1">
+      <path d="m 50 70 l 0 100"></path><path d="m 50 170 l 0 100"></path>
+      <path d="m 110 70 l 0 200"></path><path d="m 170 70 l 0 200"></path>
+      <path d="m 110 70 l 30 70"></path><path d="m 170 70 -30 70"></path>
+      <path d="m 110 270 l 30 -70"></path><path d="m 170 270 60 -80"></path>
+      <path d="m 230 70 l 0 200"></path><path d="m 230 70 l 80 100"></path>
+      <path d="m 270 170 l 40 100"></path><path d="m 310 70 l 0 100"></path>
+      <path d="m 310 170 l 0 100"></path><path d="m 350 70 l 0 67"></path>
+      <path d="m 350 137 l 0 67"></path><path d="m 350 203 l 0 67"></path>
+      <path d="m 350 70 l 60 0"></path><path d="m 350 137 l 40 133"></path>
+      <path d="m 388 270 l 20 -200"></path><path d="m 408 70 l 20 200"></path>
+      <path d="m 392 270 l 20 -200"></path><path d="m 412 70 l 20 200"></path>
+      <path d="m 410 70 l 70 0"></path><path d="m 450 150 l 30 -80"></path>
+      <path d="m 478 70 l 0 200"></path><path d="m 482 70 l 0 200"></path>
+      <path d="m 530 120 l 40 -40"></path><path d="m 530 120 l 110 -40"></path>
+      <path d="m 530 180 l 0 90"></path><path d="m 530 270 l 40 -80"></path>
+      <path d="m 570 190 l 40 80"></path><path d="m 610 270 l 0 -150"></path>
+      <path d="m 658 270 l 20 -200"></path><path d="m 678 70 l 20 200"></path>
+      <path d="m 662 270 l 20 -200"></path><path d="m 682 70 l 20 200"></path>
+      <path d="m 740 140 l 0 40"></path><path d="m 740 180 l 0 90"></path>
+      <path d="m 740 270 l 37 -80"></path><path d="m 777 190 l 33 80"></path>
+      <path d="m 810 270 l 0 -70"></path><path d="m 810 270 l 0 -20 l 70 0 l 0 20"></path>
+      <path d="m 840 70 l 0 140 l 40 60"></path><path d="m 880 70 l 0 200"></path>
+      <path d="m 938 70 l 0 200"></path><path d="m 942 70 l 0 200"></path>
+    </g>
+    <g id="parts-fender-princeton-reverb" stroke="#FED" stroke-width="3">
+      <g transform="translate(50, 100) translate(270, 120)"><rect transform="translate(-50, -100) rotate(-38.5, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#700" fill="#700"></rect></g>
+      <g transform="translate(50, 100) translate(585, 100)"><rect transform="translate(-50, -100) rotate(+69.0, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#700" fill="#700"></rect></g>
+      <rect x="345" y="82.5" width="10" height="40" stroke="#700" fill="#700"></rect>
+      <rect x="345" y="150" width="10" height="40" stroke="#700" fill="#700"></rect>
+      <rect x="345" y="217.5" width="10" height="40" stroke="#700" fill="#700"></rect>
+      <rect x="525" y="205" width="10" height="40" stroke="#700" fill="#700"></rect>
+      <rect x="605" y="175" width="10" height="40" stroke="#700" fill="#700"></rect>
+      <rect x="737.5" y="149" width="5" height="20" stroke="#700" fill="#700"></rect>
+      <rect x="735" y="205" width="10" height="40" stroke="#700" fill="#700"></rect>
+      <rect x="807.5" y="212.5" width="5" height="30" stroke="#700" fill="#700"></rect>
+      <rect x="100" y="140" width="20" height="60" stroke="#FF0" fill="#FF0"></rect>
+      <rect x="160" y="140" width="20" height="60" stroke="#FF0" fill="#FF0"></rect>
+      <rect x="300" y="90" width="20" height="60" stroke="#FF0" fill="#FF0"></rect>
+      <rect x="830" y="140" width="20" height="60" stroke="#FF0" fill="#FF0"></rect>
+      <rect x="870" y="140" width="20" height="60" stroke="#FF0" fill="#FF0"></rect>
+      <rect x="45" y="200" width="10" height="40" stroke="#AF0" fill="#AF0"></rect>
+      <g transform="translate(50, 100) translate(400, 170)"><rect transform="translate(-50, -100) rotate(6, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#0AF" fill="#0AF"></rect></g>
+      <g transform="translate(50, 100) translate(400, 170)"><rect transform="translate(-50, -100) rotate(6, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#0AF" fill="#0AF"></rect></g>
+      <g transform="translate(50, 100) translate(420, 170)"><rect transform="translate(-50, -100) rotate(-6, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#0AF" fill="#0AF"></rect></g>
+      <g transform="translate(50, 100) translate(420, 170)"><rect transform="translate(-50, -100) rotate(-6, 0, 0) translate(-5, -20)" width="8" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <rect x="475" y="150" width="10" height="40" stroke="#0AF" fill="#0AF"></rect>
+      <rect x="475" y="150" width="8" height="40" stroke="#CEF" fill="#CEF"></rect>
+      <g transform="translate(50, 100) translate(420, 170)"><rect transform="translate(-50, -100) rotate(-6, 0, 0) translate(-5, -20)" width="8" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <g transform="translate(50, 100) translate(670, 170)"><rect transform="translate(-50, -100) rotate(6, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#0AF" fill="#0AF"></rect></g>
+      <g transform="translate(50, 100) translate(670, 170)"><rect transform="translate(-50, -100) rotate(6, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#0AF" fill="#0AF"></rect></g>
+      <g transform="translate(50, 100) translate(690, 170)"><rect transform="translate(-50, -100) rotate(-6, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#0AF" fill="#0AF"></rect></g>
+      <g transform="translate(50, 100) translate(690, 170)"><rect transform="translate(-50, -100) rotate(-6, 0, 0) translate(-5, -20)" width="8" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <rect x="935" y="150" width="10" height="40" stroke="#0AF" fill="#0AF"></rect>
+      <rect x="935" y="150" width="8" height="40" stroke="#CEF" fill="#CEF"></rect>
+      <rect x="425" y="65" width="40" height="10" stroke="#0AF" fill="#0AF"></rect>
+      <rect x="360" y="66" width="40" height="8" stroke="#CEF" fill="#CEF"></rect>
+      <g transform="translate(50, 100) translate(125, 102)"><rect transform="translate(-50, -100) rotate(-24, 0, 0) translate(-5, -20)" width="8" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <g transform="translate(50, 100) translate(157, 102)"><rect transform="translate(-50, -100) rotate(24, 0, 0) translate(-5, -20)" width="8" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <g transform="translate(50, 100) translate(125, 237)"><rect transform="translate(-50, -100) rotate(24, 0, 0) translate(-5, -20)" width="8" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <g transform="translate(50, 100) translate(201, 230)"><rect transform="translate(-50, -100) rotate(38, 0, 0) translate(-5, -20)" width="8" height="40" stroke="#FD9" fill="#FD9"></rect></g>
+      <g transform="translate(50, 100) translate(466, 110)"><rect transform="translate(-50, -100) rotate(20, 0, 0) translate(-5, -20)" width="8" height="40" stroke="#FD9" fill="#FD9"></rect></g>
+      <g transform="translate(50, 100) translate(551, 100)"><rect transform="translate(-50, -100) rotate(45, 0, 0) translate(-5, -20)" width="8" height="40" stroke="#FD9" fill="#FD9"></rect></g>
+      <g transform="translate(50, 100) translate(290, 217)"><rect transform="translate(-50, -100) rotate(-22, 0, 0) translate(-5, -20)" width="8" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <rect x="306" y="198" width="8" height="40" stroke="#CEF" fill="#CEF"></rect>
+      <rect x="226" y="110" width="8" height="40" stroke="#CEF" fill="#CEF"></rect>
+      <rect x="226" y="210" width="8" height="40" stroke="#CEF" fill="#CEF"></rect>
+      <g transform="translate(50, 100) translate(373, 210)"><rect transform="translate(-50, -100) rotate(-16, 0, 0) translate(-5, -20)" width="8" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <g transform="translate(50, 100) translate(551, 230)"><rect transform="translate(-50, -100) rotate(27, 0, 0) translate(-5, -20)" width="8" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <g transform="translate(50, 100) translate(591, 230)"><rect transform="translate(-50, -100) rotate(-27, 0, 0) translate(-5, -20)" width="8" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <g transform="translate(50, 100) translate(760, 230)"><rect transform="translate(-50, -100) rotate(24, 0, 0) translate(-5, -20)" width="8" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <g transform="translate(50, 100) translate(795, 230)"><rect transform="translate(-50, -100) rotate(-22.5, 0, 0) translate(-5, -20)" width="8" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <rect x="825" y="246" width="40" height="8" stroke="#CEF" fill="#CEF"></rect>
+      <rect x="45" y="100" width="10" height="40" stroke="#0AF" fill="#0AF"></rect>
+    </g>
+  </g>
+  <g id="tile-marshall-plexi-super-bass" transform="translate(50, 450)">
+    <rect fill="#111" stroke="#333" width="1000" height="300"></rect>
+    <text id="label-marshall-plexi-super-bass" fill="#FFF" x="500" y="30" text-anchor="middle">Marshall Plexi/Super Bass</text>
+    <text id="emoji-marshall-plexi-super-bass" fill="#FFF" x="996" y="285" text-anchor="end">⚠️</text>
+    <g id="scrub-marshall-plexi-super-bass" stroke="#77C" stroke-width="5">
+      <circle cx="50" cy="100" r="6"></circle><circle cx="50" cy="270" r="6"></circle>
+      <circle cx="100" cy="100" r="6"></circle><circle cx="100" cy="270" r="6"></circle>
+      <circle cx="140" cy="100" r="6"></circle><circle cx="140" cy="150" r="6"></circle><circle cx="140" cy="200" r="6"></circle>
+      <circle cx="170" cy="100" r="6"></circle><circle cx="170" cy="150" r="6"></circle><circle cx="170" cy="200" r="6"></circle>
+      <circle cx="200" cy="70" r="6"></circle><circle cx="200" cy="150" r="6"></circle><circle cx="200" cy="270" r="6"></circle>
+      <circle cx="230" cy="70" r="6"></circle><circle cx="230" cy="270" r="6"></circle>
+      <circle cx="260" cy="70" r="6"></circle>
+      <circle cx="290" cy="70" r="6"></circle><circle cx="290" cy="270" r="6"></circle>
+      <circle cx="320" cy="70" r="6"></circle><circle cx="320" cy="150" r="6"></circle><circle cx="320" cy="270" r="6"></circle>
+      <circle cx="350" cy="70" r="6"></circle><circle cx="350" cy="270" r="6"></circle>
+      <circle cx="380" cy="70" r="6"></circle><circle cx="380" cy="270" r="6"></circle>
+      <circle cx="410" cy="150" r="6"></circle><circle cx="410" cy="190" r="6"></circle>
+      <circle cx="440" cy="70" r="6"></circle><circle cx="440" cy="270" r="6"></circle>
+      <circle cx="470" cy="70" r="6"></circle><circle cx="470" cy="270" r="6"></circle>
+      <circle cx="500" cy="150" r="6"></circle><circle cx="500" cy="270" r="6"></circle>
+      <circle cx="530" cy="70" r="6"></circle><circle cx="530" cy="270" r="6"></circle>
+      <circle cx="560" cy="70" r="6"></circle><circle cx="560" cy="270" r="6"></circle>
+      <circle cx="590" cy="70" r="6"></circle><circle cx="590" cy="270" r="6"></circle>
+      <circle cx="620" cy="70" r="6"></circle><circle cx="620" cy="270" r="6"></circle>
+      <circle cx="650" cy="70" r="6"></circle>
+      <circle cx="680" cy="150" r="6"></circle><circle cx="680" cy="270" r="6"></circle>
+      <circle cx="710" cy="70" r="6"></circle><circle cx="710" cy="270" r="6"></circle>
+      <circle cx="740" cy="70" r="6"></circle>
+      <circle cx="770" cy="70" r="6"></circle><circle cx="770" cy="150" r="6"></circle>
+      <circle cx="800" cy="70" r="6"></circle><circle cx="800" cy="270" r="6"></circle>
+      <circle cx="830" cy="70" r="6"></circle>
+      <circle cx="860" cy="70" r="6"></circle><circle cx="860" cy="150" r="6"></circle><circle cx="860" cy="190" r="6"></circle>
+      <circle cx="890" cy="70" r="6"></circle><circle cx="890" cy="270" r="6"></circle>
+      <circle cx="920" cy="70" r="6"></circle><circle cx="920" cy="150" r="6"></circle>
+      <circle cx="950" cy="70" r="6"></circle><circle cx="950" cy="270" r="6"></circle>
+      <circle cx="980" cy="70" r="6"></circle>
+    </g>
+    <g id="wires-marshall-plexi-super-bass" stroke="#0FF" stroke-width="1">
+      <path d="m 50 100 l 0 170"></path><path d="m 100 100 l 0 170"></path><path d="m 50 270 l 50 0"></path>
+      <path d="m 140 100 l 0 50"></path><path d="m 140 150 l 0 50"></path><path d="m 140 200 l 30 0"></path>
+      <path d="m 170 200 l 0 -50"></path><path d="m 170 150 l 0 -50"></path><path d="m 170 100 l -30 0"></path>
+      <path d="m 200 70 l 0 80"></path><path d="m 200 150 l 0 70 l 30 50"></path><path d="m 230 270 l 0 -20 l 60 0 l 0 20"></path>
+      <path d="m 230 70 l 0 200"></path><path d="m 260 70 l 0 150 l 30 50"></path><path d="m 290 70 l 0 200"></path>
+      <path d="m 320 70 l 0 80"></path><path d="m 320 150 l 0 120"></path><path d="m 350 70 l 0 200"></path>
+      <path d="m 380 70 l 0 200"></path><path d="m 380 70 l 30 80"></path><path d="m 440 70 l -30 80"></path><path d="m 470 70 l 0 200"></path>
+      <path d="m 440 70 l 0 200"></path><path d="m 380 270 l 30 -80"></path><path d="m 440 270 l -30 -80"></path>
+      <path d="m 470 70 l 30 0 l 0 80"></path><path d="m 380 270 l 20 -10 l 5 -10"></path><path d="m 440 270 l -20 -10 l -5 -10"></path>
+      <path d="m 470 270 l 30 -120"></path><path d="m 500 270 l 0 -120"></path><path d="m 530 270 l -30 -120"></path>
+      <path d="m 530 70 l 0 200"></path><path d="m 560 70 l 0 200"></path><path d="m 590 70 l 0 200"></path>
+      <path d="m 620 70 l 0 200"></path><path d="m 230 70 l 30 0"></path><path d="m 560 270 l 30 0"></path>
+      <path d="m 650 70 l 0 150 l -30 50"></path><path d="m 620 270 l 0 -20 l 60 0 l 0 20"></path><path d="m 680 270 l 0 -120"></path>
+      <path d="m 680 270 l 30 -200"></path><path d="m 710 70 l 0 200"></path><path d="m 738 70 l 30 80"></path>
+      <path d="m 800 70 l 0 200"></path><path d="m 742 70 l 30 80"></path><path d="m 770 70 l 0 80"></path>
+      <path d="m 890 70 l 0 200"></path><path d="m 830 70 l 30 80"></path><path d="m 860 70 l 0 80"></path>
+      <path d="m 800 270 l 60 -80"></path><path d="m 890 270 l -30 -80"></path>
+      <path d="m 920 70 l 0 80"></path><path d="m 950 70 l -30 80"></path>
+      <!--<path id="bugfix1" d="m 948 270 l 30 -200"></path>--><path d="m 952 270 l 30 -200"></path>
+    </g>
+    <g id="parts-marshall-plexi-super-bass" stroke="#FED" stroke-width="3">
+      <g transform="translate(50, 100) translate(755, 110)"><rect transform="translate(-50, -100) rotate(-20, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#700" fill="#700"></rect></g>
+      <rect x="675" y="182" width="10" height="40" stroke="#700" fill="#700"></rect>
+      <rect x="40" y="150" width="20" height="60" stroke="#FF0" fill="#FF0"></rect>
+      <rect x="90" y="150" width="20" height="60" stroke="#FF0" fill="#FF0"></rect>
+      <rect x="372.5" y="130" width="15" height="80" stroke="#FF0" fill="#FF0"></rect>
+      <rect x="432.5" y="130" width="15" height="80" stroke="#FF0" fill="#FF0"></rect>
+      <rect x="462.5" y="130" width="15" height="80" stroke="#FF0" fill="#FF0"></rect>
+      <rect x="522.5" y="145" width="15" height="50" stroke="#FFA" fill="#FFA"></rect>
+      <rect x="612.5" y="145" width="15" height="50" stroke="#FFA" fill="#FFA"></rect>
+      <rect x="642.5" y="145" width="15" height="50" stroke="#FFA" fill="#FFA"></rect>
+      <rect x="792.5" y="145" width="15" height="50" stroke="#FFA" fill="#FFA"></rect>
+      <rect x="882.5" y="145" width="15" height="50" stroke="#FFA" fill="#FFA"></rect>
+      <rect x="195" y="90" width="10" height="40" stroke="#FD9" fill="#FD9"></rect>
+      <rect x="285" y="150" width="10" height="40" stroke="#FD9" fill="#FD9"></rect>
+      <rect x="345" y="150" width="10" height="40" stroke="#FD9" fill="#FD9"></rect>
+      <rect x="765" y="90" width="10" height="40" stroke="#FD9" fill="#FD9"></rect>
+      <g transform="translate(50, 100) translate(750, 110)"><rect transform="translate(-50, -100) rotate(-20, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#FD9" fill="#FD9"></rect></g>
+      <rect x="240" y="245" width="40" height="10" stroke="#575" fill="#575"></rect>
+      <circle cx="410" cy="245" r="10" stroke="#07F" fill="#07F"></circle>
+      <rect x="315" y="85" width="10" height="50" stroke="#0AF" fill="#0AF"></rect>
+      <rect x="315" y="185" width="10" height="50" stroke="#0AF" fill="#0AF"></rect>
+      <rect x="555" y="145" width="10" height="50" stroke="#0AF" fill="#0AF"></rect>
+      <rect x="585" y="145" width="10" height="50" stroke="#0AF" fill="#0AF"></rect>
+      <rect x="630" y="245" width="40" height="10" stroke="#CEF" fill="#CEF"></rect>
+      <g transform="translate(50, 100) translate(395, 230)"><rect transform="translate(-50, -100) rotate(20, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <g transform="translate(50, 100) translate(425, 230)"><rect transform="translate(-50, -100) rotate(-20, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <g transform="translate(50, 100) translate(425, 110)"><rect transform="translate(-50, -100) rotate(20, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <g transform="translate(50, 100) translate(395, 110)"><rect transform="translate(-50, -100) rotate(-20, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <rect x="495" y="85" width="10" height="40" stroke="#CEF" fill="#CEF"></rect>
+      <g transform="translate(50, 100) translate(485, 210)"><rect transform="translate(-50, -100) rotate(15, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <rect x="495" y="205" width="10" height="40" stroke="#CEF" fill="#CEF"></rect>
+      <g transform="translate(50, 100) translate(515, 210)"><rect transform="translate(-50, -100) rotate(-15, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <g transform="translate(50, 100) translate(695, 160)"><rect transform="translate(-50, -100) rotate(10, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <rect x="705" y="150" width="10" height="40" stroke="#CEF" fill="#CEF"></rect>
+      <g transform="translate(50, 100) translate(843, 110)"><rect transform="translate(-50, -100) rotate(-20, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <rect x="855" y="80" width="10" height="40" stroke="#CEF" fill="#CEF"></rect>
+      <rect x="915" y="80" width="10" height="40" stroke="#CEF" fill="#CEF"></rect>
+      <g transform="translate(50, 100) translate(937, 110)"><rect transform="translate(-50, -100) rotate(20, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <g transform="translate(50, 100) translate(834, 225)"><rect transform="translate(-50, -100) rotate(37, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <g transform="translate(50, 100) translate(873, 225)"><rect transform="translate(-50, -100) rotate(-20, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+      <rect x="137.5" y="115" width="5" height="20" stroke="#555" fill="#555"></rect>
+      <rect x="137.5" y="165" width="5" height="20" stroke="#555" fill="#555"></rect>
+      <rect x="167.5" y="115" width="5" height="20" stroke="#555" fill="#555"></rect>
+      <rect x="167.5" y="165" width="5" height="20" stroke="#555" fill="#555"></rect>
+      <rect x="197.5" y="185" width="5" height="20" stroke="#555" fill="#555"></rect>
+      <rect x="220" y="145" width="20" height="50" stroke="#555" fill="#555"></rect>
+      <rect x="250" y="145" width="20" height="50" stroke="#555" fill="#555"></rect>
+      <g transform="translate(50, 100) translate(957, 130)"><rect transform="translate(-50, -100) rotate(9, 0, 0) translate(-5, -20)" width="40" height="100" stroke="#555" fill="#555"></rect></g>
+      <path id="bugfix1" d="m 948 270 l 30 -200" stroke="#0FF" stroke-width="1"></path><!--<use href="#bugfix1" stroke="#0FF" stroke-width="1"></use>-->
+      <g transform="translate(50, 100) translate(963, 170)"><rect transform="translate(-50, -100) rotate(9, 0, 0) translate(-5, -20)" width="10" height="40" stroke="#CEF" fill="#CEF"></rect></g>
+    </g>
+  </g>
+</g>
+</svg>

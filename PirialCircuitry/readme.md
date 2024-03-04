@@ -70,3 +70,7 @@ in between the serially splayed line.
 ### PT2399 Granular Audio Processor & Residual Current Devices
 
 <img src="image_pirial_circuitry_audio_echo.png" alt="image_pirial_circuitry_audio_echo" width="100%"></img>
+
+### Modulus Amplification Turret Boards & Fender/Marshall Reverb Delay
+
+<img src="image_pirial_circuitry_turret_board.png" alt="image_pirial_circuitry_turret_board" width="100%"></img>
