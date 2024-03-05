@@ -74,3 +74,7 @@ in between the serially splayed line.
 ### Modulus Amplification Turret Boards & Fender/Marshall Reverb Delay
 
 <img src="image_pirial_circuitry_turret_board.png" alt="image_pirial_circuitry_turret_board" width="100%"></img>
+
+### Trimpot Matrix Mixer 8x8 Grid Tile Novation Launch Control
+
+<img src="folder_trimpot_matrix_mixer/image_pirial_circuitry_trimpot_matrix_mixer.png" alt="image_pirial_circuitry_trimpot_matrix_mixer" width="100%"></img>
