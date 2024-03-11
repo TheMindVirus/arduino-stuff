@@ -75,6 +75,10 @@ in between the serially splayed line.
 
 <img src="image_pirial_circuitry_turret_board.png" alt="image_pirial_circuitry_turret_board" width="100%"></img>
 
+### Passive Stereo Mixing & 555 Monostable Sawtooth Oscillator
+
+<img src="image_pirial_circuitry_monostable_oscillator.png" alt="image_pirial_circuitry_monostable_oscillator" width="100%"></img>
+
 ### Trimpot Matrix Mixer 8x8 Grid Tile Novation Launch Control
 
 <img src="folder_trimpot_matrix_mixer/image_pirial_circuitry_trimpot_matrix_mixer.png" alt="image_pirial_circuitry_trimpot_matrix_mixer" width="100%"></img>
