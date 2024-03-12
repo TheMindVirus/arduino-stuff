@@ -79,6 +79,10 @@ in between the serially splayed line.
 
 <img src="image_pirial_circuitry_monostable_oscillator.png" alt="image_pirial_circuitry_monostable_oscillator" width="100%"></img>
 
+### Parasitic Transistorised Timer Internals & 555 Monostable Sawtooth Oscillator Rev.2
+
+<img src="image_pirial_circuitry_555_parasitic.png" alt="image_pirial_circuitry_555_parasitic" width="100%"></img>
+
 ### Trimpot Matrix Mixer 8x8 Grid Tile Novation Launch Control
 
 <img src="folder_trimpot_matrix_mixer/image_pirial_circuitry_trimpot_matrix_mixer.png" alt="image_pirial_circuitry_trimpot_matrix_mixer" width="100%"></img>

@@ -1,0 +1,225 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color-scheme: dark; background: black; width: 10000px; height: 10000px; overflow: scroll; user-select: none;">
+<title>Pirial Circuitry 555 Parasitic</title>
+<g mod="pirial" id="circuitry" addendum="parasitic" font-size="18pt" fill="none" stroke="none" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" font-family="Permanent Marker" font-weight="bold">
+  <text id="title" x="575" y="70" text-anchor="middle" font-size="50pt" fill="#FFF">Pirial Circuitry 555 Parasitic</text>
+  <g id="tile-parasitic-internals" transform="translate(55, 100)" font-family="Orbitron" font-weight="bolder">
+    <rect fill="#111" stroke="#333" width="850" height="450"></rect>
+    <text id="label-parasitic-internals" fill="#FFF" x="425" y="30" text-anchor="middle">555 PARASITIC TRANSISTOR TIMER INTERNALS</text>
+    <text id="emoji-parasitic-internals" fill="#FFF" x="846" y="435" text-anchor="end">⚠️</text>
+    <text id="text-parasitic-internals" fill="#FFF" text-anchor="end" font-size="12pt">
+      <tspan x="310" y="70">COMPARATOR</tspan>
+      <tspan x="410" y="70">DIVIDER</tspan>
+      <tspan x="520" y="70">LATCHER</tspan>
+      <tspan x="680" y="70">CONDITIONING</tspan>
+      <tspan x="90" y="110">VCC</tspan>
+      <tspan x="90" y="225">CTRL</tspan>
+      <tspan x="90" y="260">THRESH</tspan>
+      <tspan x="90" y="325">TRIG-IN</tspan>
+      <tspan x="90" y="350">RESET</tspan>
+      <tspan x="90" y="375">DISCH</tspan>
+      <tspan x="90" y="410">GND</tspan>
+      <tspan x="805" y="260">OUT</tspan>
+    </text>
+    <g id="scrub-parasitic-internals" stroke="#333">
+      <rect x="100" y="80" width="650" height="350"></rect>
+    </g>
+    <g id="wires-parasitic-internals" stroke="#0FF" fill="#0FF">
+      <path d="m 90 105 l 650 0" stroke="#F05"></path><path d="m 90 405 l 650 0" stroke="#777"></path>
+      <path d="m 90 220 l 270 0"></path><path d="m 90 255 l 60 0"></path><path d="m 90 320 l 135 0"></path>
+      <path d="m 90 345 l 65 0"></path><path d="m 90 370 l 65 0"></path><path d="m 365 105 l 0 300"></path>
+      <circle cx="365" cy="232" r="3"></circle><path d="m 260 255 l 5 0 m 0 0 l 0 -23 m 0 0 l 100 0"></path>
+      <circle cx="145" cy="105" r="3"></circle><line x1="145" y1="105" x2="145" y2="170"></line>
+      <circle cx="205" cy="105" r="3"></circle><line x1="205" y1="105" x2="205" y2="170"></line>
+      <circle cx="205" cy="170" r="3"></circle><line x1="195" y1="170" x2="215" y2="170"></line>
+      <circle cx="265" cy="105" r="3"></circle><line x1="265" y1="105" x2="265" y2="170"></line>
+      <circle cx="325" cy="105" r="3"></circle><line x1="325" y1="105" x2="325" y2="170"></line>
+      <circle cx="365" cy="105" r="3"></circle>
+      <circle cx="365" cy="220" r="3"></circle>
+      <circle cx="365" cy="405" r="3"></circle>
+      <circle cx="170" cy="180" r="3"></circle><line x1="165" y1="180" x2="175" y2="180"></line>
+      <circle cx="240" cy="180" r="3"></circle><line x1="235" y1="180" x2="245" y2="180"></line>
+      <circle cx="155" cy="405" r="3"></circle><line x1="155" y1="405" x2="155" y2="390"></line>
+      <circle cx="265" cy="405" r="3"></circle><line x1="265" y1="405" x2="265" y2="320"></line>
+      <circle cx="295" cy="405" r="3"></circle><line x1="295" y1="405" x2="295" y2="320"></line>
+      <circle cx="265" cy="330" r="3"></circle><line x1="265" y1="330" x2="245" y2="330"></line>
+      <circle cx="295" cy="330" r="3"></circle><line x1="295" y1="330" x2="315" y2="330"></line>
+      <circle cx="265" cy="340" r="3"></circle><line x1="265" y1="340" x2="430" y2="340"></line>
+      <circle cx="365" cy="320" r="3"></circle><line x1="365" y1="320" x2="335" y2="320"></line>
+      <circle cx="470" cy="180" r="3"></circle><line x1="475" y1="180" x2="345" y2="180"></line>
+      <circle cx="445" cy="105" r="3"></circle><line x1="445" y1="105" x2="445" y2="170"></line>
+      <circle cx="495" cy="105" r="3"></circle><line x1="495" y1="105" x2="495" y2="170"></line>
+      <circle cx="205" cy="405" r="3"></circle>
+      <circle cx="470" cy="200" r="3"></circle><path d="m 445 190 l 0 10 m 0 0 l 25 0 m 0 -20 l 0 140"></path>
+      <circle cx="170" cy="205" r="3"></circle><path d="m 265 190 l 0 15 m 0 0 l -25 0 m 0 0 l 0 -25 l 0 65"></path>
+      <circle cx="240" cy="205" r="3"></circle><path d="m 145 190 l 0 15 m 0 0 l 25 0 m 0 0 l 0 -25 l 0 65"></path>
+      <circle cx="495" cy="213" r="3"></circle><path d="m 195 190 l 0 23 m 0 0 l 300 0"></path><path d="m 495 190 l 0 86 m 0 0 l -5 0 m 0 0 l 0 33"></path>
+      <circle cx="405" cy="213" r="3"></circle><path d="m 405 213 l 0 63 m 0 0 l 45 0 m 0 0 l 0 55"></path>
+      <circle cx="375" cy="405" r="3"></circle><path d="m 215 190 l 0 8 m 0 0 l 160 0 m 0 0 l 0 205"></path>
+      <circle cx="170" cy="245" r="3"></circle><path d="m 170 245 l 20 0 m 0 0 l 0 10"></path>
+      <circle cx="240" cy="245" r="3"></circle><path d="m 240 245 l -20 0 m 0 0 l 0 10"></path>
+      <circle cx="205" cy="275" r="3"></circle><path d="m 205 275 m -15 0 l 30 0 m -15 0 l 0 130"></path>
+      <circle cx="175" cy="380" r="3"></circle><path d="m 175 355 l 0 40 m 0 0 l 335 0 m 0 0 l 0 -75"></path>
+      <circle cx="470" cy="285" r="3"></circle><path d="m 175 335 l 0 -50 m 0 0 l 295 0"></path>
+      <circle cx="280" cy="300" r="3"></circle><path d="m 280 300 m -15 0 l 30 0 m -15 0 l 0 -110 m 0 0 l 45 0"></path>
+      <circle cx="450" cy="405" r="3"></circle><line x1="450" y1="405" x2="450" y2="350"></line><circle cx="450" cy="330" r="3"></circle>
+      <circle cx="470" cy="405" r="3"></circle><line x1="470" y1="405" x2="470" y2="340"></line><circle cx="470" cy="320" r="3"></circle>
+      <circle cx="490" cy="405" r="3"></circle><line x1="490" y1="405" x2="490" y2="330"></line><circle cx="490" cy="310" r="3"></circle>
+      <circle cx="725" cy="105" r="3"></circle><path d="m 725 105 l 0 55 m 0 0 l -100 0"></path>
+      <circle cx="725" cy="160" r="3"></circle><path d="m 725 160 l 0 10 m 0 0 l -80 0"></path>
+      <circle cx="605" cy="105" r="3"></circle><path d="m 605 105 l 0 195 m 0 0 l -95 0"></path><circle cx="605" cy="170" r="3"></circle>
+      <circle cx="625" cy="180" r="3"></circle><path d="m 625 180 l 0 33 m 0 0 l 100 0 m 0 0 l 0 -23 m 0 0 l -80 0"></path>
+      <circle cx="725" cy="213" r="3"></circle><line x1="725" y1="213" x2="725" y2="325"></line>
+      <circle cx="510" cy="335" r="3"></circle><line x1="510" y1="335" x2="705" y2="335"></line>
+      <circle cx="725" cy="405" r="3"></circle><line x1="725" y1="405" x2="725" y2="345"></line>
+      <circle cx="605" cy="405" r="3"></circle><line x1="605" y1="405" x2="605" y2="335"></line><circle cx="605" cy="335" r="3"></circle>
+      <circle cx="605" cy="255" r="3"></circle><path d="m 605 255 l 155 0"></path><circle cx="725" cy="255" r="3"></circle>
+    </g>
+    <g id="parts-parasitic-internals" stroke="#FED" fill="#FED" font-size="10pt">
+      <rect x="140" y="120" width="10" height="35"></rect><text x="105" y="142" stroke="none">4.7K</text>
+      <rect x="200" y="120" width="10" height="35"></rect><text x="165" y="142" stroke="none">830</text>
+      <rect x="260" y="120" width="10" height="35"></rect><text x="225" y="142" stroke="none">4.7K</text>
+      <rect x="320" y="120" width="10" height="35"></rect><text x="300" y="142" stroke="none">1K</text>
+      <rect x="360" y="120" width="10" height="35"></rect><text x="335" y="142" stroke="none">5K</text>
+      <rect x="360" y="240" width="10" height="35"></rect><text x="335" y="262" stroke="none">5K</text>
+      <rect x="360" y="350" width="10" height="35"></rect><text x="335" y="372" stroke="none">5K</text>
+      <rect x="465" y="240" width="10" height="35"></rect><text x="440" y="262" stroke="none">5K</text>
+      <rect x="600" y="120" width="10" height="35"></rect><text x="560" y="142" stroke="none">6.8K</text>
+      <rect x="200" y="350" width="10" height="35"></rect><text x="215" y="372" stroke="none">10K</text>
+      <rect x="260" y="350" width="10" height="35"></rect><text x="215" y="372" stroke="none" transform="translate(-87, 602) rotate(-90,0,0)">100K</text>
+      <rect x="290" y="350" width="10" height="35"></rect>
+      <rect x="505" y="350" width="10" height="35"></rect><text x="520" y="372" stroke="none">100</text>
+      <rect x="600" y="350" width="10" height="35"></rect><text x="615" y="372" stroke="none">4.7K</text>
+      <rect x="420" y="208" width="35" height="10"></rect><text x="424" y="230" stroke="none">4.7K</text>
+      <rect x="650" y="208" width="35" height="10"></rect><text x="651" y="230" stroke="none">3.9K</text>
+      <rect x="650" y="330" width="35" height="10"></rect><text x="654" y="352" stroke="none">220</text>
+      <use href="#parts-transistor-1" x="145" y="170"></use><text x="105" y="186" stroke="none">PNP</text>
+      <use href="#parts-transistor-2" x="195" y="170"></use>
+      <use href="#parts-transistor-1" x="215" y="170"></use>
+      <use href="#parts-transistor-2" x="265" y="170"></use>
+      <use href="#parts-transistor-1" x="325" y="170"></use>
+      <use href="#parts-transistor-2" x="170" y="245"></use><text x="105" y="270" stroke="none">NPN</text>
+      <use href="#parts-transistor-2" x="190" y="255"></use>
+      <use href="#parts-transistor-1" x="220" y="255"></use>
+      <use href="#parts-transistor-1" x="240" y="245"></use>
+      <use href="#parts-transistor-2" x="245" y="310"></use><text x="105" y="315" stroke="none">PNP</text>
+      <use href="#parts-transistor-2" x="265" y="300"></use>
+      <use href="#parts-transistor-1" x="295" y="300"></use>
+      <use href="#parts-transistor-1" x="315" y="310"></use>
+      <use href="#parts-transistor-2" x="450" y="330"></use><text x="385" y="315" stroke="none">NPN</text>
+      <use href="#parts-transistor-2" x="470" y="320"></use>
+      <use href="#parts-transistor-2" x="490" y="310"></use>
+      <use href="#parts-transistor-2" x="510" y="300"></use>
+      <use href="#parts-transistor-2" x="175" y="335"></use><text x="105" y="360" stroke="none">PNP</text>
+      <use href="#parts-transistor-1" x="155" y="370"></use><text x="105" y="390" stroke="none">NPN</text>
+      <use href="#parts-transistor-1" x="445" y="170"></use><text x="385" y="200" stroke="none">PNP</text>
+      <use href="#parts-transistor-2" x="495" y="170"></use>
+      <use href="#parts-transistor-2" x="625" y="160"></use><text x="655" y="185" stroke="none">NPN</text>
+      <use href="#parts-transistor-2" x="645" y="170"></use>
+      <use href="#parts-transistor-2" x="725" y="325"></use><text x="655" y="315" stroke="none">NPN</text>
+      <use href="#parts-diode-1" x="678" y="255"></use>
+      <use href="#parts-diode-2" x="470" y="300"></use>
+    </g>
+  </g>
+  <g id="tile-package-pinout" transform="translate(1050, 100) rotate(90,0,0)">
+    <rect fill="#111" stroke="#333" width="450" height="100"></rect>
+    <text id="label-package-pinout" fill="#FFF" x="-51" y="30" transform="rotate(-90,0,0)" text-anchor="middle">Pinout</text>
+    <text id="emoji-package-pinout" fill="#FFF" x="446" y="85" text-anchor="end">⚠️</text>
+    <text id="text1-package-pinout" fill="#FFF" text-anchor="end" font-family="Orbitron" font-size="12pt">
+      <tspan x="175" y="25">GND_1</tspan>
+      <tspan x="180" y="45">TRIG-IN_2</tspan>
+      <tspan x="180" y="65">OUT_3</tspan>
+      <tspan x="175" y="85">RESET_4</tspan>
+    </text>
+    <rect stroke="#FFF" x="192.5" y="7.5" width="75" height="85"></rect>
+    <g stroke="#333" stroke-width="5">
+      <circle cx="205" cy="20" r="6"></circle>
+      <circle cx="205" cy="40" r="6"></circle>
+      <circle cx="205" cy="60" r="6"></circle>
+      <circle cx="205" cy="80" r="6"></circle>
+      <circle cx="255" cy="80" r="6"></circle>
+      <circle cx="255" cy="60" r="6"></circle>
+      <circle cx="255" cy="40" r="6"></circle>
+      <circle cx="255" cy="20" r="6"></circle>
+    </g>
+    <rect stroke="#FFF" x="220" y="20" width="20" height="60"></rect>
+    <text id="text2-package-pinout" fill="#FFF" text-anchor="start" font-family="Orbitron" font-size="12pt">
+      <tspan x="280" y="85">5_CTRL</tspan>
+      <tspan x="280" y="65">6_THRESH</tspan>
+      <tspan x="282" y="45">7_DISCH</tspan>
+      <tspan x="280" y="25">8_VCC</tspan>
+    </text>
+    <path d="m 225 10 l 10 0 s -5 10 -10 0" stroke="#FFF"></path>
+  </g>
+  <g id="tile-monostable-oscillator" transform="translate(50, 600) scale(1.555)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-monostable-oscillator" fill="#FFF" x="325" y="30" text-anchor="middle">555 Monostable Oscillator Rev.2</text>
+    <text id="emoji-monostable-oscillator" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-monostable-oscillator" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="95" y="192">10K Bias</tspan>
+      <tspan x="235" y="192">10K Pitch</tspan>
+      <tspan x="375" y="192">10K Volume</tspan>
+      <tspan x="475" y="192">10uF Electrolytic</tspan>
+    </text>
+    <g id="scrub-monostable-oscillator" stroke="#333">
+      <circle cx="50" cy="70" r="6"></circle><circle cx="50" cy="90" r="6"></circle><circle cx="50" cy="110" r="6"></circle><circle cx="50" cy="130" r="6"></circle><circle cx="50" cy="150" r="6"></circle><circle cx="50" cy="170" r="6"></circle>
+      <circle cx="70" cy="70" r="6"></circle><circle cx="70" cy="90" r="6"></circle><circle cx="70" cy="110" r="6"></circle><circle cx="70" cy="130" r="6"></circle><circle cx="70" cy="150" r="6"></circle><circle cx="70" cy="170" r="6"></circle>
+      <circle cx="90" cy="70" r="6"></circle><circle cx="90" cy="90" r="6"></circle><circle cx="90" cy="110" r="6"></circle><circle cx="90" cy="130" r="6"></circle><circle cx="90" cy="150" r="6"></circle><circle cx="90" cy="170" r="6"></circle>
+      <circle cx="110" cy="70" r="6"></circle><circle cx="110" cy="90" r="6"></circle><circle cx="110" cy="110" r="6"></circle><circle cx="110" cy="130" r="6"></circle><circle cx="110" cy="150" r="6"></circle><circle cx="110" cy="170" r="6"></circle>
+      <circle cx="130" cy="70" r="6"></circle><circle cx="130" cy="90" r="6"></circle><circle cx="130" cy="110" r="6"></circle><circle cx="130" cy="130" r="6"></circle><circle cx="130" cy="150" r="6"></circle><circle cx="130" cy="170" r="6"></circle>
+      <circle cx="150" cy="70" r="6"></circle><circle cx="150" cy="90" r="6"></circle><circle cx="150" cy="110" r="6"></circle><circle cx="150" cy="130" r="6"></circle><circle cx="150" cy="150" r="6"></circle><circle cx="150" cy="170" r="6"></circle>
+      <circle cx="170" cy="70" r="6"></circle><circle cx="170" cy="90" r="6"></circle><circle cx="170" cy="110" r="6"></circle><circle cx="170" cy="130" r="6"></circle><circle cx="170" cy="150" r="6"></circle><circle cx="170" cy="170" r="6"></circle>
+      <circle cx="190" cy="70" r="6"></circle><circle cx="190" cy="90" r="6"></circle><circle cx="190" cy="110" r="6"></circle><circle cx="190" cy="130" r="6"></circle><circle cx="190" cy="150" r="6"></circle><circle cx="190" cy="170" r="6"></circle>
+      <circle cx="210" cy="70" r="6"></circle><circle cx="210" cy="90" r="6"></circle><circle cx="210" cy="110" r="6"></circle><circle cx="210" cy="130" r="6"></circle><circle cx="210" cy="150" r="6"></circle><circle cx="210" cy="170" r="6"></circle>
+      <circle cx="230" cy="70" r="6"></circle><circle cx="230" cy="90" r="6"></circle><circle cx="230" cy="110" r="6"></circle><circle cx="230" cy="130" r="6"></circle><circle cx="230" cy="150" r="6"></circle><circle cx="230" cy="170" r="6"></circle>
+      <circle cx="250" cy="70" r="6"></circle><circle cx="250" cy="90" r="6"></circle><circle cx="250" cy="110" r="6"></circle><circle cx="250" cy="130" r="6"></circle><circle cx="250" cy="150" r="6"></circle><circle cx="250" cy="170" r="6"></circle>
+      <circle cx="270" cy="70" r="6"></circle><circle cx="270" cy="90" r="6"></circle><circle cx="270" cy="110" r="6"></circle><circle cx="270" cy="130" r="6"></circle><circle cx="270" cy="150" r="6"></circle><circle cx="270" cy="170" r="6"></circle>
+      <circle cx="290" cy="70" r="6"></circle><circle cx="290" cy="90" r="6"></circle><circle cx="290" cy="110" r="6"></circle><circle cx="290" cy="130" r="6"></circle><circle cx="290" cy="150" r="6"></circle><circle cx="290" cy="170" r="6"></circle>
+      <circle cx="310" cy="70" r="6"></circle><circle cx="310" cy="90" r="6"></circle><circle cx="310" cy="110" r="6"></circle><circle cx="310" cy="130" r="6"></circle><circle cx="310" cy="150" r="6"></circle><circle cx="310" cy="170" r="6"></circle>
+      <circle cx="330" cy="70" r="6"></circle><circle cx="330" cy="90" r="6"></circle><circle cx="330" cy="110" r="6"></circle><circle cx="330" cy="130" r="6"></circle><circle cx="330" cy="150" r="6"></circle><circle cx="330" cy="170" r="6"></circle>
+      <circle cx="350" cy="70" r="6"></circle><circle cx="350" cy="90" r="6"></circle><circle cx="350" cy="110" r="6"></circle><circle cx="350" cy="130" r="6"></circle><circle cx="350" cy="150" r="6"></circle><circle cx="350" cy="170" r="6"></circle>
+      <circle cx="370" cy="70" r="6"></circle><circle cx="370" cy="90" r="6"></circle><circle cx="370" cy="110" r="6"></circle><circle cx="370" cy="130" r="6"></circle><circle cx="370" cy="150" r="6"></circle><circle cx="370" cy="170" r="6"></circle>
+      <circle cx="390" cy="70" r="6"></circle><circle cx="390" cy="90" r="6"></circle><circle cx="390" cy="110" r="6"></circle><circle cx="390" cy="130" r="6"></circle><circle cx="390" cy="150" r="6"></circle><circle cx="390" cy="170" r="6"></circle>
+      <circle cx="410" cy="70" r="6"></circle><circle cx="410" cy="90" r="6"></circle><circle cx="410" cy="110" r="6"></circle><circle cx="410" cy="130" r="6"></circle><circle cx="410" cy="150" r="6"></circle><circle cx="410" cy="170" r="6"></circle>
+      <circle cx="430" cy="70" r="6"></circle><circle cx="430" cy="90" r="6"></circle><circle cx="430" cy="110" r="6"></circle><circle cx="430" cy="130" r="6"></circle><circle cx="430" cy="150" r="6"></circle><circle cx="430" cy="170" r="6"></circle>
+      <circle cx="450" cy="70" r="6"></circle><circle cx="450" cy="90" r="6"></circle><circle cx="450" cy="110" r="6"></circle><circle cx="450" cy="130" r="6"></circle><circle cx="450" cy="150" r="6"></circle><circle cx="450" cy="170" r="6"></circle>
+      <circle cx="470" cy="70" r="6"></circle><circle cx="470" cy="90" r="6"></circle><circle cx="470" cy="110" r="6"></circle><circle cx="470" cy="130" r="6"></circle><circle cx="470" cy="150" r="6"></circle><circle cx="470" cy="170" r="6"></circle>
+      <circle cx="490" cy="70" r="6"></circle><circle cx="490" cy="90" r="6"></circle><circle cx="490" cy="110" r="6"></circle><circle cx="490" cy="130" r="6"></circle><circle cx="490" cy="150" r="6"></circle><circle cx="490" cy="170" r="6"></circle>
+      <circle cx="510" cy="70" r="6"></circle><circle cx="510" cy="90" r="6"></circle><circle cx="510" cy="110" r="6"></circle><circle cx="510" cy="130" r="6"></circle><circle cx="510" cy="150" r="6"></circle><circle cx="510" cy="170" r="6"></circle>
+      <circle cx="530" cy="70" r="6"></circle><circle cx="530" cy="90" r="6"></circle><circle cx="530" cy="110" r="6"></circle><circle cx="530" cy="130" r="6"></circle><circle cx="530" cy="150" r="6"></circle><circle cx="530" cy="170" r="6"></circle>
+      <circle cx="550" cy="70" r="6"></circle><circle cx="550" cy="90" r="6"></circle><circle cx="550" cy="110" r="6"></circle><circle cx="550" cy="130" r="6"></circle><circle cx="550" cy="150" r="6"></circle><circle cx="550" cy="170" r="6"></circle>
+      <circle cx="570" cy="70" r="6"></circle><circle cx="570" cy="90" r="6"></circle><circle cx="570" cy="110" r="6"></circle><circle cx="570" cy="130" r="6"></circle><circle cx="570" cy="150" r="6"></circle><circle cx="570" cy="170" r="6"></circle>
+      <circle cx="590" cy="70" r="6"></circle><circle cx="590" cy="90" r="6"></circle><circle cx="590" cy="110" r="6"></circle><circle cx="590" cy="130" r="6"></circle><circle cx="590" cy="150" r="6"></circle><circle cx="590" cy="170" r="6"></circle>
+    </g>
+    <g id="wires-monostable-oscillator" stroke="#F05">
+      <path d="m 50 70 l 0 100"></path><path d="m 90 70 l 0 100"></path><path d="m 130 70 l 0 100"></path>
+      <path d="m 190 70 l 0 100"></path><path d="m 230 70 l 0 100"></path><path d="m 270 70 l 0 100"></path>
+      <path d="m 330 70 l 0 100"></path><path d="m 370 70 l 0 100"></path><path d="m 410 70 l 0 100"></path>
+      <path d="m 570 70 l 20 0 l 0 100"></path><path d="m 550 110 l 20 0 l 0 40 l -20 0" stroke="#0FA"></path>
+      <path d="m 550 70 l -20 0 l 0 80 l -20 0"></path><path d="m 570 70 s -30 40 -60 20" stroke="#777"></path>
+      <path d="m 490 90 l 0 60 l -20 0"></path><path d="m 490 90 s 10 -40 20 0 l -5 0 m -5 -15 l 0 -5" stroke="#FF0"></path>
+      <path d="m 410 70 s 30 50 60 20" stroke="#0FF"></path><path d="m 370 70 s 90 80 180 40" stroke="#0FA"></path>
+      <path d="m 230 70 s 40 80 220 20" stroke="#FAF"></path><path d="m 270 70 s 110 120 220 20" stroke="#F70"></path>
+      <path d="m 90 70 s 40 140 420 80" stroke="#07F"></path><path d="m 130 70 s 140 80 280 0" stroke="#77C"></path>
+      <path d="m 450 90 s 30 60 60 60" stroke="#FAF"></path>
+    </g>
+    <g id="parts-monostable-oscillator" stroke="#FFF">
+      <rect x="540" y="80" width="70" height="100"></rect><rect x="610" y="105" width="20" height="50"></rect>
+      <rect x="440" y="80" width="80" height="80"></rect><rect x="520" y="60" width="80" height="20"></rect>
+    </g>
+  </g>
+</g>
+<defs>
+  <g id="parts-transistor-1">
+    <path d="m 0 0 l 7.5 7.5 m 0 -5 l 0 7.5 m 0 0 l 10 0 m -10 0 l 0 7.5 m 0 -5 l -7.5 7.5"></path>
+  </g>
+  <g id="parts-transistor-2">
+    <path d="m 0 0 l -7.5 7.5 m 0 -5 l 0 7.5 m 0 0 l -10 0 m 10 0 l 0 7.5 m 0 -5 l 7.5 7.5"></path>
+  </g>
+  <g id="parts-diode-1">
+    <path d="m -4 -10 l -10 10 l 10 10 m -10 0 l 0 -20"></path>
+  </g>
+  <g id="parts-diode-2">
+    <path d="m -10 -4 l 10 10 l 10 -10 m 0 10 l -20 0"></path>
+  </g>
+</defs>
+</svg>
