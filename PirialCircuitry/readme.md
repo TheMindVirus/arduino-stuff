@@ -83,6 +83,10 @@ in between the serially splayed line.
 
 <img src="image_pirial_circuitry_555_parasitic.png" alt="image_pirial_circuitry_555_parasitic" width="100%"></img>
 
+### Spatial Stereo Imaging Crosstalk Spread & Bridge Rectifier Buss Compressor
+
+<img src="image_pirial_circuitry_stereo_imaging.png" alt="image_pirial_circuitry_stereo_imaging" width="100%"></img>
+
 ### Trimpot Matrix Mixer 8x8 Grid Tile Novation Launch Control
 
 <img src="folder_trimpot_matrix_mixer/image_pirial_circuitry_trimpot_matrix_mixer.png" alt="image_pirial_circuitry_trimpot_matrix_mixer" width="100%"></img>

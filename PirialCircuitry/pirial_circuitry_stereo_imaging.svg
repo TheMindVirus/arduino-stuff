@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color-scheme: dark; background: black; width: 10000px; height: 10000px; overflow: scroll; user-select: none;">
+<title>Pirial Circuitry Stereo Imaging</title>
+<g mod="pirial" id="circuitry" addendum="stereo" font-size="18pt" fill="none" stroke="none" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" font-family="Permanent Marker" font-weight="bold">
+  <text id="title" x="365" y="70" text-anchor="middle" font-size="50pt" fill="#FFF">Pirial Circuitry</text>
+  <text id="title" x="365" y="140" text-anchor="middle" font-size="50pt" fill="#FFF">Stereo Imaging</text>
+  <g id="tile-crosstalk-spread" transform="translate(50, 200)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-crosstalk-spread" fill="#FFF" x="325" y="30" text-anchor="middle">Passive Stereo Crosstalk Imager</text>
+    <text id="emoji-crosstalk-spread" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-crosstalk-spread" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="75" y="55">Input</tspan>
+      <tspan x="200" y="55">Left Volume</tspan><tspan x="200" y="195">Right Volume</tspan>
+      <tspan x="300" y="55">Send to Right</tspan><tspan x="300" y="195">Send to Left</tspan>
+      <tspan x="400" y="55">S-Option</tspan><tspan x="400" y="195">C-Option</tspan>
+      <tspan x="500" y="55">Spread</tspan><tspan x="500" y="195">Crosstalk</tspan>
+      <tspan x="570" y="55">Output</tspan>
+    </text>
+    <g id="scrub-crosstalk-spread">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-crosstalk-spread">
+      <path d="m 90 90 l 40 0 l 40 80 l 20 0" stroke="#F05"></path><path d="m 90 170 l 40 0 l 40 -80 l 20 0" stroke="#F05"></path>
+      <path d="m 210 110 l 20 0 l 40 40 l 20 0" stroke="#0FF"></path><path d="m 210 150 l 20 0 l 40 -40 l 20 0" stroke="#0FF"></path>
+      <path d="m 210 90 l 80 0" stroke="#F05"></path><path d="m 210 170 l 80 0" stroke="#F05"></path>
+      <path d="m 310 90 l 20 0 l 40 10 l 130 0 l 40 -10 l 10 0" stroke="#F05"></path><path d="m 310 170 l 20 0 l 40 -10 l 130 0 l 40 10 l 10 0" stroke="#F05"></path>
+      <path d="m 50 170 l 0 -100 l 460 0 l 0 20 m 0 20 l 20 0 l 0 -40 l 60 0 l 0 100" stroke="#777" stroke-width="4"></path>
+      <path d="m 390 90 l 40 0 l 40 20 l 20 0" stroke="#0FF"></path><path d="m 390 110 l 40 0 l 40 -20 l 20 0" stroke="#0FF"></path>
+      <path d="m 510 170 l 0 -5 m 0 -15 l 0 -15 l -10 -15 l 0 -20" stroke="#F05"></path> 
+      <path d="m 390 150 l 40 0 l 40 20 l 20 0" stroke="#0FF"></path><path d="m 390 170 l 40 0 l 40 -20 l 20 0" stroke="#0FF"></path>
+    </g>
+    <g id="parts-crosstalk-spread" stroke="#FFF">
+      <rect x="40" y="80" width="60" height="100"></rect><rect x="25" y="105" width="15" height="50"></rect>
+      <rect x="540" y="80" width="60" height="100"></rect><rect x="600" y="105" width="15" height="50"></rect>
+      <rect x="180" y="80" width="40" height="40"></rect><rect x="180" y="140" width="40" height="40"></rect>
+      <rect x="280" y="80" width="40" height="40"></rect><rect x="280" y="140" width="40" height="40"></rect>
+      <rect x="380" y="80" width="40" height="40"></rect><rect x="380" y="140" width="40" height="40"></rect>
+      <rect x="480" y="80" width="40" height="40"></rect><rect x="480" y="140" width="40" height="40"></rect>
+    </g>
+  </g>
+  <g id="tile-tubular-junction" transform="translate(50, 450)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-tubular-junction" fill="#FFF" x="325" y="30" text-anchor="middle" font-size="20pt">Tubular Junction Spherical Routing Matrix</text>
+    <text id="emoji-tubular-junction" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-tubular-junction" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="75" y="55">Master Input</tspan>
+      <tspan x="250" y="55">Left/Right</tspan>
+      <tspan x="350" y="55">Front/Back</tspan>
+      <tspan x="450" y="55">Up/Down</tspan>
+      <tspan x="550" y="55">Omni/Sub</tspan>
+    </text>
+    <g id="scrub-tubular-junction">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-tubular-junction">
+      <path d="m 50 70 l 0 100 l 140 0 l 0 -20 l -80 0 m 80 0 l 0 -40 l 404 0 m -404 0 l -80 0 l 0 60 m 0 -60 l -60 0" stroke="#777" stroke-width="4"></path>
+      <path d="m 90 70 l 10 0 l 20 -5 l 60 0 l 20 5 l 400 0" stroke="#F05"></path><path d="m 90 150 l 10 0 l 20 -80 l 60 0 l 20 20 l 400 0" stroke="#F05"></path>
+      <path d="m 130 90 l 0 20 m 0 20 l 0 20 m 20 0 l 0 -20 m 0 -20 l 0 -20 m 20 0 l 0 20 m 0 20 l 0 20" stroke="#77C" stroke-width="6"></path>
+      <path d="m 250 110 l 0 60 m 100 0 l 0 -60 m 100 0 l 0 60 m 100 0 l 0 -60" stroke="#77C" stroke-width="6"></path>
+      <path d="m 210 70 l 0 60 m 20 0 l 0 -60 m 40 0 l 0 60 m 20 0 l 0 -60 m 20 0 l 0 60 m 20 0 l 0 -60 m 40 0 l 0 60 m 20 0 l 0 -60 m 20 0 l 0 60 m 20 0 l 0 -60 m 40 0 l 0 60 m 20 0 l 0 -60 m 20 0 l 0 60 m 20 0 l 0 -60 m 40 0 l 0 60 m 20 0 l 0 -60 m 40 0" stroke="#555"></path>
+      <path d="m 90 90 s 20 20 40 0" stroke="#0FF"></path><path d="m 90 130 s 20 20 40 0" stroke="#0FF"></path>
+      <path d="m 150 90 s 70 60 100 20" stroke="#0FF"></path><path d="m 150 130 s 100 80 200 -20" stroke="#0FF"></path>
+      <path d="m 170 130 s 140 50 280 -20" stroke="#0FF"></path><path d="m 170 90 s 100 80 380 20" stroke="#0FF"></path>
+    </g>
+    <g id="parts-tubular-junction" stroke="#FFF">
+      <rect x="40" y="60" width="60" height="100"></rect><rect x="25" y="85" width="15" height="50"></rect>
+      <rect x="200" y="120" width="100" height="60"></rect><rect x="225" y="180" width="50" height="15"></rect>
+      <rect x="300" y="120" width="100" height="60"></rect><rect x="325" y="180" width="50" height="15"></rect>
+      <rect x="400" y="120" width="100" height="60"></rect><rect x="425" y="180" width="50" height="15"></rect>
+      <rect x="500" y="120" width="100" height="60"></rect><rect x="525" y="180" width="50" height="15"></rect>
+      <rect x="200" y="60" width="40" height="40"></rect><rect x="260" y="60" width="40" height="40"></rect>
+      <rect x="300" y="60" width="40" height="40"></rect><rect x="360" y="60" width="40" height="40"></rect>
+      <rect x="400" y="60" width="40" height="40"></rect><rect x="460" y="60" width="40" height="40"></rect>
+      <rect x="500" y="60" width="40" height="40"></rect><rect x="560" y="60" width="40" height="40"></rect>
+      <rect x="120" y="80" width="60" height="40"></rect><rect x="120" y="120" width="60" height="40"></rect>
+    </g>
+  </g>
+  <g id="tile-divisive-rectifier" transform="translate(50, 700)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-divisive-rectifier" fill="#FFF" x="325" y="30" text-anchor="middle">Divisive Mixing Buss Rectifier</text>
+    <text id="emoji-divisive-rectifier" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="rtext-divisive-rectifier" fill="#FFF" text-anchor="start" font-size="10pt" transform="translate(-20, 604) rotate(-90, 0, 0)">
+      <tspan x="430" y="55">Bridge Rectifier x2</tspan>
+    </text>
+    <text id="text-divisive-rectifier" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="150" y="55">Balanced In +</tspan>
+      <tspan x="255" y="55">Balanced In -</tspan>
+      <tspan x="422" y="55">Buss Compressor</tspan>
+      <tspan x="575" y="55">Buss Output</tspan>
+    </text>
+    <g id="scrub-divisive-rectifier">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-divisive-rectifier">
+      <g stroke="#F05" stroke-width="6"><path d="m 50 70 l 0 100"></path><path d="m 70 70 l 0 100"></path><path d="m 90 70 l 0 100"></path></g>
+      <path d="m 110 170 l 480 0 l 0 -100" stroke="#777" stroke-width="6"></path>
+      <path d="m 110 130 l 0 -60 l 20 0 m 40 40 l 20 0 l 0 20" stroke="#0FA" stroke-width="4"></path>
+      <path d="m 210 130 l 0 -20 l 20 0 m 40 -40 l 20 0 l 0 60" stroke="#0FA" stroke-width="4"></path>
+      <path d="m 110 150 l 20 0 l 0 -20 l 20 20 l 0 -20 m 0 20 l 20 -20 l 0 20 l 60 0 l 0 -20 l 20 20 l 0 -20 m 0 20 l 20 -20 l 0 20 l 60 0" stroke="#A99" stroke-width="6"></path>
+      <path d="m 350 150 l 80 0 l -20 -20 l 20 0 l -20 -20 l 20 0 l -20 -20 l 80 0" stroke="#A99" stroke-width="6"></path>
+      <path d="m 170 70 l 60 0" stroke="#0FF"></path>
+      <path d="m 130 110 l 20 -20 l 100 0 l 20 20" stroke="#0FF"></path>
+      <path d="m 350 90 l -20 0 l 0 40 l -20 0 l 0 -60 l 260 0 l 0 20" stroke="#0FF"></path>
+      <path d="m 490 150 l 80 0 l 0 -20" stroke="#0FF"></path>
+      <path d="m 509 87.5 l 45 0 m -40 15 l 45 0 m -45 15 l 45 0 m -50 15 l 45 0" stroke="#A99" stroke-width="6"></path>
+      <path d="m 130 70 l 40 0 l 0 40 l -40 0 l 0 -40" stroke="#F05" stroke-width="6"></path>
+      <path d="m 230 70 l 40 0 l 0 40 l -40 0 l 0 -40" stroke="#F05" stroke-width="6"></path>
+      <path d="m 350 90 l 40 0 l 0 40 l -40 0 l 0 -40" stroke="#343" stroke-width="6"></path>
+      <path d="m 450 110 l 40 0 l 0 40 l -40 0 l 0 -40" stroke="#343" stroke-width="6"></path>
+      <path d="M 200 70 S 255 250 390 90" stroke="#77C"></path><path d="M 200 90 S 255 180 350 130" stroke="#77C"></path>
+      <path d="M 390 90 S 255 250 490 110" stroke="#77C"></path><path d="M 350 130 S 255 180 450 150" stroke="#77C"></path>
+    </g>
+    <g id="parts-divisive-rectifier" stroke="#FFF">
+      <rect x="100" y="120" width="100" height="60"></rect><rect x="125" y="180" width="50" height="15"></rect>
+      <rect x="200" y="120" width="100" height="60"></rect><rect x="225" y="180" width="50" height="15"></rect>
+      <rect x="340" y="80" width="160" height="80"></rect><rect x="360" y="100" width="120" height="40"></rect>
+      <rect x="540" y="60" width="60" height="100"></rect><rect x="600" y="85" width="20" height="50"></rect>
+      <use href="#parts-diode" transform="translate(130, 090) rotate(000, 000, 000)"></use>
+      <use href="#parts-diode" transform="translate(150, 070) rotate(090, 000, 000)"></use>
+      <use href="#parts-diode" transform="translate(170, 090) rotate(180, 000, 000)"></use>
+      <use href="#parts-diode" transform="translate(150, 110) rotate(270, 000, 000)"></use>
+      <use href="#parts-diode" transform="translate(270, 090) rotate(360, 000, 000)"></use>
+      <use href="#parts-diode" transform="translate(250, 110) rotate(450, 000, 000)"></use>
+      <use href="#parts-diode" transform="translate(230, 090) rotate(540, 000, 000)"></use>
+      <use href="#parts-diode" transform="translate(250, 070) rotate(630, 000, 000)"></use>
+      <use href="#parts-zener" transform="translate(350, 110) rotate(000, 000, 000)"></use>
+      <use href="#parts-zener" transform="translate(370, 090) rotate(090, 000, 000)"></use>
+      <use href="#parts-zener" transform="translate(390, 110) rotate(180, 000, 000)"></use>
+      <use href="#parts-zener" transform="translate(370, 130) rotate(270, 000, 000)"></use>
+      <use href="#parts-zener" transform="translate(490, 130) rotate(360, 000, 000)"></use>
+      <use href="#parts-zener" transform="translate(470, 150) rotate(450, 000, 000)"></use>
+      <use href="#parts-zener" transform="translate(450, 130) rotate(540, 000, 000)"></use>
+      <use href="#parts-zener" transform="translate(470, 110) rotate(630, 000, 000)"></use>
+    </g>
+  </g>
+</g>
+<defs>
+  <pattern id="grid" x="0.0" y="0.0" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="10" cy="10" r="6" fill="none" stroke="#333" stroke-width="3"></circle>
+  </pattern>
+  <g id="parts-diode" transform="translate(-5.0, -10.0)">
+    <rect width="10" height="20" fill="#555" stroke="#555"></rect><rect y="4" width="10" height="1" fill="#FFF" stroke="#FFF"></rect>
+  </g>
+  <g id="parts-zener" transform="translate(-5.0, -10.0)">
+    <rect width="10" height="20" fill="#F95" stroke="#F90"></rect><rect y="4" width="10" height="1" fill="#000" stroke="#000"></rect>
+  </g>
+</defs>
+</svg>
