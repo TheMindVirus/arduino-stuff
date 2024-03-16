@@ -1,0 +1,41 @@
+streamin Left In;
+streamin Right In;
+streamout Left Out;
+streamout Right Out;
+
+streamin Left Inverter Prev; //Wire to Left Inverter Next
+streamin Right Inverter Prev; //Wire to Right Inverter Next
+streamout Left Inverter Next; //Wire to Left Inverter Prev
+streamout Right Inverter Next; //Wire to Right Inverter Prev
+
+streamin Left Equator Prev; //Wire to Left Equator Next
+streamin Right Equator Prev; //Wire to Right Equator Next
+streamout Left Equator Next; //Wire to Left Equator Prev
+streamout Right Equator Next; //Wire to Right Equator Prev
+
+float Left Edge = 1.0;
+float Right Edge = 1.0;
+float Left Threshold = 0.1; //0.000001;
+float Right Threshold = 0.1; //0.000001;
+float Left Buffer = 0.0;
+float Right Buffer = 0.0;
+
+Left Buffer = (1.0 & (abs(Left In) < Left Threshold));
+Right Buffer = (1.0 & (abs(Right In) < Right Threshold));
+
+Left Edge = (Left Buffer == 0.0) & (Left Equator Prev == 1.0);
+Right Edge = (Right Buffer == 0.0) & (Right Equator Prev == 1.0);
+
+Left Equator Next = Left Buffer;
+Right Equator Next = Right Buffer;
+
+Left Inverter Prev = (1.0 & (Left Inverter Prev == 0.0)) + (Left Inverter Prev & (Left Inverter Prev != 0.0));
+Right Inverter Prev = (1.0 & (Right Inverter Prev == 0.0)) + (Right Inverter Prev & (Right Inverter Prev != 0.0));
+
+Left Inverter Next = (( 1.0 * Left Inverter Prev) & (Left Edge < 0.5))
+                   + ((-1.0 * Left Inverter Prev) & (Left Edge >= 0.5));
+Right Inverter Next = (( 1.0 * Right Inverter Prev) & (Right Edge < 0.5))
+                    + ((-1.0 * Right Inverter Prev) & (Right Edge >= 0.5));
+
+Left Out = Left In * Left Inverter Next;
+Right Out = Right In * Right Inverter Next;
