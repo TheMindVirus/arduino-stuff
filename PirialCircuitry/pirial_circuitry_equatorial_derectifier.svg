@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color-scheme: dark; background: black; width: 10000px; height: 10000px; overflow: scroll; user-select: none;">
+<title>Pirial Circuitry Equatorial Derectifier</title>
+<g mod="pirial" id="circuitry" addendum="derectifier" font-size="18pt" fill="none" stroke="none" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" font-family="Permanent Marker" font-weight="bold">
+  <text id="title" x="365" y="70" text-anchor="middle" font-size="50pt" fill="#FFF">Pirial Circuitry</text>
+  <text id="title" x="365" y="140" text-anchor="middle" font-size="40pt" fill="#FFF">Equatorial Derectifier</text>
+  <g id="tile-crosstalk-trimpot" transform="translate(50, 200)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-crosstalk-trimpot" fill="#FFF" x="325" y="30" text-anchor="middle">Passive Crosstalk Trimpot Mixer</text>
+    <text id="emoji-crosstalk-trimpot" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-crosstalk-trimpot" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="75" y="55">Input</tspan>
+      <tspan x="200" y="55">10K L-Volume</tspan><tspan x="200" y="195">10K R-Volume</tspan>
+      <tspan x="300" y="55">10K R-Send</tspan><tspan x="300" y="195">10K L-Send</tspan>
+      <tspan x="400" y="55">S-Alt</tspan><tspan x="400" y="195">C-Alt</tspan>
+      <tspan x="500" y="55">100R Spread</tspan><tspan x="500" y="195">100R Crosstalk</tspan>
+      <tspan x="570" y="55">Output</tspan>
+    </text>
+    <g id="scrub-crosstalk-trimpot">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-crosstalk-trimpot">
+      <path d="m 90 90 l 40 0 l 40 80 l 20 0" stroke="#F05"></path><path d="m 90 170 l 40 0 l 40 -80 l 20 0" stroke="#F05"></path>
+      <path d="m 210 110 l 20 0 l 40 40 l 20 0" stroke="#0FF"></path><path d="m 210 150 l 20 0 l 40 -40 l 20 0" stroke="#0FF"></path>
+      <path d="m 210 90 l 80 0" stroke="#F05"></path><path d="m 210 170 l 80 0" stroke="#F05"></path>
+      <path d="m 310 90 l 20 0 l 40 10 l 130 0 l 40 -10 l 10 0" stroke="#F05"></path><path d="m 310 170 l 20 0 l 40 -10 l 130 0 l 40 10 l 10 0" stroke="#F05"></path>
+      <path d="m 50 170 l 0 -100 l 460 0 l 0 20 m 0 20 l 20 0 l 0 -40 l 60 0 l 0 100" stroke="#777" stroke-width="4"></path>
+      <path d="m 390 90 l 40 0 l 40 20 l 20 0" stroke="#0FF"></path><path d="m 390 110 l 40 0 l 40 -20 l 20 0" stroke="#0FF"></path>
+      <path d="m 510 170 l 0 -5 m 0 -15 l 0 -15 l -10 -15 l 0 -20" stroke="#F05"></path> 
+      <path d="m 390 150 l 40 0 l 40 20 l 20 0" stroke="#0FF"></path><path d="m 390 170 l 40 0 l 40 -20 l 20 0" stroke="#0FF"></path>
+    </g>
+    <g id="parts-crosstalk-trimpot" stroke="#FFF">
+      <rect x="40" y="80" width="60" height="100"></rect><rect x="25" y="105" width="15" height="50"></rect>
+      <rect x="540" y="80" width="60" height="100"></rect><rect x="600" y="105" width="15" height="50"></rect>
+      <rect x="180" y="80" width="40" height="40"></rect><circle cx="200" cy="100" r="15" fill="none" stroke="#07F"></circle><line x1="200" y1="100" x2="200" y2="85"></line>
+      <rect x="180" y="140" width="40" height="40"></rect><circle cx="200" cy="160" r="15" fill="none" stroke="#07F"></circle><line x1="200" y1="160" x2="200" y2="145"></line>
+      <rect x="280" y="80" width="40" height="40"></rect><circle cx="300" cy="100" r="15" fill="none" stroke="#07F"></circle><line x1="300" y1="100" x2="300" y2="85"></line>
+      <rect x="280" y="140" width="40" height="40"></rect><circle cx="300" cy="160" r="15" fill="none" stroke="#07F"></circle><line x1="300" y1="160" x2="300" y2="145"></line>
+      <rect x="380" y="80" width="40" height="40"></rect>
+      <rect x="380" y="140" width="40" height="40"></rect>
+      <rect x="480" y="80" width="40" height="40"></rect><circle cx="500" cy="100" r="15" fill="none" stroke="#07F"></circle><line x1="500" y1="100" x2="500" y2="85"></line>
+      <rect x="480" y="140" width="40" height="40"></rect><circle cx="500" cy="160" r="15" fill="none" stroke="#07F"></circle><line x1="500" y1="160" x2="500" y2="145"></line>
+    </g>
+  </g>
+  <g id="tile-lateral-pyramidal" transform="translate(50, 450)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-lateral-pyramidal" fill="#FFF" x="325" y="30" text-anchor="middle" font-size="20pt">Lateral Pyramidal Junction Transistor</text>
+    <text id="emoji-lateral-pyramidal" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-lateral-pyramidal" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="75" y="55">_Collector_</tspan>
+      <tspan x="155" y="55">__Emitter__</tspan>
+      <tspan x="250" y="55">_Left___Right</tspan>
+      <tspan x="350" y="55">_Front__Back</tspan>
+      <tspan x="450" y="55">_..Up___Down</tspan>
+      <tspan x="550" y="55">_Center_Subbass</tspan>
+    </text>
+    <g id="scrub-lateral-pyramidal">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-lateral-pyramidal">
+      <path d="m 50 70 l 0 100 m 0 -60 l 120 0 m -120 60 l 60 0 l 0 -20 l 60 0" stroke="#777" stroke-width="4"></path>
+      <path d="m 90 70 l 10 0 l 20 -5 l 60 0 l 20 5 l 400 0" stroke="#F05"></path><path d="m 90 150 l 10 0 l 20 -80 l 60 0 l 20 20 l 400 0" stroke="#F05"></path>
+      <path d="m 130 90 l 0 20 m 0 20 l 0 20 m 20 0 l 0 -20 m 0 -20 l 0 -20 m 20 0 l 0 20 m 0 20 l 0 20" stroke="#999" stroke-width="6"></path>
+      <path d="m 250 110 l 0 60 m 100 0 l 0 -60 m 100 0 l 0 60 m 100 0 l 0 -60" stroke="#999" stroke-width="6"></path>
+      <path d="m 210 70 l 0 60 m 20 0 l 0 -60 m 40 0 l 0 60 m 20 0 l 0 -60 m 20 0 l 0 60 m 20 0 l 0 -60 m 40 0 l 0 60 m 20 0 l 0 -60 m 20 0 l 0 60 m 20 0 l 0 -60 m 40 0 l 0 60 m 20 0 l 0 -60 m 20 0 l 0 60 m 20 0 l 0 -60 m 40 0 l 0 60 m 20 0 l 0 -60 m 40 0" stroke="#555"></path>
+      <path d="m 90 90 s 20 20 40 0" stroke="#77C"></path><path d="m 90 130 s 20 20 40 0" stroke="#77C"></path>
+      <path d="m 150 90 s 70 60 100 20" stroke="#77C"></path><path d="m 150 130 s 100 80 200 -20" stroke="#77C"></path>
+      <path d="m 170 130 s 140 50 280 -20" stroke="#77C"></path><path d="m 170 90 s 100 80 380 20" stroke="#77C"></path>
+    </g>
+    <g id="parts-lateral-pyramidal" stroke="#FFF">
+      <rect x="40" y="60" width="60" height="100"></rect><rect x="25" y="85" width="15" height="50"></rect>
+      <rect x="200" y="120" width="100" height="60"></rect>
+      <rect x="225" y="180" width="50" height="15"></rect>
+      <rect x="300" y="120" width="100" height="60"></rect>
+      <rect x="325" y="180" width="50" height="15"></rect>
+      <rect x="400" y="120" width="100" height="60"></rect>
+      <rect x="425" y="180" width="50" height="15"></rect>
+      <rect x="500" y="120" width="100" height="60"></rect>
+      <rect x="525" y="180" width="50" height="15"></rect>
+      <rect x="200" y="60" width="40" height="40"></rect><circle cx="220" cy="80" r="15" fill="none" stroke="#0FF"></circle><line x1="220" y1="80" x2="220" y2="65"></line>
+      <rect x="260" y="60" width="40" height="40"></rect><circle cx="280" cy="80" r="15" fill="none" stroke="#0FF"></circle><line x1="280" y1="80" x2="280" y2="65"></line>
+      <rect x="300" y="60" width="40" height="40"></rect><circle cx="320" cy="80" r="15" fill="none" stroke="#0FF"></circle><line x1="320" y1="80" x2="320" y2="65"></line>
+      <rect x="360" y="60" width="40" height="40"></rect><circle cx="380" cy="80" r="15" fill="none" stroke="#0FF"></circle><line x1="380" y1="80" x2="380" y2="65"></line>
+      <rect x="400" y="60" width="40" height="40"></rect><circle cx="420" cy="80" r="15" fill="none" stroke="#0FF"></circle><line x1="420" y1="80" x2="420" y2="65"></line>
+      <rect x="460" y="60" width="40" height="40"></rect><circle cx="480" cy="80" r="15" fill="none" stroke="#0FF"></circle><line x1="480" y1="80" x2="480" y2="65"></line>
+      <rect x="500" y="60" width="40" height="40"></rect><circle cx="520" cy="80" r="15" fill="none" stroke="#0FF"></circle><line x1="520" y1="80" x2="520" y2="65"></line>
+      <rect x="560" y="60" width="40" height="40"></rect><circle cx="580" cy="80" r="15" fill="none" stroke="#0FF"></circle><line x1="580" y1="80" x2="580" y2="65"></line>
+      <rect x="120" y="80" width="60" height="40"></rect>
+      <rect x="120" y="120" width="60" height="40"></rect>
+    </g>
+  </g>
+  <g id="tile-equatorial-derectifier" transform="translate(50, 700)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-equatorial-derectifier" fill="#FFF" x="325" y="30" text-anchor="middle">Bridge Balancing Equatorial Edge Derectifier</text>
+    <text id="emoji-equatorial-derectifier" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="rtext-equatorial-derectifier" fill="#FFF" text-anchor="end" font-size="10pt" transform="translate(660, -255) rotate(90, 0, 0)">
+      <tspan x="430" y="55">Bridge Derectifier</tspan>
+    </text>
+    <text id="text-equatorial-derectifier" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="70" y="55">Buss Input</tspan>
+      <tspan x="220" y="55">Schottky Rising Edge Detector</tspan>
+      <tspan x="390" y="55">Balanced Out -</tspan>
+      <tspan x="500" y="55">Balanced Out +</tspan>
+      <tspan x="105" y="190">Buffer Chokes</tspan>
+      <tspan x="220" y="190">DPDT Crossover</tspan>
+    </text>
+    <g id="scrub-equatorial-derectifier">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-equatorial-derectifier">
+      <g stroke="#F05" stroke-width="6"><path d="m 550 70 l 0 100"></path><path d="m 570 70 l 0 100"></path><path d="m 590 70 l 0 100"></path></g>
+      <path d="m 530 170 l -40 0 l 0 -100 m 0 100 l -100 0 l 0 -100 m 0 100 l -340 0 l 0 -100" stroke="#777" stroke-width="6"></path>
+      <path d="m 90 70 l 20 0 l 0 20 l 20 -20 l 0 20 m 0 -20 l 20 20 l 0 -20 l 20 0" stroke="#A99" stroke-width="6"></path>
+      <path d="m 90 150 l 20 0 l 0 -20 l 20 20 l 0 -20 m 0 20 l 20 -20 l 0 20 l 20 0" stroke="#A99" stroke-width="6"></path>
+      <path d="m 110 90 l 40 0 l 0 40 l -40 0 l 0 -40" stroke="#F05" stroke-width="6"></path>
+      <path d="m 170 70 l 20 0 s 10 0 10 -10 l 0 0 s 0 10 10 10 l 0 0 s 10 0 10 -10 l 0 0 s 0 10 10 10 l 0 0 s 10 0 10 -10 l 0 0 s 0 10 10 10 l 20 0" stroke="#FAF"></path>
+      <path d="m 170 150 l 20 0 s 10 0 10 10 l 0 0 s 0 -10 10 -10 l 0 0 s 10 0 10 10 l 0 0 s 0 -10 10 -10 l 0 0 s 10 0 10 10 l 0 0 s 0 -10 10 -10 l 20 0" stroke="#FAF"></path>
+      <path d="m 270 70 l 20 0 l 0 20 l 20 -20 l 40 0 m 0 20 l -20 0 l -20 -20 l 0 20" stroke="#A99" stroke-width="6"></path>
+      <path d="m 270 150 l 20 0 l 0 -20 l 20 20 l 0 -20 m 0 20 l 20 -20" stroke="#A99" stroke-width="6"></path>
+      <path d="m 290 90 l 40 0 l 0 40 l -40 0 l 0 -40" stroke="#F05" stroke-width="6"></path>
+      <path d="m 410 70 s 0 10 -20 10 l 0 0 s -20 0 -20 10 l 0 60 l -20 0 l 0 -20 m 80 0 l 0 20 l -20 0 l 0 -60 s 0 -10 -20 -10 l 0 0 s -20 0 -20 -10" stroke="#77C" stroke-width="6"></path>
+      <path d="m 510 70 s 0 10 -20 10 l 0 0 s -20 0 -20 10 l 0 60 l -20 0 l 0 -20 m 80 0 l 0 20 l -20 0 l 0 -60 s 0 -10 -20 -10 l 0 0 s -20 0 -20 -10" stroke="#77C" stroke-width="6"></path>
+      <path d="m 350 70 l 0 20 m 0 -10 l 190 0" stroke="#0FF"></path>
+      <path d="m 170 70 l 20 20 l 60 0 l 20 -20" stroke="#0FF"></path>
+      <path d="m 170 150 l 20 -20 l 60 0 l 20 20" stroke="#0FF"></path>
+    </g>
+    <g id="parts-equatorial-derectifier" stroke="#FFF">
+      <rect x="40" y="60" width="60" height="100"></rect><rect x="20" y="85" width="20" height="50"></rect>
+      <rect x="160" y="60" width="120" height="100"></rect><rect x="340" y="60" width="200" height="40"></rect>
+      <rect x="340" y="120" width="100" height="60"></rect><rect x="365" y="180" width="50" height="15"></rect>
+      <rect x="440" y="120" width="100" height="60"></rect><rect x="465" y="180" width="50" height="15"></rect>      
+    </g>
+  </g>
+</g>
+<defs>
+  <pattern id="grid" x="0.0" y="0.0" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="10" cy="10" r="6" fill="none" stroke="#333" stroke-width="3"></circle>
+  </pattern>
+</defs>
+</svg>

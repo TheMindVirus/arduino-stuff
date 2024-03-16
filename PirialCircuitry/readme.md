@@ -87,6 +87,10 @@ in between the serially splayed line.
 
 <img src="image_pirial_circuitry_stereo_imaging.png" alt="image_pirial_circuitry_stereo_imaging" width="100%"></img>
 
+### 100R Crosstalk Trimpot Mixer & Equatorial Edge Derectifier
+
+<img src="image_pirial_circuitry_equatorial_derectifier.png" alt="image_pirial_circuitry_equatorial_derectifier" width="100%"></img>
+
 ### Trimpot Matrix Mixer 8x8 Grid Tile Novation Launch Control
 
 <img src="folder_trimpot_matrix_mixer/image_pirial_circuitry_trimpot_matrix_mixer.png" alt="image_pirial_circuitry_trimpot_matrix_mixer" width="100%"></img>
