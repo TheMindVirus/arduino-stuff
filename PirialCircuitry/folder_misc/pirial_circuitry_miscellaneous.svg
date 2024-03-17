@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color-scheme: dark; background: black; width: 10000px; height: 10000px; overflow: scroll; user-select: none;">
+<title>Pirial Circuitry Miscellaneous</title>
+<g mod="pirial" id="circuitry" addendum="misc" font-size="18pt" fill="none" stroke="none" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" font-family="Permanent Marker" font-weight="bold">
+  <text id="title" x="365" y="70" text-anchor="middle" font-size="50pt" fill="#FFF">Pirial Circuitry</text>
+  <text id="title" x="365" y="140" text-anchor="middle" font-size="50pt" fill="#FFF">Miscellaneous</text>
+</g>
+</svg>

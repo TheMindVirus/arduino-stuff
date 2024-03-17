@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color-scheme: dark; background: black; width: 10000px; height: 10000px; overflow: scroll; user-select: none;">
+<title>Pirial Circuitry Latch Switch Component</title>
+<g mod="pirial" id="circuitry" addendum="latch" font-size="18pt" fill="none" stroke="none" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" font-family="Permanent Marker" font-weight="bold">
+  <text id="title" x="365" y="70" text-anchor="middle" font-size="50pt" fill="#FFF">Pirial Circuitry</text>
+  <text id="title" x="365" y="140" text-anchor="middle" font-size="40pt" fill="#FFF">Latch Switch Component</text>
+  <g id="tile-latch-switch" transform="translate(50, 200)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-latch-switch" fill="#FFF" x="325" y="30" text-anchor="middle">Latch Switch</text>
+    <text id="emoji-latch-switch" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <g id="scrub-latch-switch">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-latch-switch">
+      <path d="m 50 170 l 0 -100 l 460 0 l 0 20 m 0 60 l 0 -40 l 20 0 l 0 -40 l 60 0 l 0 100" stroke="#777" stroke-width="4"></path>
+      <path d="m 70 170 l 500 0" stroke="#FED" stroke-width="4"></path>
+      <path d="m 90 110 l 120 0 m 20 0 l 120 0 m 20 0 l 120 0" stroke="#FED" stroke-width="4"></path>
+      <path d="m 90 130 l 120 0 m 20 0 l 120 0 m 20 0 l 120 0" stroke="#FED" stroke-width="4"></path>
+    </g>
+    <g id="parts-latch-switch" stroke="#FFF">
+      <path d="m 290 90 l -10 -10 l 7 -7 l -5 -5 m 8 22 l 10 -10 l -7 -7 l 5 -5"></path>
+      <path d="m 290 150 l -10 -10 l 7 -7 l -5 -5 m 8 22 l 10 -10 l -7 -7 l 5 -5"></path>
+      <path d="m 070 90 l -10 -10 l 7 -7 l -5 -5 m 8 22 l 10 -10 l -7 -7 l 5 -5"></path>
+      <path d="m 070 150 l -10 -10 l 7 -7 l -5 -5 m 8 22 l 10 -10 l -7 -7 l 5 -5"></path>
+      <path d="m 510 90 l -10 -10 l 7 -7 l -5 -5 m 8 22 l 10 -10 l -7 -7 l 5 -5"></path>
+      <path d="m 510 150 l -10 -10 l 7 -7 l -5 -5 m 8 22 l 10 -10 l -7 -7 l 5 -5"></path>
+      <path d="m 290 80 l 0 40 l -220 0 m 0 -40 l 0 70 m 0 -30 m 220 0 l 0 30" stroke="#EEE" stroke-width="6"></path>
+    </g>
+  </g>
+  <g id="tile-modular-arithmetic" transform="translate(50, 450)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-modular-arithmetic" fill="#FFF" x="325" y="30" text-anchor="middle" font-size="20pt">Modular Arithmetic</text>
+    <text id="emoji-modular-arithmetic" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <g id="scrub-modular-arithmetic">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-modular-arithmetic" stroke="#FED">
+      <path d="m 050 070 l 540 0" stroke="#F05" stroke-width="6"></path>
+      <path d="m 070 070 l 0 100"></path>
+      <path d="m 170 070 l 0 100"></path>
+      <path d="m 270 070 l 0 100"></path>
+      <path d="m 370 070 l 0 100"></path>
+      <path d="m 470 070 l 0 100"></path>
+      <path d="m 570 070 l 0 100"></path>
+      <path d="m 050 170 l 540 0" stroke="#777" stroke-width="6"></path>
+    </g>
+    <g id="parts-modular-arithmetic" fill="#802A" stroke="#FFF" font-size="15pt" font-family="sans-serif">
+      <g transform="translate(070, 120)"><circle r="15"></circle><text y="5.5" fill="#FFF" stroke="none" text-anchor="middle">()</text></g>
+      <g transform="translate(170, 120)"><circle r="15"></circle><text y="6.0" fill="#FFF" stroke="none" text-anchor="middle">^</text></g>
+      <g transform="translate(270, 120)"><circle r="15"></circle><text y="7.0" fill="#FFF" stroke="none" text-anchor="middle">%</text></g>
+      <g transform="translate(370, 120)"><circle r="15"></circle><text y="6.5" fill="#FFF" stroke="none" text-anchor="middle">&gt;.&lt;</text></g>
+      <g transform="translate(470, 120)"><circle r="15"></circle><text y="7.5" fill="#FFF" stroke="none" text-anchor="middle">+</text></g>
+      <g transform="translate(570, 120)"><circle r="15"></circle><text y="-2.0" fill="#FFF" stroke="none" text-anchor="middle">_</text></g>
+    </g>
+  </g>
+  <g id="tile-component-mixer" transform="translate(50, 700)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-equatorial-derectifier" fill="#FFF" x="325" y="30" text-anchor="middle">Component Mixer</text>
+    <text id="emoji-equatorial-derectifier" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <g id="scrub-component-mixer">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-component-mixer" stroke-width="6">
+      <path d="m 150 070 l 120 0 m 100 0 l 120 0" stroke="#F07"></path><path d="m 150 090 l 120 0 m 100 0 l 120 0" stroke="#777"></path>
+      <path d="m 150 110 l 120 0 m 100 0 l 120 0" stroke="#0F7"></path><path d="m 150 130 l 120 0 m 100 0 l 120 0" stroke="#777"></path>
+      <path d="m 150 150 l 120 0 m 100 0 l 120 0" stroke="#07F"></path><path d="m 150 170 l 120 0 m 100 0 l 120 0" stroke="#777"></path>
+    </g>
+    <g id="parts-component-mixer" stroke="#FFF">
+      <rect x="040" y="60" width="120" height="120"></rect><rect x="015" y="095" width="25" height="50"></rect>
+      <rect x="260" y="60" width="120" height="120"></rect><rect x="295" y="035" width="50" height="25"></rect>
+      <rect x="480" y="60" width="120" height="120"></rect><rect x="600" y="095" width="25" height="50"></rect>
+      <rect x="180" y="060" width="40" height="40"></rect><circle cx="200" cy="080" r="15" fill="none" stroke="#FF0"></circle><line x1="200" y1="080" x2="200" y2="065"></line>
+      <rect x="180" y="100" width="40" height="40"></rect><circle cx="200" cy="120" r="15" fill="none" stroke="#FF0"></circle><line x1="200" y1="120" x2="200" y2="105"></line>
+      <rect x="180" y="140" width="40" height="40"></rect><circle cx="200" cy="160" r="15" fill="none" stroke="#FF0"></circle><line x1="200" y1="160" x2="200" y2="145"></line>
+      <rect x="420" y="060" width="40" height="40"></rect><circle cx="440" cy="080" r="15" fill="none" stroke="#FF0"></circle><line x1="440" y1="080" x2="440" y2="065"></line>
+      <rect x="420" y="100" width="40" height="40"></rect><circle cx="440" cy="120" r="15" fill="none" stroke="#FF0"></circle><line x1="440" y1="120" x2="440" y2="105"></line>
+      <rect x="420" y="140" width="40" height="40"></rect><circle cx="440" cy="160" r="15" fill="none" stroke="#FF0"></circle><line x1="440" y1="160" x2="440" y2="145"></line>
+    </g>
+  </g>
+</g>
+<defs>
+  <pattern id="grid" x="0.0" y="0.0" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="10" cy="10" r="6" fill="none" stroke="#333" stroke-width="3"></circle>
+  </pattern>
+</defs>
+</svg>
