@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color-scheme: dark; background: black; width: 10000px; height: 10000px; overflow: scroll; user-select: none; ">
+<title>Pirial Circuitry Componentry Matrix</title>
+<g mod="pirial" id="circuitry" addendum="matrix" font-size="18pt" fill="none" stroke="none" stroke-linejoin="round" stroke-linecap="round" font-family="Permanent Marker" font-weight="bold" transform="scale(0.8)">
+  <text id="title" x="550" y="70" text-anchor="middle" font-size="40pt" fill="#FFF">Pirial Circuitry Componentry Matrix</text>
+  <g id="tile-componentry-matrix" transform="translate(50, 100)">
+    <rect fill="#111" stroke="#333" width="1000" height="1000"></rect>
+    <text id="label-componentry-matrix" fill="#FFF" x="500" y="30" text-anchor="middle">Componentry Matrix</text>
+    <text id="emoji-componentry-matrix" fill="#FFF" x="996" y="985" text-anchor="end">⚠️</text>
+    <text id="text-componentry-matrix" fill="#FFF" text-anchor="end" font-size="10pt">
+      <tspan x="180" y="200">Componentry</tspan>
+      <tspan x="180" y="220">Componentry</tspan>
+      <tspan x="180" y="240">Componentry</tspan>
+      <tspan x="180" y="260">Componentry</tspan>
+      <tspan x="180" y="280">Componentry</tspan>
+      <tspan x="180" y="300">Componentry</tspan>
+      <tspan x="180" y="320">Componentry</tspan>
+      <tspan x="180" y="340">Componentry</tspan>
+      <tspan x="180" y="360">Componentry</tspan>
+      <tspan x="180" y="380">Componentry</tspan>
+      <tspan x="180" y="400">Componentry</tspan>
+      <tspan x="180" y="420">Componentry</tspan>
+      <tspan x="180" y="440">Componentry</tspan>
+      <tspan x="180" y="460">Componentry</tspan>
+      <tspan x="180" y="480">Componentry</tspan>
+      <tspan x="180" y="500">Componentry</tspan>
+      <tspan x="180" y="520">Componentry</tspan>
+      <tspan x="180" y="540">Componentry</tspan>
+      <tspan x="180" y="560">Componentry</tspan>
+      <tspan x="180" y="580">Componentry</tspan>
+      <tspan x="180" y="600">Componentry</tspan>
+      <tspan x="180" y="620">Componentry</tspan>
+      <tspan x="180" y="640">Componentry</tspan>
+      <tspan x="180" y="660">Componentry</tspan>
+      <tspan x="180" y="680">Componentry</tspan>
+      <tspan x="180" y="700">Componentry</tspan>
+      <tspan x="180" y="720">Componentry</tspan>
+      <tspan x="180" y="740">Componentry</tspan>
+      <tspan x="180" y="760">Componentry</tspan>
+      <tspan x="180" y="780">Componentry</tspan>
+      <tspan x="180" y="800">Componentry</tspan>
+      <tspan x="180" y="820">Componentry</tspan>
+      <tspan x="180" y="840">Componentry</tspan>
+      <tspan x="180" y="860">Componentry</tspan>
+      <tspan x="180" y="880">Componentry</tspan>
+      <tspan x="180" y="900">Componentry</tspan>
+      <tspan x="180" y="920">Componentry</tspan>
+      <tspan x="180" y="940">_</tspan>
+    </text>
+    <use href="#text-componentry-matrix" transform="translate(0, 270) rotate(-90, 0, 0)"></use>
+    
+    <g id="memo-componentry-matrix" transform="translate(1050, 50)">
+      <path d="m 0 0 l 1000 0 l 0 850 l -50 50 l -950 0 z" fill="#FFB" stroke="#FFB" stroke-width="15"></path>
+      <text fill="#000" font-size="15pt" font-weight="bold" font-family="consolas">
+        <tspan x="10" y="035" fill="#07F" font-size="30pt">__Complimentary_Metal-Oxide_Notepad__</tspan>
+        <tspan x="10" y="070">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="090">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="110">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="130">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="150">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="170">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="190">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="210">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="230">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="250">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="270">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="290">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="310">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="330">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="350">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="370">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="390">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="410">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="430">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="450">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="470">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="490">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="510">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="530">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="550">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="570">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="590">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="610">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="630">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="650">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="670">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="690">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="710">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="730">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="750">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="770">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="790">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="810">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="830">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="850">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="870">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+        <tspan x="10" y="890">ComponentryX x ComponentryY : Something Something Something Diode</tspan>
+      </text>
+    </g>
+    <g id="scrub-componentry-matrix" stroke="#777" stroke-width="5">
+      <circle cx="50" cy="50" r="6"></circle><circle cx="50" cy="950" r="6"></circle>
+      <circle cx="950" cy="50" r="6"></circle><circle cx="950" cy="950" r="6"></circle>
+    </g>
+    <g id="wires-componentry-matrix" stroke-width="3">
+      <g id="wires-upper" stroke="#F3F"><path d="m 50 50 l 0 900"></path><path d="m 950 50 l 0 900"></path></g>
+      <g id="wires-lower" stroke="#3FF"><path d="m 50 50 l 900 0"></path><path d="m 50 950 l 900 0"></path></g>
+    </g>
+  </g>
+</g>
+</svg>
