@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Componentry View</title>
+<style>
+* { color-scheme: dark; }
+body { overflow: scroll; font-family: consolas; font-weight: bold; }
+#svg { position: fixed; top: 0; left: 0; width: 10000px; height: 10000px; }
+#div { position: fixed; top: 160px; left: 890px; width: 780px; height: 700px; color: black; overflow: scroll; }
+#div::-webkit-scrollbar { display: none; }
+</style>
+<script>
+var svg = null;
+var div = null;
+
+var memo = 
+[
+    "A x A : A",
+    "A x B : B",
+    "A x C : undefined",
+    "B x A : A",
+    "B x B : undefined",
+    "B x C : undefined",
+    "C x A : A",
+    "C x B : undefined",
+    "C x C : undefined",
+];
+
+var units = 
+[
+    "Voltage",
+    "Current",
+    "Charge",
+    "Flux",
+];
+
+var addenda =
+[
+    [1, "Power Supply"], [1, "(PSU)"],
+    [2, "Resistor"], [2, "Varistor"], [[2], "Potentiometer"], [[2], "Trimpot"],
+    [[3, 7, 11], "Capacitor"], [[3, 7, 11], "Varacitor"], [[3, 7, 11], "Varactor-(N)ode"],
+    [4, "Relay"], [4, "(N)P(N)T"], [4, "Solenoid"], [4, "Motor"],
+    [6, "Wire"], [6, "Resistivity"], [6, "Strain"], [6, "Cable"],
+    [8, "Inductor"], [8, "Choke"], [8, "Transformer"], [8, "Accelerator"],
+    [12, "Memristor"], [12, "Thyristor"], [12, "Transactor"], [12, "Trancitor"], [12, "Transistor"],
+    [16, "Magnet"], [16, "Compass"], [16, "Transducer"], [16, "Core"],
+];
+
+window.onload = function()
+{
+    svg = document.getElementById("svg");
+    div = document.getElementById("div");
+    for (var i = 0; i < memo.length; ++i)
+    {
+        div.innerText += memo[i] + "\n";
+    }
+    div.innerText += "\n__Componentry_View_Matrix__\n";
+    for (var i = 0; i < units.length; ++i)
+    {
+        for (var j = 0; j < units.length; ++j)
+        {
+            var idx = j + (i * units.length);
+            var idy = i + (j * units.length);
+            var addendum = "";
+            for (var a = 0; a < addenda.length; ++a)
+            {
+                if ((addenda[a]) && (addenda[a][1] != null))
+                {
+                    if (addenda[a][0].length != null)
+                    {
+                        for (var b = 0; b < addenda[a][0].length; ++b)
+                        {
+                            if ((addenda[a][0][b] == (idx + 1)) || (addenda[a][0][b] == (idy + 1)))
+                            {
+                                addendum += addenda[a][1] + " ";
+                            }
+                        }
+                    }
+                    else if ((addenda[a][0] == (idx + 1)) || (addenda[a][0] == (idy + 1)))
+                    {
+                        addendum += addenda[a][1] + " ";
+                    }
+                }
+            }
+            div.innerText += (idx + 1) + ": " + units[i] + " >.< " + units[j] + " : " + addendum + "\n";
+        }
+    }
+}
+</script>
+</head>
+<body>
+<svg id="svg">
+<defs>
+  <text id="text-componentry-view-matrix" fill="#FFF" font-size="10pt">
+    <tspan x="180" y="200">Componentry_01</tspan>
+    <tspan x="180" y="220">Componentry_02</tspan>
+    <tspan x="180" y="240">Componentry_03</tspan>
+    <tspan x="180" y="260">Componentry_04</tspan>
+    <tspan x="180" y="280">Componentry_05</tspan>
+    <tspan x="180" y="300">Componentry_06</tspan>
+    <tspan x="180" y="320">Componentry_07</tspan>
+    <tspan x="180" y="340">Componentry_08</tspan>
+    <tspan x="180" y="360">Componentry_09</tspan>
+    <tspan x="180" y="380">Componentry_10</tspan>
+    <tspan x="180" y="400">Componentry_11</tspan>
+    <tspan x="180" y="420">Componentry_12</tspan>
+    <tspan x="180" y="440">Componentry_13</tspan>
+    <tspan x="180" y="460">Componentry_14</tspan>
+    <tspan x="180" y="480">Componentry_15</tspan>
+    <tspan x="180" y="500">Componentry_16</tspan>
+    <tspan x="180" y="520">Componentry_17</tspan>
+    <tspan x="180" y="540">Componentry_18</tspan>
+    <tspan x="180" y="560">Componentry_19</tspan>
+    <tspan x="180" y="580">Componentry_20</tspan>
+    <tspan x="180" y="600">Componentry_21</tspan>
+    <tspan x="180" y="620">Componentry_22</tspan>
+    <tspan x="180" y="640">Componentry_23</tspan>
+    <tspan x="180" y="660">Componentry_24</tspan>
+    <tspan x="180" y="680">Componentry_25</tspan>
+    <tspan x="180" y="700">Componentry_26</tspan>
+    <tspan x="180" y="720">Componentry_27</tspan>
+    <tspan x="180" y="740">Componentry_28</tspan>
+    <tspan x="180" y="760">Componentry_29</tspan>
+    <tspan x="180" y="780">Componentry_30</tspan>
+    <tspan x="180" y="800">Componentry_31</tspan>
+    <tspan x="180" y="820">Componentry_32</tspan>
+    <tspan x="180" y="840">Componentry_33</tspan>
+    <tspan x="180" y="860">Componentry_34</tspan>
+    <tspan x="180" y="880">Componentry_35</tspan>
+    <tspan x="180" y="900">Componentry_36</tspan>
+    <tspan x="180" y="920">Componentry_37</tspan>
+    <tspan x="180" y="940">_</tspan>
+  </text>
+</defs>
+<g mod="pirial" id="circuitry" addendum="matrix" font-size="18pt" fill="none" stroke="none" stroke-linejoin="round" stroke-linecap="round" font-family="Permanent Marker" font-weight="bold" transform="scale(0.8)">
+  <text id="title" x="550" y="70" text-anchor="middle" font-size="35pt" fill="#FFF">Pirial Circuitry Componentry View Matrix</text>
+  <g id="tile-componentry-view-matrix" transform="translate(50, 100)">
+    <rect fill="#111" stroke="#333" width="1000" height="1000"></rect>
+    <text id="label-componentry-view-matrix" fill="#FFF" x="500" y="30" text-anchor="middle">Componentry View</text>
+    <text id="emoji-componentry-view-matrix" fill="#FFF" x="996" y="985" text-anchor="end">⚠️</text>
+    <use href="#text-componentry-view-matrix" transform="translate(0,   0) rotate(  0, 0, 0)" text-anchor="end"></use>
+    <use href="#text-componentry-view-matrix" transform="translate(0, 350) rotate(-90, 0, 0)" text-anchor="start"></use>
+    <g id="memo-componentry-view-matrix" transform="translate(1050, 50)">
+      <path d="m 0 0 l 1000 0 l 0 850 l -50 50 l -950 0 z" fill="#FFB" stroke="#FFB" stroke-width="15"></path>
+      <text fill="#000" font-size="15pt" font-weight="bold" font-family="consolas">
+        <tspan x="10" y="035" fill="#07F" font-size="30pt">__Complimentary_Metal-Oxide_Notepad__</tspan>
+      </text>
+    </g>
+    <g id="intersect-componentry-view-matrix" fill="#805A" stroke="#FFF" stroke-width="5" font-size="15pt" font-family="Orbitron" font-weight="bold" text-anchor="middle">
+      <line x1="400" y1="400" x2="700" y2="700"></line>
+      <line x1="400" y1="700" x2="700" y2="400"></line>
+      <!--
+      <path d="M 400 400 L 700 400"></path>
+      <path d="M 700 400 L 700 700"></path>
+      <path d="M 700 700 L 400 700"></path>
+      <path d="M 400 700 L 400 400"></path>
+      -->
+      <path d="m 400 400 l 145 0 m 0 -20 l 0 40 m 10 0 l 0 -40 m 0 20 l 145 0" fill="none"></path>
+      <path d="m 700 400 l 0 100 l 10 0 l 0 10 l -20 0 l 0 10 l 20 0 l 0 10 l -20 0 l 0 10 l 20 0 l 0 10 l -20 0 l 0 10 l 20 0 l 0 10 l -20 0 l 0 10 l 20 0 l 0 10 l -20 0 l 0 10 l 10 0 l 0 100" fill="none"></path>
+      <path d="m 700 700 l -90 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l -90 0" fill="none"></path>
+      <path d="m 400 700 l 0 -120 l 10 0 l 0 -60 l -20 0 l 0 60 l 10 0 m 0 -60 l 0 -120" fill="none"></path>
+      <circle cx="400" cy="400" r="32"></circle><text x="400" y="340" stroke="none" fill="#FFF">VOLTAGE</text>
+      <circle cx="700" cy="400" r="32"></circle><text x="700" y="340" stroke="none" fill="#FFF">CHARGE</text>
+      <circle cx="400" cy="700" r="32"></circle><text x="400" y="780" stroke="none" fill="#FFF">CURRENT</text>
+      <circle cx="700" cy="700" r="32"></circle><text x="700" y="780" stroke="none" fill="#FFF">FLUX</text>
+    </g>
+    <g id="scrub-componentry-view-matrix" stroke="#777" stroke-width="5">
+      <circle cx="50" cy="50" r="6"></circle><circle cx="50" cy="950" r="6"></circle>
+      <circle cx="950" cy="50" r="6"></circle><circle cx="950" cy="950" r="6"></circle>
+      <circle cx="50" cy="50" r="15" stroke-width="1"></circle><circle cx="50" cy="950" r="15" stroke-width="1"></circle>
+      <circle cx="950" cy="50" r="15" stroke-width="1"></circle><circle cx="950" cy="950" r="15" stroke-width="1"></circle>
+    </g>
+    <g id="wires-componentry-view-matrix" stroke-width="3">
+      <g id="wires-upper" stroke="#F3F"><path d="m 50 50 l 0 900"></path><path d="m 950 50 l 0 900"></path></g>
+      <g id="wires-lower" stroke="#3FF"><path d="m 50 50 l 900 0"></path><path d="m 50 950 l 900 0"></path></g>
+    </g>
+  </g>
+</g>
+</svg>
+<div id="div">
+Componentry1</br>
+Componentry2 (Comment)<!--Commenting--></br>
+Componentry3</br>
+</br><!--/r/n-->
+Componentry4</br>
+&nbsp;&nbsp;&nbsp;&nbsp;Componentry5</br>
+Componentry&nbsp;&nbsp;&nbsp;&nbsp;6</br>
+</br>
+</div>
+</body>
+</html>
