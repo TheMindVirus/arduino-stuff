@@ -1,0 +1,116 @@
+<title>Lollipop View Matrix</title>
+<style>
+* { color-scheme: dark; user-select: none; }
+body { overflow: scroll; }
+svg { position: fixed; top: 0; left: 0; width: 10000px; height: 10000px; }
+</style>
+<script>
+data = //Lollipop Engine
+[
+    [[100, 300, 550], [100, 300, 550], [32, 0.001, 0]],
+    [[200, 300, 550], [200, 300, 550], [32, 0.001, 0]],
+    [[300, 300, 550], [300, 300, 550], [32, 0.001, 0]],
+    [[400, 300, 550], [400, 300, 550], [32, 0.001, 0]],
+    [[500, 300, 550], [500, 300, 550], [32, 0.001, 0]],
+    [[600, 300, 550], [600, 300, 550], [32, 0.001, 0]],
+];
+
+window.onmousemove = function(event)
+{
+    tile = document.getElementById("tile-lollipop-view-matrix");
+    group = tile.getElementsByTagName("g")[0];
+    group.innerHTML = "";
+    var links = document.createElement("g");
+    group.appendChild(links);
+    for (var i = 0; i < data.length; ++i)
+    {
+        var link = document.createElement("line");
+        var x1 = data[i][0][2];
+        var y1 = data[i][1][2];
+        var x2 = Math.sin(event.x / data[i][0][0]) * data[i][0][1] + data[i][0][2];
+        var y2 = Math.cos(event.y / data[i][1][0]) * data[i][1][1] + data[i][1][2];
+        link.setAttribute("x1", x1);
+        link.setAttribute("y1", y1);
+        link.setAttribute("x2", x2);
+        link.setAttribute("y2", y2);
+        links.appendChild(link);
+        for (var j = 0; j < data.length; ++j)
+        {
+            var link = document.createElement("line");
+            var x1 = Math.sin(event.x / data[i][0][0]) * data[i][0][1] + data[i][0][2];
+            var y1 = Math.cos(event.y / data[i][1][0]) * data[i][1][1] + data[i][1][2];
+            var x2 = Math.sin(event.x / data[j][0][0]) * data[j][0][1] + data[j][0][2];
+            var y2 = Math.cos(event.y / data[j][1][0]) * data[j][1][1] + data[j][1][2];
+            link.setAttribute("x1", x1);
+            link.setAttribute("y1", y1);
+            link.setAttribute("x2", x2);
+            link.setAttribute("y2", y2);
+            links.appendChild(link);
+        }
+    }
+    var nodes = document.createElement("g");
+    group.appendChild(nodes);
+    for (var i = 0; i < data.length; ++i)
+    {
+        var node = document.createElement("circle");
+        var cx = Math.sin(event.x / data[i][0][0]) * data[i][0][1] + data[i][0][2];
+        var cy = Math.cos(event.y / data[i][1][0]) * data[i][1][1] + data[i][1][2];
+        var cr = data[i][2][0] / (cx * data[i][2][1] + data[i][2][2]);
+        node.setAttribute("cx", cx);
+        node.setAttribute("cy", cy);
+        node.setAttribute("r",  cr);
+        nodes.appendChild(node);
+    }
+    tile.innerHTML = tile.innerHTML;
+}
+</script>
+</head>
+<body>
+<svg>
+<g mod="pirial" id="circuitry" addendum="lollipop" font-size="18pt" fill="none" stroke="none" stroke-linejoin="round" stroke-linecap="round" font-family="Permanent Marker" font-weight="bold" transform="scale(0.8)">
+  <text id="title" x="550" y="70" text-anchor="middle" font-size="35pt" fill="#FFF">Pirial Circuitry Lollipop View Matrix</text>
+  <g id="tile-lollipop-view-matrix" transform="translate(50, 100)">
+    <rect fill="#111" stroke="#333" width="1000" height="1000"></rect>
+    <text id="label-lollipop-view-matrix" fill="#FFF" x="500" y="30" text-anchor="middle">Lollipop Engine</text>
+    <text id="emoji-lollipop-view-matrix" fill="#FFF" x="996" y="985" text-anchor="end">⚠️</text>
+    <g id="intersect-lollipop-view-matrix" fill="#805A" stroke="#FFF" stroke-width="5" font-size="15pt" font-family="Orbitron" font-weight="bold" text-anchor="middle">
+      <!--
+      <line x1="400" y1="400" x2="700" y2="700"></line>
+      <line x1="400" y1="700" x2="700" y2="400"></line>
+      
+      <path d="M 400 400 L 700 400"></path>
+      <path d="M 700 400 L 700 700"></path>
+      <path d="M 700 700 L 400 700"></path>
+      <path d="M 400 700 L 400 400"></path>
+      
+      <path d="m 400 400 l 145 0 m 0 -20 l 0 40 m 10 0 l 0 -40 m 0 20 l 145 0" fill="none"></path>
+      <path d="m 700 400 l 0 100 l 10 0 l 0 10 l -20 0 l 0 10 l 20 0 l 0 10 l -20 0 l 0 10 l 20 0 l 0 10 l -20 0 l 0 10 l 20 0 l 0 10 l -20 0 l 0 10 l 20 0 l 0 10 l -20 0 l 0 10 l 10 0 l 0 100" fill="none"></path>
+      <path d="m 700 700 l -90 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l -90 0" fill="none"></path>
+      <path d="m 400 700 l 0 -120 l 10 0 l 0 -60 l -20 0 l 0 60 l 10 0 m 0 -60 l 0 -120" fill="none"></path>
+
+      <path d="m 545 375 l 0 50 l 10 0 l 0 -50 l -10 0 z" stroke="none"></path>
+      <path d="m 700 502 l 10 0 l 0 6 l -10 0 l 0 -6 z m 0 10 l -10 0 l 0 6 l 10 0 l 0 -6 z m 0 10 l 10 0 l 0 6 l -10 0 l 0 -6 z m 0 10 l -10 0 l 0 6 l 10 0 l 0 -6 z m 0 10 l 10 0 l 0 6 l -10 0 l 0 -6 z m 0 10 l -10 0 l 0 6 l 10 0 l 0 -6 z m 0 10 l 10 0 l 0 6 l -10 0 l 0 -6 z m 0 10 l -10 0 l 0 6 l 10 0 l 0 -6 z m 0 10 l 10 0 l 0 6 l -10 0 l 0 -6 z m 0 10 l -10 0 l 0 6 l 10 0 l 0 -6 z m 0 10" stroke="none"></path>
+      <path d="m 700 700 l -90 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l -90 0" stroke="none"></path>
+      <path d="m 410 580 l 0 -60 l -20 0 l 0 60 l 20 0 z" stroke="none"></path>
+
+      <circle cx="400" cy="400" r="32"></circle><text x="400" y="340" stroke="none" fill="#FFF">VOLTAGE</text>
+      <circle cx="700" cy="400" r="32"></circle><text x="700" y="340" stroke="none" fill="#FFF">CHARGE</text>
+      <circle cx="400" cy="700" r="32"></circle><text x="400" y="780" stroke="none" fill="#FFF">CURRENT</text>
+      <circle cx="700" cy="700" r="32"></circle><text x="700" y="780" stroke="none" fill="#FFF">FLUX</text>
+      -->
+    </g>
+    <g id="scrub-lollipop-view-matrix" stroke="#777" stroke-width="5">
+      <circle cx="50" cy="50" r="6"></circle><circle cx="50" cy="950" r="6"></circle>
+      <circle cx="950" cy="50" r="6"></circle><circle cx="950" cy="950" r="6"></circle>
+      <circle cx="50" cy="50" r="15" stroke-width="1"></circle><circle cx="50" cy="950" r="15" stroke-width="1"></circle>
+      <circle cx="950" cy="50" r="15" stroke-width="1"></circle><circle cx="950" cy="950" r="15" stroke-width="1"></circle>
+    </g>
+    <g id="wires-lollipop-view-matrix" stroke-width="3">
+      <g id="wires-upper" stroke="#F3F"><path d="m 50 50 l 0 900"></path><path d="m 950 50 l 0 900"></path></g>
+      <g id="wires-lower" stroke="#3FF"><path d="m 50 50 l 900 0"></path><path d="m 50 950 l 900 0"></path></g>
+    </g>
+  </g>
+</g>
+</svg>
+</body>
+</html>
