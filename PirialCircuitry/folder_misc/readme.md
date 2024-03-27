@@ -7,3 +7,7 @@
 ### Lollipop Engine View Matrix
 
 <img src="image_pirial_circuitry_lollipop_engine_view_matrix.png" alt="image_pirial_circuitry_lollipop_engine_view_matrix" width="100%"></img>
+
+### Transducer Hysteresis Experiments
+
+<img src="image_pirial_circuitry_transducer_hysteresis.png" alt="image_pirial_circuitry_transducer_hysteresis" width="100%"></img>

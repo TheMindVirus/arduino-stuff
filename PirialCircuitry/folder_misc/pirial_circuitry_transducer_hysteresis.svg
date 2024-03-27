@@ -1,0 +1,465 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color-scheme: dark; background: black; width: 3000px; height: 900px; overflow: scroll; user-select: none;" onmousewheel="if (!event.ctrlKey) { event.preventDefault(); window.scrollTo(this.scrollLeft + (event.deltaY * !event.shiftKey), this.scrollTop + (event.deltaY * event.shiftKey)); } //event.deltaZ;">
+<title>Pirial Circuitry Transducer Hysteresis</title>
+<g mod="pirial" id="circuitry" addendum="transducer" font-size="18pt" fill="none" stroke="none" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" font-family="Permanent Marker" font-weight="bold">
+  <text id="title" x="365" y="70" text-anchor="middle" font-size="50pt" fill="#FFF">Pirial Circuitry</text>
+  <text id="title" x="365" y="140" text-anchor="middle" font-size="50pt" fill="#FFF">Transducer Hysteresis</text>
+  <g id="tile-portable-plate-reverb" transform="translate(50, 200)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-portable-plate-reverb" fill="#FFF" x="325" y="30" text-anchor="middle">Portable PCB Plate Reverb Transducer</text>
+    <text id="emoji-portable-plate-reverb" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-portable-plate-reverb" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="75" y="55">Input</tspan>
+      <tspan x="200" y="55">Left Input Amp</tspan><tspan x="200" y="195">Right Input Amp</tspan>
+      <tspan x="320" y="55">Thin Metal Plate</tspan><tspan x="320" y="195">Thin Metal Plate</tspan>
+      <tspan x="440" y="55">Left Output Amp</tspan><tspan x="440" y="195">Right Output Amp</tspan>
+      <tspan x="570" y="55">Output</tspan>
+    </text>
+    <g id="scrub-portable-plate-reverb">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-portable-plate-reverb">
+      <path d="m 90 90 l 40 0 l 40 80 l 20 0" stroke="#F05"></path><path d="m 90 170 l 40 0 l 40 -80 l 20 0" stroke="#F05"></path>
+      <path d="m 200 100 l 240 0" stroke="#0FF" stroke-width="15"></path><path d="m 200 160 l 240 0" stroke="#0FF" stroke-width="15"></path>
+      <path d="m 450 90 l 20 0 l 20 10 l 20 0 l 20 -10 l 20 0" stroke="#F05"></path><path d="m 450 170 l 20 0 l 20 -10 l 20 0 l 20 10 l 20 0" stroke="#F05"></path>
+      <path d="m 50 170 l 0 -100 l 260 0 l 0 80 m 0 20 l 20 0 l 0 -60 m 0 -20 l 0 -20 l 260 0 l 0 100" stroke="#777" stroke-width="4"></path>
+    </g>
+    <g id="parts-portable-plate-reverb" stroke="#FFF">
+      <rect x="40" y="80" width="60" height="100"></rect><rect x="25" y="105" width="15" height="50"></rect>
+      <rect x="540" y="80" width="60" height="100"></rect><rect x="600" y="105" width="15" height="50"></rect>
+      <rect x="180" y="80" width="40" height="40"></rect><circle cx="200" cy="100" r="15" stroke="#07F"></circle><line x1="200" y1="100" x2="200" y2="85" stroke="#FFF"></line>
+      <rect x="180" y="140" width="40" height="40"></rect><circle cx="200" cy="160" r="15" stroke="#07F"></circle><line x1="200" y1="160" x2="200" y2="145" stroke="#FFF"></line>
+      <rect x="420" y="80" width="40" height="40"></rect><circle cx="440" cy="100" r="15" stroke="#07F"></circle><line x1="440" y1="100" x2="440" y2="85" stroke="#FFF"></line>
+      <rect x="420" y="140" width="40" height="40"></rect><circle cx="440" cy="160" r="15" stroke="#07F"></circle><line x1="440" y1="160" x2="440" y2="145" stroke="#FFF"></line>
+    </g>
+  </g>
+  <g id="tile-corrosive-resonator" transform="translate(50, 450)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-corrosive-resonator" fill="#FFF" x="325" y="30" text-anchor="middle" font-size="20pt">Corrosive Feedback Amplifier Resonator</text>
+    <text id="emoji-corrosive-resonator" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-corrosive-resonator" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="75" y="55">Input</tspan>
+      <tspan x="200" y="55">Left Input Amp</tspan><tspan x="200" y="195">Right Input Amp</tspan>
+      <tspan x="320" y="55">LM386 Audio Amp</tspan><tspan x="320" y="195">LM386 Audio Amp</tspan>
+      <tspan x="440" y="55">Left Distortion</tspan><tspan x="440" y="195">Right Distortion</tspan>
+      <tspan x="570" y="55">Output</tspan>
+    </text>
+    <g id="scrub-corrosive-resonator">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-corrosive-resonator">
+      <path d="m 90 90 l 40 0 l 40 80 l 20 0" stroke="#F05"></path><path d="m 90 170 l 40 0 l 40 -80 l 20 0" stroke="#F05"></path>
+      <path d="m 210 90 l 60 0 m -60 80 l 140 0 l 0 -80" stroke="#F05"></path>
+      <path d="m 450 90 l 20 0 l 20 10 l 20 0 l 20 -10 l 20 0" stroke="#F05"></path><path d="m 450 170 l 20 0 l 20 -10 l 20 0 l 20 10 l 20 0" stroke="#F05"></path>
+      <path d="m 540 115 l -10 0 l -20 -10 l -20 0 l -20 10 l -20 0 l -200 0 l 0 35" stroke="#0FF"></path><path d="m 540 145 l -10 0 l -20 10 l -20 0 l -20 -10 l -20 0 l -120 0 l 0 5" stroke="#0FF"></path>
+      <path d="m 270 90 l 0 5 l 170 0 l 0 -5 l 10 0" stroke="#FF0"></path><path d="m 350 170 l 0 -5 l 90 0 l 0 5 l 10 0" stroke="#F90"></path>
+      <path d="m 50 170 l 0 -100 l 240 0 l 0 20 m 0 -20 l 80 0 l 0 20 m 0 -20 l 220 0 l 0 100" stroke="#777" stroke-width="4"></path>
+    </g>
+    <g id="parts-corrosive-resonator" stroke="#FFF">
+      <rect x="40" y="80" width="60" height="100"></rect><rect x="25" y="105" width="15" height="50"></rect>
+      <rect x="540" y="80" width="60" height="100"></rect><rect x="600" y="105" width="15" height="50"></rect>
+      <rect x="180" y="80" width="40" height="40"></rect><circle cx="200" cy="100" r="15" stroke="#07F"></circle><line x1="200" y1="100" x2="200" y2="85" stroke="#FFF"></line>
+      <rect x="180" y="140" width="40" height="40"></rect><circle cx="200" cy="160" r="15" stroke="#07F"></circle><line x1="200" y1="160" x2="200" y2="145" stroke="#FFF"></line>
+      <rect x="420" y="80" width="40" height="40"></rect><circle cx="440" cy="100" r="15" stroke="#07F"></circle><line x1="440" y1="100" x2="440" y2="85" stroke="#FFF"></line>
+      <rect x="420" y="140" width="40" height="40"></rect><circle cx="440" cy="160" r="15" stroke="#07F"></circle><line x1="440" y1="160" x2="440" y2="145" stroke="#FFF"></line>
+      <rect x="240" y="80" width="80" height="80"></rect><rect x="245" y="100" width="70" height="40"></rect>
+      <rect x="320" y="80" width="80" height="80"></rect><rect x="325" y="100" width="70" height="40"></rect>
+    </g>
+  </g>
+  <g id="tile-sample-rate-buffer" transform="translate(50, 700)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-sample-rate-buffer" fill="#FFF" x="325" y="30" text-anchor="middle">Sample Rate Buffer Repitcher</text>
+    <text id="emoji-sample-rate-buffer" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-sample-rate-buffer" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="150" y="55">Balanced In +</tspan>
+      <tspan x="255" y="55">Balanced In -</tspan>
+      <tspan x="422" y="55">Double Buffer Sample &amp; Hold</tspan>
+      <tspan x="575" y="55">Buss Output</tspan>
+    </text>
+    <g id="scrub-sample-rate-buffer">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-sample-rate-buffer">
+      <g stroke="#F05" stroke-width="6"><path d="m 50 70 l 0 100"></path><path d="m 70 70 l 0 100"></path><path d="m 90 70 l 0 100"></path></g>
+      <path d="m 110 170 l 480 0 l 0 -100" stroke="#777" stroke-width="6"></path>
+      <path d="m 110 130 l 0 -60 l 20 0 m 40 40 l 20 0 l 0 20" stroke="#0FA" stroke-width="4"></path>
+      <path d="m 210 130 l 0 -20 l 20 0 m 40 -40 l 20 0 l 0 60" stroke="#0FA" stroke-width="4"></path>
+      <path d="m 110 150 l 20 0 l 0 -20 l 20 20 l 0 -20 m 0 20 l 20 -20 l 0 20 l 60 0 l 0 -20 l 20 20 l 0 -20 m 0 20 l 20 -20 l 0 20 l 60 0" stroke="#A99" stroke-width="6"></path>
+      <path d="m 350 150 l 80 0 l -20 -20 l 20 0 l -20 -20 l 20 0 l -20 -20 l 80 0" stroke="#A99" stroke-width="6"></path>
+      <path d="m 170 70 l 60 0" stroke="#0FF"></path>
+      <path d="m 130 110 l 20 -20 l 100 0 l 20 20" stroke="#0FF"></path>
+      <path d="m 350 90 l -20 0 l 0 40 l -20 0 l 0 -60 l 260 0 l 0 20" stroke="#0FF"></path>
+      <path d="m 490 150 l 80 0 l 0 -20" stroke="#0FF"></path>
+      <path d="m 509 87.5 l 45 0 m -40 15 l 45 0 m -45 15 l 45 0 m -50 15 l 45 0" stroke="#A99" stroke-width="6"></path>
+      <path d="m 130 70 l 40 0 l 0 40 l -40 0 l 0 -40" stroke="#F05" stroke-width="6"></path>
+      <path d="m 230 70 l 40 0 l 0 40 l -40 0 l 0 -40" stroke="#F05" stroke-width="6"></path>
+      <path d="m 350 90 l 40 0 l 0 40 l -40 0 l 0 -40" stroke="#343" stroke-width="6"></path>
+      <path d="m 450 110 l 40 0 l 0 40 l -40 0 l 0 -40" stroke="#343" stroke-width="6"></path>
+      <path d="M 200 70 S 255 250 390 90" stroke="#77C"></path><path d="M 200 90 S 255 180 350 130" stroke="#77C"></path>
+      <path d="M 390 90 S 255 250 490 110" stroke="#77C"></path><path d="M 350 130 S 255 180 450 150" stroke="#77C"></path>
+    </g>
+    <g id="parts-sample-rate-buffer" stroke="#FFF">
+      <rect x="100" y="120" width="100" height="60"></rect><rect x="125" y="180" width="50" height="15"></rect>
+      <rect x="200" y="120" width="100" height="60"></rect><rect x="225" y="180" width="50" height="15"></rect>
+      <rect x="340" y="80" width="160" height="80"></rect><rect x="360" y="100" width="120" height="40"></rect>
+      <rect x="540" y="60" width="60" height="100"></rect><rect x="600" y="85" width="20" height="50"></rect>
+      <circle cx="150" cy="90" r="15" stroke="#07F"></circle><line x1="150" y1="90" x2="150" y2="75" stroke="#FFF"></line>
+      <circle cx="250" cy="90" r="15" stroke="#07F"></circle><line x1="250" y1="90" x2="250" y2="75" stroke="#FFF"></line>
+    </g>
+  </g>
+  <g id="tile-hall-induction" transform="translate(750, 200)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-hall-induction" fill="#FFF" x="325" y="30" text-anchor="middle">Hall Induction Coil Pair</text>
+    <text id="emoji-hall-induction" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-hall-induction" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="75" y="55">Input</tspan>
+      <tspan x="200" y="55">Inductor Coil</tspan><tspan x="200" y="195">Inductor Coil</tspan>
+      <tspan x="300" y="55">49E Hall</tspan><tspan x="300" y="195">49E Hall</tspan>
+      <tspan x="400" y="55">49E Hall</tspan><tspan x="400" y="195">49E Hall</tspan>
+      <tspan x="500" y="55">Inductor Coil</tspan><tspan x="500" y="195">Inductor Coil</tspan>
+      <tspan x="570" y="55">Output</tspan>
+    </text>
+    <g id="scrub-hall-induction">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-hall-induction">
+      <path d="m 90 90 l 40 0 l 40 80 l 20 0" stroke="#F05"></path><path d="m 90 170 l 40 0 l 40 -80 l 20 0" stroke="#F05"></path>
+      <path d="m 210 110 l 20 0 l 40 40 l 20 0" stroke="#0FF"></path><path d="m 210 150 l 20 0 l 40 -40 l 20 0" stroke="#0FF"></path>
+      <path d="m 210 90 l 80 0" stroke="#F05"></path><path d="m 210 170 l 80 0" stroke="#F05"></path>
+      <path d="m 310 90 l 20 0 l 40 10 l 130 0 l 40 -10 l 10 0" stroke="#F05"></path><path d="m 310 170 l 20 0 l 40 -10 l 130 0 l 40 10 l 10 0" stroke="#F05"></path>
+      <path d="m 50 170 l 0 -100 l 460 0 l 0 20 m 0 20 l 20 0 l 0 -40 l 60 0 l 0 100" stroke="#777" stroke-width="4"></path>
+      <path d="m 390 90 l 40 0 l 40 20 l 20 0" stroke="#0FF"></path><path d="m 390 110 l 40 0 l 40 -20 l 20 0" stroke="#0FF"></path>
+      <path d="m 510 170 l 0 -5 m 0 -15 l 0 -15 l -10 -15 l 0 -20" stroke="#F05"></path> 
+      <path d="m 390 150 l 40 0 l 40 20 l 20 0" stroke="#0FF"></path><path d="m 390 170 l 40 0 l 40 -20 l 20 0" stroke="#0FF"></path>
+    </g>
+    <g id="parts-hall-induction" stroke="#FFF">
+      <rect x="40" y="80" width="60" height="100"></rect><rect x="25" y="105" width="15" height="50"></rect>
+      <rect x="540" y="80" width="60" height="100"></rect><rect x="600" y="105" width="15" height="50"></rect>
+      <rect x="180" y="80" width="40" height="40"></rect><rect x="180" y="140" width="40" height="40"></rect>
+      <rect x="280" y="80" width="40" height="40"></rect><rect x="280" y="140" width="40" height="40"></rect>
+      <rect x="380" y="80" width="40" height="40"></rect><rect x="380" y="140" width="40" height="40"></rect>
+      <rect x="480" y="80" width="40" height="40"></rect><rect x="480" y="140" width="40" height="40"></rect>
+      <rect x="175" y="75" width="150" height="50" stroke="#F90"></rect><rect x="480" y="140" width="40" height="40"></rect>
+      <rect x="375" y="75" width="150" height="50" stroke="#0AF"></rect><rect x="480" y="140" width="40" height="40"></rect>
+      <rect x="175" y="135" width="150" height="50" stroke="#F90"></rect><rect x="480" y="140" width="40" height="40"></rect>
+      <rect x="375" y="135" width="150" height="50" stroke="#0AF"></rect><rect x="480" y="140" width="40" height="40"></rect>
+    </g>
+  </g>
+  <g id="tile-cymatic-transducer" transform="translate(750, 450)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-cymatic-transducer" fill="#FFF" x="325" y="30" text-anchor="middle" font-size="20pt">Cymatic 3D Drum Kit Transducer</text>
+    <text id="emoji-cymatic-transducer" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-cymatic-transducer" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="75" y="55">Input</tspan>
+      <tspan x="250" y="55">X-109.5-Axis</tspan>
+      <tspan x="350" y="55">Y-109.5-Axis</tspan>
+      <tspan x="450" y="55">Z-109.5-Axis</tspan>
+      <tspan x="550" y="55">Omni/Volume</tspan>
+    </text>
+    <g id="scrub-cymatic-transducer">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-cymatic-transducer">
+      <path d="m 50 70 l 0 100 l 140 0 l 0 -20 l -80 0 m 80 0 l 0 -40 l 404 0 m -404 0 l -80 0 l 0 60 m 0 -60 l -60 0" stroke="#777" stroke-width="4"></path>
+      <path d="m 90 70 l 10 0 l 20 -5 l 60 0 l 20 5 l 400 0" stroke="#F05"></path><path d="m 90 150 l 10 0 l 20 -80 l 60 0 l 20 20 l 400 0" stroke="#F05"></path>
+      <path d="m 130 90 l 0 20 m 0 20 l 0 20 m 20 0 l 0 -20 m 0 -20 l 0 -20 m 20 0 l 0 20 m 0 20 l 0 20" stroke="#77C" stroke-width="6"></path>
+      <path d="m 250 110 l 0 60 m 100 0 l 0 -60 m 100 0 l 0 60 m 100 0 l 0 -60" stroke="#77C" stroke-width="6"></path>
+      <path d="m 210 70 l 0 60 m 20 0 l 0 -60 m 40 0 l 0 60 m 20 0 l 0 -60 m 20 0 l 0 60 m 20 0 l 0 -60 m 40 0 l 0 60 m 20 0 l 0 -60 m 20 0 l 0 60 m 20 0 l 0 -60 m 40 0 l 0 60 m 20 0 l 0 -60 m 20 0 l 0 60 m 20 0 l 0 -60 m 40 0 l 0 60 m 20 0 l 0 -60 m 40 0" stroke="#555"></path>
+      <path d="m 90 90 s 20 20 40 0" stroke="#0FF"></path><path d="m 90 130 s 20 20 40 0" stroke="#0FF"></path>
+      <path d="m 150 90 s 70 60 100 20" stroke="#0FF"></path><path d="m 150 130 s 100 80 200 -20" stroke="#0FF"></path>
+      <path d="m 170 130 s 140 50 280 -20" stroke="#0FF"></path><path d="m 170 90 s 100 80 380 20" stroke="#0FF"></path>
+    </g>
+    <g id="parts-cymatic-transducer" stroke="#FFF">
+      <rect x="40" y="60" width="60" height="100"></rect><rect x="25" y="85" width="15" height="50"></rect>
+      <rect x="200" y="120" width="100" height="60"></rect><rect x="225" y="180" width="50" height="15"></rect>
+      <rect x="300" y="120" width="100" height="60"></rect><rect x="325" y="180" width="50" height="15"></rect>
+      <rect x="400" y="120" width="100" height="60"></rect><rect x="425" y="180" width="50" height="15"></rect>
+      <rect x="500" y="120" width="100" height="60"></rect><rect x="525" y="180" width="50" height="15"></rect>
+      <rect x="200" y="60" width="40" height="40"></rect><rect x="260" y="60" width="40" height="40"></rect>
+      <rect x="300" y="60" width="40" height="40"></rect><rect x="360" y="60" width="40" height="40"></rect>
+      <rect x="400" y="60" width="40" height="40"></rect><rect x="460" y="60" width="40" height="40"></rect>
+      <rect x="500" y="60" width="40" height="40"></rect><rect x="560" y="60" width="40" height="40"></rect>
+      <rect x="120" y="80" width="60" height="40"></rect><rect x="120" y="120" width="60" height="40"></rect>
+      <path d="m 220 80 m 15 0 s 0 15 -15 15 m 0 0 s -15 0 -15 -15 m 0 0 s 15 0 15 -15 m 0 0 s 0 15 15 15 m 0 0" stroke="#FF0"></path>
+      <path d="m 280 80 m 15 0 s 0 15 -15 15 m 0 0 s -15 0 -15 -15 m 0 0 s 15 0 15 -15 m 0 0 s 0 15 15 15 m 0 0" stroke="#F90"></path>
+      <path d="m 320 80 m 15 0 s 0 15 -15 15 m 0 0 s -15 0 -15 -15 m 0 0 s 15 0 15 -15 m 0 0 s 0 15 15 15 m 0 0" stroke="#FF0"></path>
+      <path d="m 380 80 m 15 0 s 0 15 -15 15 m 0 0 s -15 0 -15 -15 m 0 0 s 15 0 15 -15 m 0 0 s 0 15 15 15 m 0 0" stroke="#F90"></path>
+      <path d="m 420 80 m 15 0 s 0 15 -15 15 m 0 0 s -15 0 -15 -15 m 0 0 s 15 0 15 -15 m 0 0 s 0 15 15 15 m 0 0" stroke="#FF0"></path>
+      <path d="m 480 80 m 15 0 s 0 15 -15 15 m 0 0 s -15 0 -15 -15 m 0 0 s 15 0 15 -15 m 0 0 s 0 15 15 15 m 0 0" stroke="#F90"></path>
+      <path d="m 520 80 m 15 0 s 0 15 -15 15 m 0 0 s -15 0 -15 -15 m 0 0 s 15 0 15 -15 m 0 0 s 0 15 15 15 m 0 0" stroke="#FF0"></path>
+      <path d="m 580 80 m 15 0 s 0 15 -15 15 m 0 0 s -15 0 -15 -15 m 0 0 s 15 0 15 -15 m 0 0 s 0 15 15 15 m 0 0" stroke="#F90"></path>
+    </g>
+  </g>
+  <g id="tile-standing-string" transform="translate(750, 700)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-standing-string" fill="#FFF" x="325" y="30" text-anchor="middle">Standing Wave String Transducer</text>
+    <text id="emoji-standing-string" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-standing-string" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="75" y="55">Input</tspan>
+      <tspan x="200" y="55">Left Input Amp</tspan><tspan x="200" y="195">Right Input Amp</tspan>
+      <tspan x="320" y="55">Nylon Iron String</tspan><tspan x="320" y="195">Nylon Iron String</tspan>
+      <tspan x="440" y="55">Left Output Amp</tspan><tspan x="440" y="195">Right Output Amp</tspan>
+      <tspan x="570" y="55">Output</tspan>
+    </text>
+    <g id="scrub-standing-string">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-standing-string">
+      <path d="m 90 90 l 40 0 l 40 80 l 20 0" stroke="#F05"></path><path d="m 90 170 l 40 0 l 40 -80 l 20 0" stroke="#F05"></path>
+      <path d="m 200 100 s 30 -15 60 0 l 0 0 s 30  15 60 0 l 0 0 s 30 -15 60 0 l 0 0 s 30  15 60 0 l 0 0" stroke="#FF0" stroke-width="1"></path>
+      <path d="m 200 160 s 30  15 60 0 l 0 0 s 30 -15 60 0 l 0 0 s 30  15 60 0 l 0 0 s 30 -15 60 0 l 0 0" stroke="#F90" stroke-width="1"></path>
+      <path d="m 450 90 l 20 0 l 20 35 l 20 0 l 20 -35 l 20 0" stroke="#0FF"></path><path d="m 450 170 l 20 0 l 20 -35 l 20 0 l 20 35 l 20 0" stroke="#F05"></path>
+      <path d="m 50 170 l 0 -100 l 540 0 l 0 100" stroke="#777" stroke-width="4"></path>
+    </g>
+    <g id="parts-standing-string" stroke="#FFF">
+      <rect x="40" y="80" width="60" height="100"></rect><rect x="25" y="105" width="15" height="50"></rect>
+      <rect x="540" y="80" width="60" height="100"></rect><rect x="600" y="105" width="15" height="50"></rect>
+      <rect x="180" y="80" width="40" height="40"></rect><circle cx="200" cy="100" r="15" stroke="#07F"></circle><line x1="200" y1="100" x2="200" y2="85" stroke="#FFF"></line>
+      <rect x="180" y="140" width="40" height="40"></rect><circle cx="200" cy="160" r="15" stroke="#07F"></circle><line x1="200" y1="160" x2="200" y2="145" stroke="#FFF"></line>
+      <rect x="420" y="80" width="40" height="40"></rect><circle cx="440" cy="100" r="15" stroke="#07F"></circle><line x1="440" y1="100" x2="440" y2="85" stroke="#FFF"></line>
+      <rect x="420" y="140" width="40" height="40"></rect><circle cx="440" cy="160" r="15" stroke="#07F"></circle><line x1="440" y1="160" x2="440" y2="145" stroke="#FFF"></line>
+    </g>
+  </g>
+  <g id="tile-spirit-level" transform="translate(1450, 200)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-spirit-level" fill="#FFF" x="325" y="30" text-anchor="middle">Spirit Level Fluid Tilt Capacitance</text>
+    <text id="emoji-spirit-level" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-spirit-level" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="75" y="55">Input</tspan>
+      <tspan x="160" y="55">Left Input Plate</tspan><tspan x="160" y="195">Right Input Plate</tspan>
+      <tspan x="320" y="55">Spirit Level</tspan><tspan x="320" y="195">Spirit Level</tspan>
+      <tspan x="480" y="55">Left Output Plate</tspan><tspan x="480" y="195">Right Output Plate</tspan>
+      <tspan x="570" y="55">Output</tspan>
+    </text>
+    <g id="scrub-spirit-level">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-spirit-level">
+      <path d="m 90 90 l 20 0 l 20 80 l 20 0" stroke="#F05"></path><path d="m 90 170 l 20 0 l 20 -80 l 20 0" stroke="#0FF"></path>
+      <path d="m 490 90 l 80 0" stroke="#FF0"></path><path d="m 490 170 l 80 0" stroke="#F90"></path>
+      <path d="m 50 170 l 0 -100 l 540 0 l 0 100" stroke="#777" stroke-width="4"></path>
+    </g>
+    <g id="parts-spirit-level" stroke="#FFF">
+      <rect x="40" y="80" width="60" height="100"></rect><rect x="25" y="105" width="15" height="50"></rect>
+      <rect x="540" y="80" width="60" height="100"></rect><rect x="600" y="105" width="15" height="50"></rect>
+      <rect x="140" y="80" width="40" height="40"></rect><rect x="140" y="140" width="40" height="40"></rect>
+      <rect x="460" y="80" width="40" height="40"></rect><rect x="460" y="140" width="40" height="40"></rect>
+      <circle cx="160" cy="100" r="15" stroke="#07F"></circle><line x1="160" y1="100" x2="160" y2="85" stroke="#FFF"></line>
+      <circle cx="160" cy="160" r="15" stroke="#07F"></circle><line x1="160" y1="160" x2="160" y2="145" stroke="#FFF"></line>
+      <circle cx="480" cy="100" r="15" stroke="#07F"></circle><line x1="480" y1="100" x2="480" y2="85" stroke="#FFF"></line>
+      <circle cx="480" cy="160" r="15" stroke="#07F"></circle><line x1="480" y1="160" x2="480" y2="145" stroke="#FFF"></line>
+      <rect x="200" y="80" width="240" height="40" fill="#3F3A"></rect><path d="m 320 100 m 0 -15 s 30 0 30 15 m -30 -15 s -30 0 -30 15 m 30 15 s -30 0 -30 -15 m 30 15 s 30 0 30 -15 m -30 0 z" fill="#FF0A"></path>
+      <rect x="200" y="140" width="240" height="40" fill="#3F3A"></rect><path d="m 320 160 m 0 -15 s 30 0 30 15 m -30 -15 s -30 0 -30 15 m 30 15 s -30 0 -30 -15 m 30 15 s 30 0 30 -15 m -30 0 z" fill="#FF0A"></path>
+      <path d="m 190 90 l 0 20 m 0 -10 l -10 0 m 280 0 l -10 0 m 0 10 l 0 -20" stroke="#AAA" stroke-width="6"></path><path d="m 270 85 l 0 30 m 100 0 l 0 -30" stroke="#000" stroke-width="1"></path>
+      <path d="m 190 150 l 0 20 m 0 -10 l -10 0 m 280 0 l -10 0 m 0 10 l 0 -20" stroke="#AAA" stroke-width="6"></path><path d="m 270 145 l 0 30 m 100 0 l 0 -30" stroke="#000" stroke-width="1"></path>
+    </g>
+  </g>
+  <g id="tile-avalanche-diode" transform="translate(1450, 450)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-avalanche-diode" fill="#FFF" x="325" y="30" text-anchor="middle" font-size="20pt">Avalanche Diode Analog Transistor Fixer</text>
+    <text id="emoji-avalanche-diode" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-avalanche-diode" fill="#FFF" text-anchor="middle" font-size="10pt">
+    </text>
+    <g id="scrub-avalanche-diode">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-avalanche-diode">
+      <path d="m 110 70 l 0 40 m 0 -40 l 60 0 l 0 40 m 0 -40 l 300 0 l 0 40 m 0 -40 l 60 0 l 0 40 m 0 -40" stroke="#F05" stroke-width="4"></path>
+      <path d="m 130 110 l 0 -20 l 180 0 l 0 40 l -20 0 m 20 0 l 0 20" stroke="#07F"></path> 
+      <g stroke="#F05" stroke-width="6"><path d="m 50 70 l 0 100"></path><path d="m 70 70 l 0 100"></path><path d="m 90 70 l 0 100"></path></g>
+      <path d="m 270 140 l -60 0 l 0 -20 l 220 -10 l 20 0" stroke="#0FF"></path>
+      <path d="m 370 140 l 60 0 l 0 -20 l -220 -10 l -20 0" stroke="#0FF"></path>
+      <g stroke="#F05" stroke-width="6"><path d="m 550 70 l 0 100"></path><path d="m 570 70 l 0 100"></path><path d="m 590 70 l 0 100"></path></g>
+      <path d="m 510 110 l 0 -20 l -180 0 l 0 40 l 20 0 m -20 0 l 0 20" stroke="#07F"></path> 
+      <path d="m 110 170 l 0 -40 m 0 40 l 20 0 l 0 -40 m 0 40 l 40 0 l 0 -40 m 0 40 l 20 0 l 0 -40 m 0 40 l 50 0 l 0 -20 m 0 20 l 50 0 l 0 -20 m 0 20 l 20 0 l 0 -20 m 0 20 l 20 0 l 0 -20 m 0 20 l 20 0 l 0 -20 m 0 20 l 50 0 l 0 -20 m 0 20 l 50 0 l 0 -40 m 0 40 l 20 0 l 0 -40 m 0 40 l 40 0 l 0 -40 m 0 40 l 20 0 l 0 -40 m 0 40" stroke="#777" stroke-width="4"></path>
+    </g>
+    <g id="parts-avalanche-diode" stroke="#FFF">
+      <rect x="100" y="100" width="40" height="40"></rect><circle cx="120" cy="120" r="15" stroke="#07F"></circle><line x1="120" y1="120" x2="120" y2="105" stroke="#FFF"></line>
+      <line x1="145" y1="100" x2="145" y2="140" stroke="#FED" stroke-width="6"></line>
+      <line x1="155" y1="100" x2="155" y2="140" stroke="#FED" stroke-width="6"></line>
+      <rect x="160" y="100" width="40" height="40"></rect><circle cx="180" cy="120" r="15" stroke="#07F"></circle><line x1="180" y1="120" x2="180" y2="105" stroke="#FFF"></line>
+      <path d="m 290 130 l -10 5 m 0 -10 l 0 15 l -10 0 m 10 0 l 0 15 l 0 -10 l 10 5" stroke="#FED" stroke-width="7"></path>
+      <path d="m 310 150 m -5 -5 l 5 10 l 5 -10 z m 0 10 l 10 0" stroke="#FED" stroke-width="4"></path>
+      <circle cx="240" cy="140" r="15" fill="#FFF"></circle><line x1="251" y1="150" x2="251" y2="130" stroke="#0AF"></line>
+      <circle cx="400" cy="140" r="15" fill="#FFF"></circle><line x1="389" y1="150" x2="389" y2="130" stroke="#0AF"></line>
+      <path d="m 330 150 m -5 -5 l 5 10 l 5 -10 z m 0 10 l 10 0" stroke="#FED" stroke-width="4"></path>
+      <path d="m 350 130 l 10 5 m 0 -10 l 0 15 l 10 0 m -10 0 l 0 15 l 0 -10 l -10 5" stroke="#FED" stroke-width="7"></path>
+      <rect x="440" y="100" width="40" height="40"></rect><circle cx="460" cy="120" r="15" stroke="#07F"></circle><line x1="460" y1="120" x2="460" y2="105" stroke="#FFF"></line>
+      <line x1="485" y1="100" x2="485" y2="140" stroke="#FED" stroke-width="6"></line>
+      <line x1="495" y1="100" x2="495" y2="140" stroke="#FED" stroke-width="6"></line>
+      <rect x="500" y="100" width="40" height="40"></rect><circle cx="520" cy="120" r="15" stroke="#07F"></circle><line x1="520" y1="120" x2="520" y2="105" stroke="#FFF"></line>
+    </g>
+  </g>
+  <g id="tile-crystal-counter" transform="translate(1450, 700)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-crystal-counter" fill="#FFF" x="325" y="30" text-anchor="middle">Crystal Oscillator Decade Counter</text>
+    <text id="emoji-crystal-counter" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-crystal-counter" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="242" y="55">74HC4051 Multiplexer</tspan>
+      <tspan x="409" y="55">74LS90 Decade Counter</tspan>
+    </text>
+    <g id="scrub-crystal-counter">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-crystal-counter">
+      <g stroke="#F05" stroke-width="6"><path d="m 50 70 l 0 100"></path><path d="m 70 70 l 0 100"></path><path d="m 90 70 l 0 100"></path></g>
+      <g stroke="#F91" stroke-width="4"><path d="m 110 70 l 0 100"></path><path d="m 130 70 l 0 100"></path><path d="m 150 70 l 0 100"></path></g>
+      <path d="m 170 70 l 0 40 m 0 -40 l 160 0 l 0 20 m 0 -20 l 60 0 l 0 20 m 0 -20 l 20 0 l 0 20 m 0 -20 l 40 0" stroke="#F05" stroke-width="4"></path>
+      <path d="m 270 90 l 0 -10 m 20 10 l 0 -10 m 20 10 l 0 -10 m 20 10" stroke="#F91" stroke-width="4"></path>
+      <path d="m 470 90 l 0 -20 l 100 0 l 0 100 l -100 0 l 0 -20" stroke="#0FF"></path>
+      <path d="m 450 90 l 0 26 l -260 0 l 0 -26" stroke="#0FF"></path>
+      <path d="m 430 90 l 0 22 l -220 0 l 0 -22" stroke="#0FF"></path>
+      <path d="m 370 90 l 0 18 l -140 0 l 0 -18" stroke="#0FF"></path>
+      <path d="m 350 90 l 0 14 l -100 0 l 0 -14" stroke="#0FF"></path>
+      <path d="m 430 150 l 0 -26 l -260 0 l 0 26" stroke="#0FF"></path>
+      <path d="m 410 150 l 0 -22 l -220 0 l 0 22" stroke="#0FF"></path>
+      <path d="m 370 150 l 0 -18 l -140 0 l 0 18" stroke="#0FF"></path>
+      <path d="m 350 150 l 0 -14 l -100 0 l 0 14" stroke="#0FF"></path>
+      <path d="m 490 90 l 60 0 m 0 20 l -60 0 m 0 20 l 60 0 m 0 20 l -60 0" stroke="#FED" stroke-width="6"></path>
+      <path d="m 170 170 l 40 0 l 0 -20 m 0 20 l 40 0 m 340 0 l 0 -100" stroke="#07F" stroke-width="4"></path>
+      <path d="m 270 170 l 0 -20 m 0 20 l 20 0 l 0 -20 m 0 20 l 20 0 l 0 -20 m 0 20  l 20 0 l 0 -20 m 0 20 l 60 0 l 0 -20 m 0 20 l 60 0 l 0 -40 l 20 0 l 0 -20" stroke="#777" stroke-width="4"></path>
+    </g>
+    <g id="parts-crystal-counter" stroke="#FFF">
+      <rect x="160" y="80" width="160" height="80"></rect><rect x="165" y="100" width="150" height="40"></rect>
+      <rect x="340" y="80" width="140" height="80"></rect><rect x="345" y="100" width="130" height="40"></rect>
+      <path d="m 570 90 l 0 60" stroke="#CCC" stroke-width="25"></path><path d="m 570 90 l 0 60" stroke="#FFF" stroke-width="18"></path>
+    </g>
+  </g>
+  <g id="tile-dynamo-transducer" transform="translate(2150, 200)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-dynamo-transducer" fill="#FFF" x="325" y="30" text-anchor="middle">Miniature Spinning Disk Transduction Dynamo</text>
+    <text id="emoji-dynamo-transducer" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-dynamo-transducer" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="75" y="55">Input</tspan>
+      <tspan x="245" y="55">Left Disk</tspan>
+      <tspan x="150" y="195">Input Calibration</tspan>
+      <tspan x="320" y="195">Memristor Armature</tspan>
+      <tspan x="495" y="195">Output Calibration</tspan>
+      <tspan x="405" y="55">Right Disk</tspan>
+      <tspan x="570" y="55">Output</tspan>
+    </text>
+    <g id="scrub-dynamo-transducer">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-dynamo-transducer">
+      <path d="m 90 90 l 40 0 l 40 80 l 20 0" stroke="#F05"></path><path d="m 90 170 l 40 0 l 40 -80 l 20 0" stroke="#F05"></path>
+      <path d="m 280 100 l 20 0 l 40 40 l 20 0" stroke="#0FF"></path><path d="m 280 140 l 20 0 l 40 -40 l 20 0" stroke="#0FF"></path>
+      <path d="m 210 90 l 80 0" stroke="#F05"></path><path d="m 210 170 l 80 0" stroke="#F05"></path>
+      <path d="m 310 90 l 20 0 l 40 10 l 130 0 l 40 -10 l 10 0" stroke="#F05"></path><path d="m 310 170 l 20 0 l 40 -10 l 130 0 l 40 10 l 10 0" stroke="#F05"></path>
+      <path d="m 50 170 l 0 -100 l 460 0 l 0 20 m 0 20 l 20 0 l 0 -40 l 60 0 l 0 100" stroke="#777" stroke-width="4"></path>
+      <path d="m 390 90 l 40 0 l 40 20 l 20 0" stroke="#0FF"></path><path d="m 390 110 l 40 0 l 40 -20 l 20 0" stroke="#0FF"></path>
+      <path d="m 510 170 l 0 -5 m 0 -15 l 0 -15 l -10 -15 l 0 -20" stroke="#F05"></path> 
+      <path d="m 390 150 l 40 0 l 40 20 l 20 0" stroke="#0FF"></path><path d="m 390 170 l 40 0 l 40 -20 l 20 0" stroke="#0FF"></path>
+    </g>
+    <g id="parts-dynamo-transducer" stroke="#FFF">
+      <rect x="40" y="80" width="60" height="100"></rect><rect x="25" y="105" width="15" height="50"></rect>
+      <rect x="540" y="80" width="60" height="100"></rect><rect x="600" y="105" width="15" height="50"></rect>
+      <circle cx="240" cy="120" r="50" fill="#FFF"></circle><line x1="290" y1="120" x2="220" y2="110" stroke="#0AF"></line>
+      <circle cx="400" cy="120" r="50" fill="#FFF"></circle><line x1="350" y1="120" x2="420" y2="130" stroke="#0AF"></line>
+      <rect x="100" y="110" width="40" height="40"></rect><circle cx="120" cy="130" r="15" stroke="#07F"></circle><line x1="120" y1="130" x2="120" y2="115" stroke="#FFF"></line>
+      <line x1="145" y1="110" x2="145" y2="150" stroke="#FED" stroke-width="6"></line>
+      <line x1="155" y1="100" x2="155" y2="140" stroke="#FED" stroke-width="6"></line>
+      <rect x="160" y="100" width="40" height="40"></rect><circle cx="180" cy="120" r="15" stroke="#07F"></circle><line x1="180" y1="120" x2="180" y2="105" stroke="#FFF"></line>
+      <path d="m 310 110 l -10 5 m 0 -10 l 0 15 l -10 0 m 10 0 l 0 15 l 0 -10 l 10 5" stroke="#FED" stroke-width="7"></path>
+      <path d="m 290 150 m -5 -5 l 5 10 l 5 -10 z m 0 10 l 10 0" stroke="#FED" stroke-width="4"></path>
+      <path d="m 350 150 m -5 -5 l 5 10 l 5 -10 z m 0 10 l 10 0" stroke="#FED" stroke-width="4"></path>
+      <path d="m 330 110 l 10 5 m 0 -10 l 0 15 l 10 0 m -10 0 l 0 15 l 0 -10 l -10 5" stroke="#FED" stroke-width="7"></path>
+      <rect x="440" y="100" width="40" height="40"></rect><circle cx="460" cy="120" r="15" stroke="#07F"></circle><line x1="460" y1="120" x2="460" y2="105" stroke="#FFF"></line>
+      <line x1="485" y1="100" x2="485" y2="140" stroke="#FED" stroke-width="6"></line>
+      <line x1="495" y1="110" x2="495" y2="150" stroke="#FED" stroke-width="6"></line>
+      <rect x="500" y="110" width="40" height="40"></rect><circle cx="520" cy="130" r="15" stroke="#07F"></circle><line x1="520" y1="130" x2="520" y2="115" stroke="#FFF"></line>
+    </g>
+  </g>
+  <g id="tile-various-components" transform="translate(2150, 450)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-various-components" fill="#FFF" x="325" y="30" text-anchor="middle" font-size="20pt">Kiro Line Array of Various Components</text>
+    <text id="emoji-various-components" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-various-components" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="50" y="55">-</tspan><tspan x="70" y="55">-</tspan><tspan x="90" y="55">-</tspan>
+      <tspan x="110" y="55">-</tspan><tspan x="130" y="55">-</tspan><tspan x="150" y="55">-</tspan><tspan x="170" y="55">-</tspan><tspan x="190" y="55">-</tspan>
+      <tspan x="210" y="55">-</tspan><tspan x="230" y="55">-</tspan><tspan x="250" y="55">-</tspan><tspan x="270" y="55">-</tspan><tspan x="290" y="55">-</tspan>
+      <tspan x="310" y="55">-</tspan><tspan x="330" y="55">-</tspan><tspan x="350" y="55">-</tspan><tspan x="370" y="55">-</tspan><tspan x="390" y="55">-</tspan>
+      <tspan x="410" y="55">-</tspan><tspan x="430" y="55">-</tspan><tspan x="450" y="55">-</tspan><tspan x="470" y="55">-</tspan><tspan x="490" y="55">-</tspan>
+      <tspan x="510" y="55">-</tspan><tspan x="530" y="55">-</tspan><tspan x="550" y="55">-</tspan>
+      <tspan x="550" y="55">-</tspan><tspan x="570" y="55">-</tspan><tspan x="590" y="55">-</tspan>
+    </text>
+    <g id="scrub-various-components">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-various-components" stroke="#777">
+      <g stroke="#F05" stroke-width="6"><path d="m 50 70 l 0 100"></path><path d="m 70 70 l 0 100"></path><path d="m 90 70 l 0 100"></path></g>
+      <path d="m 110 70 l 0 100"></path><path d="m 130 70 l 0 100"></path><path d="m 150 70 l 0 100"></path><path d="m 170 70 l 0 100"></path><path d="m 190 70 l 0 100"></path>
+      <path d="m 210 70 l 0 100"></path><path d="m 230 70 l 0 100"></path><path d="m 250 70 l 0 100"></path><path d="m 270 70 l 0 100"></path><path d="m 290 70 l 0 100"></path>
+      <path d="m 310 70 l 0 100"></path><path d="m 330 70 l 0 100"></path><path d="m 350 70 l 0 100"></path><path d="m 370 70 l 0 100"></path><path d="m 390 70 l 0 100"></path>
+      <path d="m 410 70 l 0 100"></path><path d="m 430 70 l 0 100"></path><path d="m 450 70 l 0 100"></path><path d="m 470 70 l 0 100"></path><path d="m 490 70 l 0 100"></path>
+      <path d="m 510 70 l 0 100"></path><path d="m 530 70 l 0 100"></path>
+      <g stroke="#F05" stroke-width="6"><path d="m 550 70 l 0 100"></path><path d="m 570 70 l 0 100"></path><path d="m 590 70 l 0 100"></path></g>
+    </g>
+    <g id="parts-various-components" stroke="#FFF">
+      <g transform="translate(110, 97.5)"><path d="m 0 0 s 10 0 10 10 l 0 0 s 0 3 -2 6 l 0 0 s -2 0 -2 6 l 0 0 s 0 3 2 6 l 0 0 s 2 0 2 6 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 -3 2 -6 l 0 0 s 2 0 2 -6 l 0 0 s 0 -3 -2 -6 l 0 0 s -2 0 -2 -6 l 0 0 s 0 -10 10 -10" fill="#FA9" stroke="none"></path><line x1="-8" y1="10" x2="+8" y2="10" stroke="#F00"></line><line x1="-5" y1="17" x2="+5" y2="17" stroke="#000"></line><line x1="-5" y1="28" x2="+5" y2="28" stroke="#730"></line><line x1="-8" y1="35" x2="+8" y2="35" stroke="#FF0"></line></g>
+      <g transform="translate(130, 97.5)"><path d="m 0 0 s 10 0 10 10 l 0 0 s 0 3 -2 6 l 0 0 s -2 0 -2 6 l 0 0 s 0 3 2 6 l 0 0 s 2 0 2 6 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 -3 2 -6 l 0 0 s 2 0 2 -6 l 0 0 s 0 -3 -2 -6 l 0 0 s -2 0 -2 -6 l 0 0 s 0 -10 10 -10" fill="#533" stroke="none"></path><line x1="-8" y1="10" x2="+8" y2="10" stroke="#F00"></line><line x1="-5" y1="17" x2="+5" y2="17" stroke="#000"></line><line x1="-5" y1="28" x2="+5" y2="28" stroke="#730"></line><line x1="-8" y1="35" x2="+8" y2="35" stroke="#FF0"></line></g>
+      <g transform="translate(150, 97.5)"><path d="m 0 0 s 10 0 10 10 l 0 0 s 0 3 -2 6 l 0 0 s -2 0 -2 6 l 0 0 s 0 3 2 6 l 0 0 s 2 0 2 6 l 0 0 s 0 10 -10 10 l 0 0 s -10 0 -10 -10 l 0 0 s 0 -3 2 -6 l 0 0 s 2 0 2 -6 l 0 0 s 0 -3 -2 -6 l 0 0 s -2 0 -2 -6 l 0 0 s 0 -10 10 -10" fill="#575" stroke="none"></path><line x1="-8" y1="10" x2="+8" y2="10" stroke="#F00"></line><line x1="-5" y1="17" x2="+5" y2="17" stroke="#000"></line><line x1="-5" y1="28" x2="+5" y2="28" stroke="#730"></line><line x1="-8" y1="35" x2="+8" y2="35" stroke="#FF0"></line></g>
+      <g transform="translate(170, 97.5)"><rect x="-10" y="0" width="20" height="45" fill="#700" stroke="none"></rect><line x1="-8" y1="10" x2="+8" y2="10" stroke="#F99"></line><line x1="-8" y1="17" x2="+8" y2="17" stroke="#000"></line><line x1="-8" y1="28" x2="+8" y2="28" stroke="#F22"></line><line x1="-8" y1="35" x2="+8" y2="35" stroke="#FF0"></line></g>
+      <g transform="translate(190, 97.5)"><rect x="-10" y="-5" width="20" height="55" fill="#555" stroke="none"></rect><line x1="-8" y1="10" x2="+8" y2="10" stroke="#FFF"></line></g>
+      <g transform="translate(210, 97.5)"><rect x="-10" y="-5" width="20" height="55" fill="#FFF" stroke="none"></rect><line x1="0" y1="5" x2="0" y2="40" stroke="#00F" stroke-width="7"></line></g>
+      <rect x="220" y="92.5" width="20" height="55" fill="#FFA" stroke="none"></rect>
+      <rect x="240" y="92.5" width="20" height="55" fill="#FAA" stroke="none"></rect>
+      <g transform="translate(270, 77.5)"><line x1="0" y1="5" x2="0" y2="80" stroke="#0F76" stroke-width="9"></line><line x1="0" y1="5" x2="0" y2="80" stroke="#1386" stroke-width="7"></line></g>
+      <g transform="translate(290, 77.5)"><line x1="0" y1="5" x2="0" y2="80" stroke="#0F7A" stroke-width="9"></line><line x1="0" y1="5" x2="0" y2="40" stroke="#038A" stroke-width="7"></line></g>
+      <g transform="translate(310, 77.5)"><line x1="0" y1="5" x2="0" y2="40" stroke="#0F7A" stroke-width="9"></line><line x1="0" y1="5" x2="0" y2="40" stroke="#038A" stroke-width="7"></line></g>
+      <g transform="translate(330, 77.5)"><line x1="0" y1="5" x2="0" y2="80" stroke="#0F7A" stroke-width="9"></line><line x1="0" y1="25" x2="0" y2="60" stroke="#038A" stroke-width="7"></line></g>
+      <g transform="translate(350, 117.5)"><line x1="0" y1="5" x2="0" y2="40" stroke="#0F7A" stroke-width="9"></line><line x1="0" y1="5" x2="0" y2="40" stroke="#038A" stroke-width="7"></line></g>
+      <circle cx="370" cy="120" r="11" fill="#555" stroke="#777"></circle>
+      <g transform="translate(400, 120)"><circle cx="0" cy="0" r="15" fill="#FFF" stroke="#FFF"></circle><line x1="+11" y1="-10" x2="+11" y2="+10" stroke="#0AF"></line></g>
+      <g transform="translate(440, 120)"><circle cx="0" cy="0" r="15" fill="#FFF" stroke="#FFF"></circle><line x1="-11" y1="-10" x2="-11" y2="+10" stroke="#0AF"></line></g>
+      <g transform="translate(480, 120)"><circle cx="0" cy="0" r="15" fill="#000" stroke="#FFF"></circle><circle cx="20" cy="0" r="15" fill="#FFF" stroke="#FFF"></circle><line x1="+11" y1="-10" x2="+11" y2="+10" stroke="#F06"></line></g>
+      <circle cx="530" cy="120" r="11" fill="#EEE" stroke="#FFF"></circle>
+    </g>
+  </g>
+  <g id="tile-hysterical-swell-plate" transform="translate(2150, 700) scale(-1, 1) translate(-650, 0)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-hysterical-swell-plate" fill="#FFF" x="325" y="30" text-anchor="middle">Swell Plate Component with Hysteresis</text>
+    <text id="emoji-hysterical-swell-plate" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-hysterical-swell-plate" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="150" y="55">Balanced In +</tspan>
+      <tspan x="255" y="55">Balanced In -</tspan>
+      <tspan x="422" y="55">Swell Plate Hysteresis</tspan>
+      <tspan x="575" y="55">Buss Output</tspan>
+    </text>
+    <g id="scrub-hysterical-swell-plate">
+      <rect x="40" y="60" width="562" height="123" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-hysterical-swell-plate">
+      <g stroke="#F05" stroke-width="6"><path d="m 50 70 l 0 100"></path><path d="m 70 70 l 0 100"></path><path d="m 90 70 l 0 100"></path></g>
+      <path d="m 110 170 l 480 0 l 0 -100" stroke="#777" stroke-width="6"></path>
+      <path d="m 110 130 l 0 -60 l 20 0 m 40 40 l 20 0 l 0 20" stroke="#0FA" stroke-width="4"></path>
+      <path d="m 210 130 l 0 -20 l 20 0 m 40 -40 l 20 0 l 0 60" stroke="#0FA" stroke-width="4"></path>
+      <path d="m 110 150 l 20 0 l 0 -20 l 20 20 l 0 -20 m 0 20 l 20 -20 l 0 20 l 60 0 l 0 -20 l 20 20 l 0 -20 m 0 20 l 20 -20 l 0 20 l 60 0" stroke="#A99" stroke-width="6"></path>
+      <path d="m 350 150 l 80 0 l -20 -20 l 20 0 l -20 -20 l 20 0 l -20 -20 l 80 0" stroke="#A99" stroke-width="6"></path>
+      <path d="m 170 70 l 60 0" stroke="#0FF"></path>
+      <path d="m 130 110 l 20 -20 l 100 0 l 20 20" stroke="#0FF"></path>
+      <path d="m 350 90 l -20 0 l 0 40 l -20 0 l 0 -60 l 260 0 l 0 20" stroke="#0FF"></path>
+      <path d="m 490 150 l 80 0 l 0 -20" stroke="#0FF"></path>
+      <path d="m 509 87.5 l 45 0 m -40 15 l 45 0 m -45 15 l 45 0 m -50 15 l 45 0" stroke="#A99" stroke-width="6"></path>
+      <path d="m 130 70 l 40 0 l 0 40 l -40 0 l 0 -40" stroke="#F05" stroke-width="6"></path>
+      <path d="m 230 70 l 40 0 l 0 40 l -40 0 l 0 -40" stroke="#F05" stroke-width="6"></path>
+      <path d="m 350 90 l 40 0 l 0 40 l -40 0 l 0 -40" stroke="#343" stroke-width="6"></path>
+      <path d="m 450 110 l 40 0 l 0 40 l -40 0 l 0 -40" stroke="#343" stroke-width="6"></path>
+      <path d="M 200 70 S 255 250 390 90" stroke="#77C"></path><path d="M 200 90 S 255 180 350 130" stroke="#77C"></path>
+      <path d="M 390 90 S 255 250 490 110" stroke="#77C"></path><path d="M 350 130 S 255 180 450 150" stroke="#77C"></path>
+    </g>
+    <g id="parts-hysterical-swell-plate" stroke="#FFF">
+      <rect x="100" y="120" width="100" height="60"></rect><rect x="125" y="180" width="50" height="15"></rect>
+      <rect x="200" y="120" width="100" height="60"></rect><rect x="225" y="180" width="50" height="15"></rect>
+      <rect x="340" y="80" width="160" height="80"></rect><rect x="360" y="100" width="120" height="40"></rect>
+      <rect x="540" y="60" width="60" height="100"></rect><rect x="600" y="85" width="20" height="50"></rect>
+      <circle cx="150" cy="90" r="15" stroke="#07F"></circle><line x1="150" y1="90" x2="150" y2="75" stroke="#FFF"></line>
+      <circle cx="250" cy="90" r="15" stroke="#07F"></circle><line x1="250" y1="90" x2="250" y2="75" stroke="#FFF"></line>
+    </g>
+  </g>
+</g>
+<defs>
+  <pattern id="grid" x="0.0" y="0.0" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="10" cy="10" r="6" fill="none" stroke="#333" stroke-width="3"></circle>
+  </pattern>
+</defs>
+</svg>
