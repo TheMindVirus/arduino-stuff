@@ -1,0 +1,1 @@
+![screenshot](/BenzeneRectifier/AvalancheDiode.png)
