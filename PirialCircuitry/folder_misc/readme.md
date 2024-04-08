@@ -11,3 +11,7 @@
 ### Transducer Hysteresis Experiments
 
 <img src="image_pirial_circuitry_transducer_hysteresis.png" alt="image_pirial_circuitry_transducer_hysteresis" width="100%"></img>
+
+### Sample and Hold Feedback
+
+<img src="image_pirial_circuitry_sample_and_hold.png" alt="image_pirial_circuitry_sample_and_hold" width="100%"></img>

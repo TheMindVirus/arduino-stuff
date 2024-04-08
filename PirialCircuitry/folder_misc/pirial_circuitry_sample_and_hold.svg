@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color-scheme: dark; background: black; width: 10000px; height: 10000px; overflow: scroll; user-select: none;">
+<title>Pirial Circuitry Sample and Hold</title>
+<g mod="pirial" id="circuitry" addendum="pt2399sh" font-size="18pt" fill="none" stroke="none" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" font-family="Permanent Marker" font-weight="bold">
+  <text id="title" x="600" y="70" text-anchor="middle" font-size="50pt" fill="#FFF">Pirial Circuitry Sample and Hold</text>
+  <g id="tile-parasitic-internals" transform="translate(55, 100)" font-family="Orbitron" font-weight="bolder">
+    <rect fill="#111" stroke="#333" width="850" height="450"></rect>
+    <text id="label-parasitic-internals" fill="#FFF" x="425" y="30" text-anchor="middle">PT2399 ECHO SURROUND DELAY PROCESSOR</text>
+    <text id="emoji-parasitic-internals" fill="#FFF" x="846" y="435" text-anchor="end">⚠️</text>
+    <text id="text-parasitic-internals" fill="#FFF" text-anchor="end" font-size="12pt">
+      <tspan x="280" y="70">LOW PASS FILTER</tspan>
+      <tspan x="480" y="70">MEMORY BUFFER</tspan>
+      <tspan x="750" y="70">OPERATIONAL AMPLIFIER</tspan>
+      <tspan x="90" y="110">VCC</tspan>
+      <tspan x="90" y="125">REF</tspan>
+      <tspan x="90" y="140">VCO</tspan>
+      <tspan x="130" y="180">LPF1-IN</tspan>
+      <tspan x="795" y="200">LPF1-OUT</tspan>
+      <tspan x="130" y="220">LPF2-IN</tspan>
+      <tspan x="795" y="240">LPF2-OUT</tspan>
+      <tspan x="130" y="260">OP1-IN</tspan>
+      <tspan x="795" y="280">OP1-OUT</tspan>
+      <tspan x="130" y="300">OP2-IN</tspan>
+      <tspan x="795" y="320">OP2-OUT</tspan>
+      <tspan x="125" y="346">CC0-MOD</tspan>
+      <tspan x="795" y="346">CC1-DEM</tspan>
+      <tspan x="90" y="370">CLKO</tspan>
+      <tspan x="90" y="390">AGND</tspan>
+      <tspan x="85" y="410">DGND</tspan>
+    </text>
+    <g id="scrub-parasitic-internals" stroke="#333">
+      <rect x="100" y="80" width="650" height="350"></rect>
+    </g>
+    <g id="wires-parasitic-internals" stroke="#0FF">
+      <path d="m 90 105 l 650 0 m -70 0 l 0 240" stroke="#F06"></path><path d="m 90 120 l 650 0 m -80 0 l 0 220" stroke="#F79"></path><path d="m 90 135 l 650 0 m -90 0 l 0 200" stroke="#FA4"></path>
+      <path d="m 90 365 l 650 0 m -70 0 l 0 -15" stroke="#FF0"></path><path d="m 90 385 l 650 0 m -80 0 l 0 -35" stroke="#055"></path><path d="m 90 405 l 650 0 m -90 0 l 0 -55" stroke="#777"></path>
+      <path d="m 130 175 l 555 0"></path><path d="m 135 195 l 555 0"></path>
+      <path d="m 130 215 l 555 0"></path><path d="m 135 235 l 555 0"></path>
+      <path d="m 130 255 l 555 0"></path><path d="m 135 275 l 555 0"></path>
+      <path d="m 130 295 l 555 0"></path><path d="m 135 315 l 555 0"></path>
+      <path d="m 160 195 m -15 0 l 0 -35 l 64 0 l 0 117"></path>
+      <path d="m 444 255 m -15 0 l 0 -95 l 64 0 l 0 117"></path>
+      <path d="m 555 295 m -15 0 l 0 -135 l 64 0 l 0 155"></path>
+      <circle cx="145" cy="195" r="3" stroke="#777" fill="#777"></circle>
+      <circle cx="209" cy="275" r="3" stroke="#FFF" fill="#FFF"></circle>
+      <circle cx="427" cy="255" r="3" stroke="#777" fill="#777"></circle>
+      <circle cx="493" cy="275" r="3" stroke="#0FF" fill="#0FF"></circle>
+      <circle cx="540" cy="295" r="3" stroke="#777" fill="#777"></circle>
+      <circle cx="604" cy="315" r="3" stroke="#0FF" fill="#0FF"></circle>
+    </g>
+    <g id="parts-parasitic-internals" stroke="#FED" fill="#FED" font-size="10pt">
+      <rect x="130" y="333" width="565" height="15"></rect>
+      <rect x="160" y="155" width="35" height="10"></rect><text x="160" y="150" stroke="none">COMP</text>
+      <rect x="260" y="180" width="35" height="10"></rect><text x="260" y="170" stroke="none">COMP</text>
+      <rect x="333" y="220" width="35" height="10"></rect><text x="333" y="210" stroke="none">COMP</text>
+      <rect x="444" y="260" width="35" height="10"></rect><text x="444" y="250" stroke="none">COMP</text>
+      <rect x="555" y="300" width="35" height="10"></rect><text x="555" y="290" stroke="none">COMP</text>
+      <rect x="444" y="155" width="35" height="10"></rect><text x="444" y="150" stroke="none">4.7K</text>
+      <rect x="555" y="155" width="35" height="10"></rect><text x="555" y="150" stroke="none">4.7K</text>
+    </g>
+  </g>
+  <g id="tile-package-pinout" transform="translate(1150, 100) rotate(90,0,0)">
+    <rect fill="#111" stroke="#333" width="450" height="200"></rect>
+    <text id="label-package-pinout" fill="#FFF" x="-101" y="30" transform="rotate(-90,0,0)" text-anchor="middle">Pinout</text>
+    <text id="emoji-package-pinout" fill="#FFF" x="446" y="85" text-anchor="end">⚠️</text>
+    <text id="text1-package-pinout" fill="#FFF" text-anchor="end" font-family="Orbitron" font-size="12pt">
+      <tspan x="180" y="35">OP1-OUT_9</tspan>
+      <tspan x="180" y="55">OP1-IN_10</tspan>
+      <tspan x="178" y="75">OP2-IN_11</tspan>
+      <tspan x="180" y="95">OP2-OUT_12</tspan>
+      <tspan x="180" y="115">LPF2-IN_13</tspan>
+      <tspan x="180" y="135">LPF2-OUT_14</tspan>
+      <tspan x="180" y="155">LPFI-OUT_15</tspan>
+      <tspan x="175" y="175">LPF1-IN_16</tspan>
+    </text>
+    <rect stroke="#FFF" x="192.5" y="17.5" width="75" height="165"></rect>
+    <g stroke="#333" stroke-width="5">
+      <circle cx="205" cy="30" r="6"></circle>
+      <circle cx="205" cy="50" r="6"></circle>
+      <circle cx="205" cy="70" r="6"></circle>
+      <circle cx="205" cy="90" r="6"></circle>
+      <circle cx="205" cy="110" r="6"></circle>
+      <circle cx="205" cy="130" r="6"></circle>
+      <circle cx="205" cy="150" r="6"></circle>
+      <circle cx="205" cy="170" r="6"></circle>
+      <circle cx="255" cy="170" r="6"></circle>
+      <circle cx="255" cy="150" r="6"></circle>
+      <circle cx="255" cy="130" r="6"></circle>
+      <circle cx="255" cy="110" r="6"></circle>
+      <circle cx="255" cy="90" r="6"></circle>
+      <circle cx="255" cy="70" r="6"></circle>
+      <circle cx="255" cy="50" r="6"></circle>
+      <circle cx="255" cy="30" r="6"></circle>
+    </g>
+    <rect stroke="#FFF" x="220" y="30" width="20" height="140"></rect>
+    <text id="text2-package-pinout" fill="#FFF" text-anchor="start" font-family="Orbitron" font-size="12pt">
+      <tspan x="280" y="35">8_CC0</tspan>
+      <tspan x="280" y="55">7_CC1</tspan>
+      <tspan x="280" y="75">6_VCO</tspan>
+      <tspan x="280" y="95">5_CLKO</tspan>
+      <tspan x="280" y="115">4_DGND</tspan>
+      <tspan x="280" y="135">3_AGND</tspan>
+      <tspan x="280" y="155">2_REF</tspan>
+      <tspan x="280" y="175">1_VCC</tspan>
+    </text>
+    <path d="m 225 180 l 10 0 s -5 -10 -10 0" stroke="#FFF"></path>
+  </g>
+  <g id="tile-sample-and-hold" transform="translate(50, 600) scale(1.555)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-sample-and-hold" fill="#FFF" x="325" y="30" text-anchor="middle">PT2399 Sample and Hold Feedback</text>
+    <text id="emoji-sample-and-hold" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-sample-and-hold" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="115" y="52">100R Resistor</tspan>
+      <tspan x="235" y="52">100uF Ceramic</tspan>
+      <tspan x="375" y="52">100nF Electrolytic</tspan>
+      <tspan x="535" y="52">100K Potentiometer</tspan>
+    </text>
+    <g id="scrub-sample-and-hold" stroke="#333">
+      <rect x="40" y="60" width="560" height="120" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-sample-and-hold" stroke="#F05" stroke-width="6">
+      <path d="m 050 70 l 0 100" stroke="#0AF"></path><path d="m 070 70 l 0 100"></path><path d="m 090 70 l 0 100" stroke="#777"></path><path d="m 110 70 l 0 100"></path><path d="m 130 70 l 0 100" stroke="#0AF"></path>
+      <path d="m 170 70 l 0 100" stroke="#777"></path><path d="m 190 70 l 0 100" stroke="#777"></path><path d="m 210 70 l 0 100"></path>
+      <path d="m 430 70 l 0 100" stroke="#777"></path><path d="m 450 70 l 0 100"></path><path d="m 470 70 l 0 100"></path>
+      <path d="m 510 70 l 0 100" stroke="#0AF"></path><path d="m 530 70 l 0 100"></path><path d="m 550 70 l 0 100" stroke="#777"></path><path d="m 570 70 l 0 100"></path><path d="m 590 70 l 0 100" stroke="#0AF"></path>
+      <path d="m 045 47 l 15 0" stroke="#A77"></path>
+      <path d="m 165 47 l 15 0" stroke="#0FA"></path>
+      <path d="m 288 47 l 15 0" stroke="#FF0"></path>
+      <path d="m 444 47 l 15 0" stroke="#07F"></path>
+      <path d="m 250 170 l 0 -20"></path>
+      <path d="m 230 70 l 0 100" stroke="#07F"></path><path d="m 410 70 l 0 100" stroke="#07F"></path>
+      <path d="m 250 90 l 0 -20" stroke="#AAA"></path><path d="m 270 90 l 0 -20" stroke="#AAA"></path>
+      <path d="m 290 90 l 0 -20" stroke="#AAA"></path><path d="m 310 90 l 0 -20" stroke="#AAA"></path>
+      <path d="m 330 90 l 0 -20" stroke="#FFF"></path><path d="m 350 90 l 0 -20" stroke="#FFF"></path>
+      <path d="m 370 90 l 0 -20" stroke="#FFF"></path><path d="m 390 90 l 0 -20" stroke="#FFF"></path>
+      <path d="m 290 170 l 0 -20" stroke="#777"></path><path d="m 310 170 l 0 -20" stroke="#777"></path>
+      <path d="m 370 170 l 0 -20" stroke="#0FA"></path><path d="m 390 170 l 0 -20" stroke="#0FA"></path>
+      <path d="m 350 90 l -20 -20" stroke="#0FA"></path><path d="m 390 90 l -20 -20" stroke="#0FA"></path>
+      <path d="m 230 70 l 6 20" stroke="#A77"></path><path d="m 250 70 l -6 20" stroke="#A77"></path>
+      <path d="m 250 90 l 6 20" stroke="#A77"></path><path d="m 270 90 l -6 20" stroke="#A77"></path>
+      <path d="m 290 90 l 16 -20" stroke="#A77"></path><path d="m 330 90 l -16 -20" stroke="#A77"></path>
+      <path d="m 270 70 l 140 100 l 0 5" stroke="#FF0"></path><path d="m 450 170 l -200 -100 l 0 -5" stroke="#FF0"></path>
+      <path d="m 290 70 l 180 100" stroke="#FFF"></path><path d="m 210 70 l 140 100 l 0 -20" stroke="#FFF"></path>
+      <path d="m 50 70 l 180 100" stroke="#FFF"></path><path d="m 130 70 l 100 100" stroke="#FFF"></path>
+      <path d="m 590 70 l -180 100" stroke="#FFF"></path><path d="m 510 70 l -100 100" stroke="#FFF"></path>
+    </g>
+    <g id="parts-sample-and-hold" stroke="#FFF">
+      <rect x="40" y="100" width="100" height="80"></rect><rect x="65" y="185" width="50" height="10"></rect>
+      <rect x="500" y="100" width="100" height="80"></rect><rect x="525" y="185" width="50" height="10"></rect>
+      <rect x="240" y="80" width="160" height="80"></rect><rect x="250" y="100" width="140" height="40"></rect>
+      <rect x="40" y="60" width="560" height="20"></rect><rect x="160" y="160" width="320" height="20"></rect>
+      <rect x="160" y="90" width="60" height="60"></rect><circle cx="190" cy="120" r="15" stroke="#09F" stroke-width="6"></circle>
+      <rect x="420" y="90" width="60" height="60"></rect><circle cx="450" cy="120" r="15" stroke="#09F" stroke-width="6"></circle>
+    </g>
+  </g>
+</g>
+<defs>
+  <pattern id="grid" x="0.0" y="0.0" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="10" cy="10" r="5" fill="none" stroke="#333" stroke-width="3"></circle>
+  </pattern>
+</defs>
+</svg>
