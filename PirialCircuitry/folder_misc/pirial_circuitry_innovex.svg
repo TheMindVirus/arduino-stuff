@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color-scheme: dark; background: black; width: 1200px; height: 900px; overflow: hidden;">
+<title>Pirial Circuitry @ InnoVEX</title>
+<g mod="pirial" id="circuitry" addendum="innovex" font-size="18pt" fill="none" stroke="none" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" font-family="Orbitron" font-weight="bold">
+  <text id="title" x="600" y="70" text-anchor="middle" font-size="50pt" fill="#FFF">Pirial Circuitry InnoVEX</text>
+  <g id="computex-floorplan-tile" transform="translate(55, 100)" font-family="Orbitron" font-weight="bolder">
+    <rect fill="#111" stroke="#33F" width="800" height="800"></rect>
+    <text id="computex-floorplan-label" fill="#FFF" x="425" y="30" text-anchor="middle">COMPUTEX FLOORPLAN</text>
+    <text id="computex-floorplan-emoji" fill="#FFF" x="796" y="785" text-anchor="end">⚠️</text>
+    <g id="computex-floorplan-scrub" stroke="#333">
+      <rect x="100" y="80" width="650" height="620"></rect>
+      <g id="computex-floorplan-text" fill="#FFF" stroke="none" text-anchor="end" font-size="12pt">
+        <text x="190" y="70">STAGING</text><text x="190" y="720">STAGING</text>
+        <text x="480" y="70">SHOWFLOOR</text><text x="480" y="720">SHOWFLOOR</text>
+        <text x="750" y="70">ENTRANCE</text><text x="750" y="720">ENTRANCE</text>
+      </g>
+      <rect x="65" y="115" width="125" height="550" stroke="#113" fill="#113A" stroke-width="10" filter="url(#blur1)"></rect>
+      <rect x="70" y="125" width="115" height="530" stroke="#119" fill="none" stroke-width="6" filter="url(#blur2)"></rect>
+      <rect x="60" y="115" width="135" height="550" stroke="#FFF" fill="none" stroke-width="10"></rect>
+    </g>
+    <g id="computex-floorplan-stand">
+      <rect x="250" y="160" width="100" height="100" fill="url(#stand)"></rect>
+      <rect x="370" y="160" width="100" height="100" fill="url(#stand)"></rect>
+      <rect x="490" y="160" width="100" height="100" fill="url(#stand)"></rect>
+
+      <rect x="250" y="280" width="100" height="100" fill="url(#stand)"></rect>
+      <rect x="370" y="280" width="100" height="100" fill="url(#stand)"></rect>
+      <rect x="490" y="280" width="100" height="100" fill="url(#stand)"></rect>
+
+      <rect x="250" y="400" width="100" height="100" fill="url(#stand)"></rect>
+      <rect x="370" y="400" width="100" height="100" fill="url(#stand)"></rect>
+      <rect x="490" y="400" width="100" height="100" fill="url(#stand)"></rect>
+
+      <rect x="250" y="520" width="100" height="100" fill="url(#stand)"></rect>
+      <rect x="370" y="520" width="100" height="100" fill="url(#stand)"></rect>
+      <rect x="490" y="520" width="100" height="100" fill="url(#stand)"></rect>
+    </g>
+    <g id="computex-floorplan-banner" stroke="#F06" stroke-width="6" stroke-linejoin="round">
+      <path d="m 240 140 l 360 0 s 10 0 10 10 l 0 480 s 0 10 -10 10 l -360 0 s -10 0 -10 -10 l 0 -480 s 0 -10 10 -10" stroke="#333"></path>
+      <path d="m 230 120 l 380 0 s 20 0 20 20 l 0 500 s 0 20 -20 20 l -380 0 s -20 0 -20 -20 l 0 -500 s 0 -20 20 -20" stroke="#30F" stroke-width="15"></path>
+
+      <path d="m 250 150 l 100 0 s 10 0 10 10 l 0 100 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -100 s 0 -10 10 -10"></path>
+      <path d="m 250 270 l 100 0 s 10 0 10 10 l 0 100 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -100 s 0 -10 10 -10"></path>
+      <path d="m 250 390 l 100 0 s 10 0 10 10 l 0 100 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -100 s 0 -10 10 -10"></path>
+      <path d="m 250 510 l 100 0 s 10 0 10 10 l 0 100 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -100 s 0 -10 10 -10"></path>
+
+      <path d="m 370 150 l 100 0 s 10 0 10 10 l 0 100 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -100 s 0 -10 10 -10"></path>
+      <path d="m 370 270 l 100 0 s 10 0 10 10 l 0 100 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -100 s 0 -10 10 -10"></path>
+      <path d="m 370 390 l 100 0 s 10 0 10 10 l 0 100 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -100 s 0 -10 10 -10"></path>
+      <path d="m 370 510 l 100 0 s 10 0 10 10 l 0 100 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -100 s 0 -10 10 -10"></path>
+
+      <path d="m 490 150 l 100 0 s 10 0 10 10 l 0 100 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -100 s 0 -10 10 -10"></path>
+      <path d="m 490 270 l 100 0 s 10 0 10 10 l 0 100 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -100 s 0 -10 10 -10"></path>
+      <path d="m 490 390 l 100 0 s 10 0 10 10 l 0 100 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -100 s 0 -10 10 -10"></path>
+      <path d="m 490 510 l 100 0 s 10 0 10 10 l 0 100 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -100 s 0 -10 10 -10"></path>
+
+      <path d="m 240 140 l 100 0 s 10 0 10 10 l 0 100 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -100 s 0 -10 10 -10" stroke="#FAF"></path>
+      <path d="m 480 140 l 100 0 s 10 0 10 10 l 0 100 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -100 s 0 -10 10 -10" stroke="#FED"></path>
+      <path d="m 240 500 l 100 0 s 10 0 10 10 l 0 100 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -100 s 0 -10 10 -10" stroke="#FED"></path>
+      <path d="m 480 500 l 100 0 s 10 0 10 10 l 0 100 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -100 s 0 -10 10 -10" stroke="#FAF"></path>
+
+      <path d="m 260 280 l 80 0 s 10 0 10 10 l 0 40 s 0 10 -10 20 l -80 80 s -8 5 -10 20 l 0 30 s 0 10 10 10 l 80 0 s 10 0 10 -10 l 0 -30 s 0 -10 -10 -20 l -80 -80 s -8 -5 -10 -20 l 0 -40 s 0 -10 10 -10" stroke="#30F"></path>
+      <path d="m 580 280 l -80 0 s -10 0 -10 10 l 0 40 s 0 10 10 20 l 80 80 s 8 5 10 20 l 0 30 s 0 10 -10 10 l -80 0 s -10 0 -10 -10 l 0 -30 s 0 -10 10 -20 l 80 -80 s 8 -5 10 -20 l 0 -40 s 0 -10 -10 -10" stroke="#30F"></path>
+
+      <path d="m 400 280 l 100 0 a 50 50 0 1 0 0 0.001" stroke="#0FF"></path>
+      <path d="m 320 480 l 100 0 a 50 50 0 1 0 0 0.001" stroke="#0FF"></path>
+
+      <path d="m 260 220 l 300 0 m 20 20 l -200 0" stroke="#333"></path>
+      <path d="m 260 540 l 300 0 m 20 20 l -200 0" stroke="#333"></path>
+
+      <path d="m 360 260 l 100 0 s 10 0 10 10 l 0 220 s 0 10 -10 10 l -100 0 s -10 0 -10 -10 l 0 -220 s 0 -10 10 -10" stroke="#3AF"></path>
+    </g>
+    <g id="computex-floorplan-arrow" stroke="#F06" stroke-width="6">
+      <path d="m 700 260 l -10 10 l 10 10 l -10 -10 l 10 -10 z"></path>
+      <path d="m 720 260 l -10 10 l 10 10 l -10 -10 l 10 -10 z"></path>
+      <path d="m 740 260 l -10 10 l 10 10 l -10 -10 l 10 -10 z"></path>
+      <path d="m 700 500 l -10 10 l 10 10 l -10 -10 l 10 -10 z"></path>
+      <path d="m 720 500 l -10 10 l 10 10 l -10 -10 l 10 -10 z"></path>
+      <path d="m 740 500 l -10 10 l 10 10 l -10 -10 l 10 -10 z"></path>
+    </g>
+    <rect id="region1" x="100" y="100" width="100" height="100" fill="#F063" stroke="#FFF">Arasaka</rect>
+    <rect id="computex-floorplan-overlay" width="100%" height="100%" fill="#FFF0"
+onmousemove=
+"
+var svg = document.getElementsByTagName('svg')[0];
+var cursor = document.getElementById('cursor');
+var tile = document.getElementById('computex-floorplan-tile');
+var style = window.getComputedStyle(svg);
+/* console.log(style); */
+cursor.setAttribute('x', event.clientX + 24); /* + parseFloat(style.transformOrigin.x)); */
+cursor.setAttribute('y', event.clientY + 24); /* + parseFloat(style.transformOrigin.y)); */
+var regions = 1;
+var label = 'Stand-7G';
+for (var i = 0; i &lt; regions; ++i)
+{
+    var region = document.getElementById('region' + (i + 1));
+    var offset = window.getComputedStyle(tile).transform.split('(')[1].split(')')[0].split(',');
+    /* console.log(offset); */
+    var x0 = parseFloat(offset[4]);
+    var y0 = parseFloat(offset[5]);
+    var x1 = parseFloat(region.getAttribute('x')) + x0; /* 55 */
+    var y1 = parseFloat(region.getAttribute('y')) + y0; /* 100 */
+    var x2 = parseFloat(region.getAttribute('width')) + x1;
+    var y2 = parseFloat(region.getAttribute('height')) + y1;
+    if ((event.clientX &gt; x1) &amp;&amp; (event.clientY &gt; y1) &amp;&amp; (event.clientX &lt; x2) &amp;&amp; (event.clientY &lt; y2))
+    {
+        label = region.innerHTML;
+    }
+    /* console.log(x1, y1, x2, y2); */
+}
+cursor.innerHTML = label;
+"></rect>
+  </g>
+  <g id="corporate-package-tile" transform="translate(900, 100)">
+    <rect fill="#111" stroke="#FAF" width="200" height="800"></rect>
+    <text id="corporate-package-label" fill="#FFF" x="101" y="30" text-anchor="middle">CORPORATION</text>
+    <text id="corporate-package-emoji" fill="#FFF" x="195" y="786" text-anchor="end">⚠️</text>
+    <g id="corporate-package-text" fill="#FFF" font-family="Orbitron" font-size="12pt">
+      <text x="30" y="55">ARASAKA</text><rect x="10" y="45" width="10" height="10" stroke="#FFF" fill="#F06"></rect>
+      <text x="30" y="75">BIODYNE</text><rect x="10" y="65" width="10" height="10" stroke="#FFF" fill="#F06"></rect>
+      <text x="30" y="95">BIOTECHNICA</text><rect x="10" y="85" width="10" height="10" stroke="#FFF" fill="#F06"></rect>
+      <text x="30" y="115">DATA-INC</text><rect x="10" y="105" width="10" height="10" stroke="#FFF" fill="#F06"></rect>
+      <text x="30" y="135">EJI-OF-JAPAN</text><rect x="10" y="125" width="10" height="10" stroke="#FFF" fill="#F06"></rect>
+      <text x="30" y="155">KIROSHI</text><rect x="10" y="145" width="10" height="10" stroke="#FFF" fill="#F06"></rect>
+      <text x="30" y="175">LAZARUS</text><rect x="10" y="165" width="10" height="10" stroke="#FFF" fill="#F06"></rect>
+      <text x="30" y="195">QUADRA</text><rect x="10" y="185" width="10" height="10" stroke="#FFF" fill="#F06"></rect>
+      <text x="30" y="215">SOFTSYS</text><rect x="10" y="205" width="10" height="10" stroke="#FFF" fill="#F06"></rect>
+      <text x="30" y="235">TECHTRONIKA</text><rect x="10" y="225" width="10" height="10" stroke="#FFF" fill="#F06"></rect>
+      <text x="30" y="255">MAXTAC</text><rect x="10" y="245" width="10" height="10" stroke="#FFF" fill="#F06"></rect>
+      <text x="30" y="275">YAIBA</text><rect x="10" y="265" width="10" height="10" stroke="#FFF" fill="#F06"></rect>
+      <text x="30" y="295">ZETATECH</text><rect x="10" y="285" width="10" height="10" stroke="#FFF" fill="#F06"></rect>
+    </g>
+  </g>
+  <text id="cursor" fill="#FFF">Stand-7G</text>
+</g>
+<defs>
+  <filter id="blur1"><feGaussianBlur stdDeviation="11"></feGaussianBlur></filter>
+  <filter id="blur2"><feGaussianBlur stdDeviation="6"></feGaussianBlur></filter>
+  <pattern id="stand" x="2.5" y="12.5" width="20" height="20" patternUnits="userSpaceOnUse">
+    <rect x="2.5" y="2.5" width="10" height="10" stroke-width="3" stroke="#FFF" fill="none"></rect>
+  </pattern>
+</defs>
+</svg>

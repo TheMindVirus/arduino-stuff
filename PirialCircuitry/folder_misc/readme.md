@@ -15,3 +15,8 @@
 ### Sample and Hold Feedback
 
 <img src="image_pirial_circuitry_sample_and_hold.png" alt="image_pirial_circuitry_sample_and_hold" width="100%"></img>
+
+
+### Computex and InnoVEX Floorplan
+
+<img src="image_pirial_circuitry_innovex.png" alt="image_pirial_circuitry_innovex" width="100%"></img>
