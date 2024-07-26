@@ -20,3 +20,7 @@
 ### Computex and InnoVEX Floorplan
 
 <img src="image_pirial_circuitry_innovex.png" alt="image_pirial_circuitry_innovex" width="100%"></img>
+
+### Bass Tube Synth Oscillator
+
+<img src="image_pirial_circuitry_bass_tube_synth.png" alt="image_pirial_circuitry_bass_tube_synth" width="100%"></img>

@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="color-scheme: dark; background: black; width: 10000px; height: 10000px; overflow: scroll; user-select: none;">
+<title>Pirial Circuitry Bass Tube Synth</title>
+<g mod="pirial" id="circuitry" addendum="basstube" font-size="18pt" fill="none" stroke="none" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" font-family="Permanent Marker" font-weight="bold">
+  <text id="title" text-anchor="middle" font-size="50pt" fill="#FFF">
+    <tspan x="380" y="75">Pirial Circuitry</tspan>
+    <tspan x="380" y="125">Bass Tube Synth</tspan>
+  </text>
+  <g id="tile-bass-tube-synth" transform="translate(50, 150)">
+    <rect fill="#111" stroke="#333" width="650" height="200"></rect>
+    <text id="label-bass-tube-synth" fill="#FFF" x="325" y="30" text-anchor="middle">Bass Tube Synth Oscillator</text>
+    <text id="emoji-bass-tube-synth" fill="#FFF" x="646" y="185" text-anchor="end">⚠️</text>
+    <text id="text-bass-tube-synth" fill="#FFF" text-anchor="middle" font-size="10pt">
+      <tspan x="115" y="52">100R Resistor</tspan>
+      <tspan x="245" y="52">10uF Electrolytic</tspan>
+      <tspan x="385" y="52">1000uF Parasitic</tspan>
+      <tspan x="535" y="52">10K Potentiometer</tspan>
+      <tspan x="235" y="192">C945 NPN</tspan>
+      <tspan x="415" y="192">C945 NPN</tspan>
+    </text>
+    <g id="scrub-bass-tube-synth" stroke="#333">
+      <rect x="40" y="60" width="560" height="120" fill="url(#grid)"></rect>
+    </g>
+    <g id="wires-bass-tube-synth" stroke="#F05" stroke-width="6">
+      <path d="m 045 47 l 15 0" stroke="#A77"></path>
+      <path d="m 165 47 l 15 0" stroke="#0FA"></path>
+      <path d="m 308 47 l 15 0" stroke="#FF0"></path>
+      <path d="m 452 47 l 15 0" stroke="#07F"></path>
+      <path d="m 210 070 l 20 0" stroke="#A77"></path>
+      <path d="m 410 070 l 20 0" stroke="#A77"></path>
+      <path d="m 210 170 l 20 0" stroke="#A77"></path>
+      <path d="m 410 170 l 20 0" stroke="#A77"></path>
+      <path d="m 270 110 l 20 0" stroke="#A77"></path>
+      <path d="m 350 110 l 20 0" stroke="#A77"></path>
+      <path d="m 310 070 l 0 20" stroke="#A77"></path>
+      <path d="m 330 070 l 0 20" stroke="#A77"></path>
+      <path d="m 230 070 l 0 20" stroke="#A77"></path>
+      <path d="m 410 070 l 0 20" stroke="#A77"></path>
+      <path d="m 230 070 l 20 0" stroke="#A77"></path>
+      <path d="m 390 070 l 20 0" stroke="#A77"></path>
+      <path d="m 250 070 l 40 0"></path>
+      <path d="m 350 070 l 40 0"></path>
+      <path d="m 230 090 l 60 0"></path>
+      <path d="m 350 090 l 60 0"></path>
+      <path d="m 270 130 l 40 0" stroke="#777"></path>
+      <path d="m 330 130 l 40 0" stroke="#777"></path>
+      <path d="m 310 070 l 20 0" stroke="#777"></path>
+      <path d="m 310 090 l 0 80" stroke="#777"></path>
+      <path d="m 330 090 l 0 80" stroke="#777"></path>
+      <path d="m 050 70 l 0 100" stroke="#303"></path><path d="m 090 70 l 0 100" stroke="#777"></path><path d="m 130 70 l 0 100" stroke="#303"></path>
+      <path d="m 510 70 l 0 100" stroke="#303"></path><path d="m 550 70 l 0 100" stroke="#777"></path><path d="m 590 70 l 0 100" stroke="#303"></path>
+      <path d="m 170 70 l 0 100" stroke="#777"></path><path d="m 190 70 l 0 100" stroke="#07F"></path><path d="m 210 70 l 0 100"></path>
+      <path d="m 470 70 l 0 100" stroke="#777"></path><path d="m 450 70 l 0 100" stroke="#07F"></path><path d="m 430 70 l 0 100"></path>
+      <path d="m 190 70 l 80 100" stroke="#07F"></path><path d="m 450 70 l -80 100" stroke="#07F"></path>
+      <path d="m 050 70 l 220 60" stroke="#303"></path><path d="m 130 70 l 140 60" stroke="#303"></path>
+      <path d="m 590 70 l -220 60" stroke="#303"></path><path d="m 510 70 l -140 60" stroke="#303"></path>
+      <path d="m 270 130 l -20 40" stroke="#303"></path><path d="m 370 130 l 20 40" stroke="#303"></path>
+      <path d="m 290 170 l 0 -100 l 10 0" stroke="#FF0"></path><path d="m 350 170 l 0 -100 l -10 0" stroke="#FF0"></path>
+      <path d="m 300 170 l -10 0 s 0 40 80 0" stroke="#0FA"></path><path d="m 340 170 l 10 0 s 0 -40 -80 0" stroke="#0FA"></path>
+    </g>
+    <g id="parts-bass-tube-synth" stroke="#FFF">
+      <rect x="40" y="100" width="100" height="80"></rect><rect x="65" y="185" width="50" height="10"></rect>
+      <rect x="500" y="100" width="100" height="80"></rect><rect x="525" y="185" width="50" height="10"></rect>
+      <rect x="40" y="60" width="100" height="20"></rect><rect x="500" y="60" width="100" height="20"></rect>
+      <rect x="160" y="90" width="60" height="60"></rect><circle cx="190" cy="120" r="15" stroke="#09F" stroke-width="6"></circle>
+      <rect x="420" y="90" width="60" height="60"></rect><circle cx="450" cy="120" r="15" stroke="#09F" stroke-width="6"></circle>
+      <path d="m 267.5 155 a 25 25 0 1 0 45 0.001 l -45 0"></path><path d="m 327.5 185 a 25 25 0 1 1 45 0.001 l -45 0"></path>
+      <path d="m 0 -12.5 l -22.5 0 a 25 25 0 1 0 45 0.001 l -22.5 0" transform="translate(270, 110) rotate(90, 0, 0)"></path>
+      <path d="m 0 -12.5 l -22.5 0 a 25 25 0 1 0 45 0.001 l -22.5 0" transform="translate(380, 110) rotate(90, 0, 0)"></path>
+    </g>
+  </g>
+</g>
+<defs>
+  <pattern id="grid" x="0.0" y="0.0" width="20" height="20" patternUnits="userSpaceOnUse">
+    <circle cx="10" cy="10" r="5" fill="none" stroke="#333" stroke-width="3"></circle>
+  </pattern>
+</defs>
+</svg>
