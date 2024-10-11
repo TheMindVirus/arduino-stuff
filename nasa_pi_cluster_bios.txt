@@ -1,0 +1,76 @@
+Source: https://www.raspberrypi.com/tutorials/cluster-raspberry-pi-tutorial/
+
+[nasa_pi_cluster_life]
+1x standard 8-port ethernet switch with optional 2x sfp plus cage fibre backhaul (e.g. IBM Gecko ATI Flipper in GameCube tiles)
+8x raspberry pi in optional 2x4 hypervisor-realtime unit configuration (e.g. Seeed EE Optics GS in Playstation tiles)
+2x usb power distribution box with optional 3rd auxiliary line for power routing and multiplexing (AMD Jaguar Motorola m68k in Xenon tiles)
+#x auxiliary hard drives and memory sticks with optional SATA-RAID configurations for redundancy (Micron Crucial Kingston SanDisk in MagicGate tiles)
+1x 2U 19" Rack Mount Cabinet Flight Case Chassis Ruggedised for Aeronautics and Extreme Conditions (In-Win Thor LianLi O11 in Dynamic tiles)
+1x Dell Optiplex with Dual Intel Xeon configured as NUMA nodes with optional failover clustering (Intel x86 NVidia CUDA in Optiplex tiles)
+1x Schneider APC UPS Uninterruptible Power Supply with Supercapacitor Backup Recovery System (Corsair RMMi Extron EMC in Blizzard tiles)
+#x Microfluidics Drip Pumps with transparent clear tube conduit carrying multicoloured watercoolants (EKWB Asetek NZXT Bitspower in Kraken tiles)
+
+[support_systems]
+Pi1: redline - artery - Life Support Systems - Plasma Fuel, Air Quality, Water Filtration, Solids Recycling (Plasma, Air, Water, Solids)
+Pi2: blueline - vein - Refrigeration Systems - Pump Compression, Fluid Dynamics, Drink Beverage, Food Hygiene (Pump, Fluid, Drink, Food)
+Pi3: yellowline - lymph - Sanitary Systems - Taps, Enzymes, Urinals, Toilets (Tap, Enzyme, Urinal, Toilet)
+Pi4: greenline - cell - Habitation Systems - Crop, Nitration, Fertilisation, Plantation (Crop, Nitro, Fertility, Seed)
+Pi5: orangeline - spine - Safety Systems - Dashboard, Warnings, Errors, Vitals (Dashboard, Warnings, Errors, Vitals)
+Pi6: whiteline - enamel - Purification Systems - Filters, Funnels, Conduits, Tubes (Filter, Funnel, Conduit, Tubes)
+Pi7: purpleline - somatic - Auxiliary Systems -  Patch, Limbic, Venous, Cardio (Patch, Limbic, Venous, Cardio)
+Pi8: blackline - scar - Integral Systems - Base Receptor, Lipid Oils, Fatty Acids, Biological Hazards (Base, Lipids, Fats, Bios)
+(all are interchangeable, colour codes are just for priority, e.g. yellow and orange are swappable)
+
+[historical_data]
+Pi1: Alpha
+Pi2: Maths
+Pi0: Radio
+Pi3: Shade
+Pi4: Debug
+Pi5: Casts
+400: RibbonFlexKeySwitches
+...: .etc.
+(NIN is going to become mall, ard is going to become ER, and now ducks.)
+
+[equipment_scavenged]
+* Jet Propulsion Laboratory - "Patching you through to Red Line (Ops)" [MERLIN]
+* TRACON Simulation Console - "Patching you through to Blue Line (Ops)" [TRACON]
+* Saline Recovery System - "Patching you through to Yellow Line (Ops)" [SALINE]
+* Horizon Lunar Colony - "Patching you through to Green Line (Ops)" [HORIZON]
+* MFFS Shield Generator - "Patching you through to Orange Line (Ops)" [SHIELDS]
+* EXO/ISA EXPRESS Racks - "Patching you through to White Line (Ops)" [EXPRESS]
+* SATCOM Cubesat System - "Patching you through to Purple Line (Ops)" [SATCOM]
+* Fire Suppression System - "Patching you through to Black Line (Ops)" [HAZARD]
+(ninard ninard ninard ninard ninard ninard ninard ninard ninard) "?1?" [NINER]
+
+[specification]
+Mars Base Habitation Cloud with Underground Edge Ordens connected by Transit Link Tunnels:
+Often Confused in states of Paranoia as Atomium Manhattan Bill of Materials:
+  ___________
+=|    o+o    |= <-- DIP4/DIP8 Packaging (or equivalent SMD Mounting)
+=|   o=O=o   |= <-- Through-Hole SIL Pins (or equivalent SMT Footprint)
+=|    o+o    |= <-- IC Socket Shrouds (or equivalent APU Substrate)
+=|___________|= <-- PCB Silkscreen Traces (or equivalent PCB Tracing)
+
+PS2 Style Memory Card Cartridge of same size and dimensions as 64MB/128MB MagicGate:
+USB Adapter Compatible with Windows/Mac/Linux PC as well as PS3 adapter:
+
+|==============| <-- glossy black plastic connector
+|--------------| <-- optional crimson red line
+|              |
+|              |
+|   Nintendo   | <-- sand blue ceramic slate
+|    Museum    | <-- (optionally nintendo white)
+|              | <-- (or nes tan nougat)
+|______________|
+\______________/ <-- dark gray curved tab
+
+|oooooooooooooo| <-- ghost of sony
+
+| Net Yaroze | Parallel Port |
+| Bitscope Micro | Pico Lipo |
+| Foxconn Xbox | Sony V-Tech |
+
+| Fender Princeton Amplifier |
+| Marshall Modulus Precision |
+| Presentcomputer 1000 Cards |
